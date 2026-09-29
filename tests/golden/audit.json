@@ -1,0 +1,4649 @@
+{
+ "ee_preset": [
+  {
+   "major": "Electrical Engineering",
+   "targetCredits": 127,
+   "categories": [
+    {
+     "name": "Electrical Engineering Core",
+     "desc": "All 13 foundational and intermediate EE courses required.",
+     "items": [
+      {
+       "id": "EE1810",
+       "addId": "EE1810",
+       "name": "EE 1810 (Introduction to Electrical and Computer Engineering)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "EE2120",
+       "addId": "EE2120",
+       "name": "EE 2120 (Circuits I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "EE2130",
+       "addId": "EE2130",
+       "name": "EE 2130 (Circuits II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE2230",
+       "addId": "EE2230",
+       "name": "EE 2230 (Electronics I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE2231",
+       "addId": "EE2231",
+       "name": "EE 2231 (Electronics I Laboratory)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE2741",
+       "addId": "EE2741",
+       "name": "EE 2741 (Digital Logic I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "EE2742",
+       "addId": "EE2742",
+       "name": "EE 2742 (Digital Logic II)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "EE2810",
+       "addId": "EE2810",
+       "name": "EE 2810 (Tools in Electrical and Computer Engineering)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE3150",
+       "addId": "EE3150",
+       "name": "EE 3150 (Probability for Electrical and Computer Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "EE3320",
+       "addId": "EE3320",
+       "name": "EE 3320 (Electromagnetic Fields)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      },
+      {
+       "id": "EE3610",
+       "addId": "EE3610",
+       "name": "EE 3610 (Signals and Systems)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "EE4810",
+       "addId": "EE4810",
+       "name": "EE 4810 (Senior Design I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "EE4820",
+       "addId": "EE4820",
+       "name": "EE 4820 (Senior Design II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      }
+     ]
+    },
+    {
+     "name": "EE Breadth Electives",
+     "desc": "Students must select courses from at least 4 of the 5 groups (0/4 groups represented, 6/6 breadth courses placed).",
+     "items": [
+      {
+       "id": "EE3160",
+       "addId": "EE3160",
+       "name": "Group 1: Digital Signal Processing (EE 3160)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3220",
+       "addId": "EE3220",
+       "name": "Group 2: Electronics & Solid State (EE 3220 or EE 3223 or EE 3232)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3410",
+       "addId": "EE3410",
+       "name": "Group 3: Electric Power (EE 3410)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3530",
+       "addId": "EE3530",
+       "name": "Group 4: Control Systems (EE 3530)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3710",
+       "addId": "EE3710",
+       "name": "Group 5: Computers & Architecture (EE 3710 or EE 3740 or EE 3752 or EE 3755)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ],
+     "customStatus": true
+    },
+    {
+     "name": "Mathematics, Sciences & Computing",
+     "desc": "Foundational STEM curriculum required for Electrical Engineering.",
+     "items": [
+      {
+       "id": "MATH1550",
+       "addId": "MATH1550",
+       "name": "MATH 1550 (Differential & Integral Calculus (Calculus I))",
+       "cr": 5,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "MATH1552",
+       "addId": "MATH1552",
+       "name": "MATH 1552 (Analytic Geometry & Calculus II)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "MATH2057",
+       "addId": "MATH2057",
+       "name": "MATH 2057 (Multidimensional Calculus (Calculus III))",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "MATH2070",
+       "addId": "MATH2070",
+       "name": "MATH 2070 (Mathematical Methods in Engineering)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CSC1253",
+       "addId": "CSC1253",
+       "name": "CSC 1253 (Computer Science I with C++)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2110",
+       "addId": "PHYS2110",
+       "name": "PHYS 2110 (Particle Mechanics (General Physics I))",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2108",
+       "addId": "PHYS2108",
+       "name": "PHYS 2108 (Introductory Physics Laboratory)",
+       "cr": 1,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2113",
+       "addId": "PHYS2113",
+       "name": "PHYS 2113 (Fields: Gravity, Electricity & Magnetism)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CHEM1201",
+       "addId": "CHEM1201",
+       "name": "CHEM 1201 (General Chemistry I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "LIFESCI",
+       "addId": "LIFESCI",
+       "name": "LIFE SCI (Life Science Gen Ed)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      }
+     ]
+    },
+    {
+     "name": "General Education & Humanities",
+     "desc": "University core requirements including communication, ethics, and arts.",
+     "items": [
+      {
+       "id": "ENGL1001",
+       "addId": "ENGL1001",
+       "name": "ENGL 1001 (English Composition I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "ENGL2000",
+       "addId": "ENGL2000",
+       "name": "ENGL 2000 (English Composition II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "PHIL2020",
+       "addId": "PHIL2020",
+       "name": "PHIL 2020 (Ethics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      },
+      {
+       "id": "ART",
+       "addId": "ART",
+       "name": "ART GEN ED (General Education Art)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "HUMN1",
+       "addId": "HUMN1",
+       "name": "HUMN GEN ED 1 (Humanities Elective 1)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "HUMN2",
+       "addId": "HUMN2",
+       "name": "HUMN GEN ED 2 (Humanities Elective 2)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "SOCSCI1",
+       "addId": "SOCSCI1",
+       "name": "SOC SCI 1 (Social Science Gen Ed)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "SOCSCI_2000",
+       "addId": "SOCSCI_2000",
+       "name": "SOC SCI 2000+ (2000-Level Social Science Elective)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      }
+     ]
+    },
+    {
+     "name": "Design & Technical Electives",
+     "desc": "Advanced technical specialization courses (3 Design + 3 Technical).",
+     "items": [
+      {
+       "id": "EE_DESIGN1",
+       "addId": "EE_DESIGN1",
+       "name": "EE DESIGN 1 (EE Design Elective 1)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "EE_DESIGN2",
+       "addId": "EE_DESIGN2",
+       "name": "EE DESIGN 2 (EE Design Elective 2)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "EE_DESIGN3",
+       "addId": "EE_DESIGN3",
+       "name": "EE DESIGN 3 (EE Design Elective 3)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "EE_TECH1",
+       "addId": "EE_TECH1",
+       "name": "TECH ELECT 1 (Technical Elective 1)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "EE_TECH2",
+       "addId": "EE_TECH2",
+       "name": "TECH ELECT 2 (Technical Elective 2)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "EE_TECH3",
+       "addId": "EE_TECH3",
+       "name": "TECH ELECT 3 (Technical Elective 3)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "be_preset": [
+  {
+   "major": "Biological Engineering",
+   "targetCredits": 128,
+   "categories": [
+    {
+     "name": "Biological Engineering Core",
+     "desc": "All 10 required biological engineering courses.",
+     "items": [
+      {
+       "id": "BE1251",
+       "addId": "BE1251",
+       "name": "BE 1251 (Introduction to Engineering Methods)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "BE1252",
+       "addId": "BE1252",
+       "name": "BE 1252 (Biology in Engineering)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "BE2350",
+       "addId": "BE2350",
+       "name": "BE 2350 (Experimental Methods for Engineers)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "BE2352",
+       "addId": "BE2352",
+       "name": "BE 2352 (Quantitative Biology in Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "BE3320",
+       "addId": "BE3320",
+       "name": "BE 3320 (Mechanical Design for Biological Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "BE3340",
+       "addId": "BE3340",
+       "name": "BE 3340 (Process Design in Biological Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      },
+      {
+       "id": "BE4303",
+       "addId": "BE4303",
+       "name": "BE 4303 (Engineering Properties of Biological Materials)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "BE4352",
+       "addId": "BE4352",
+       "name": "BE 4352 (Transport Phenomena in Biological Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      },
+      {
+       "id": "BE4390",
+       "addId": "BE4390",
+       "name": "BE 4390 (Senior Engineering Design I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "BE4392",
+       "addId": "BE4392",
+       "name": "BE 4392 (Senior Engineering Design II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      }
+     ]
+    },
+    {
+     "name": "Biological Sciences",
+     "desc": "Foundational life sciences courses and laboratories.",
+     "items": [
+      {
+       "id": "BIOL1201",
+       "addId": "BIOL1201",
+       "name": "BIOL 1201 (Biology for Science Majors I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "BIOL1208",
+       "addId": "BIOL1208",
+       "name": "BIOL 1208 (Biology Lab for Science Majors I)",
+       "cr": 1,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "BIOL1202",
+       "addId": "BIOL1202",
+       "name": "BIOL 1202 (Biology for Science Majors II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "BIOL1209",
+       "addId": "BIOL1209",
+       "name": "BIOL 1209 (Biology Lab for Science Majors II)",
+       "cr": 1,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "BIOL2051",
+       "addId": "BIOL2051",
+       "name": "BIOL 2051 (General Microbiology)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "BIOL2083",
+       "addId": "BIOL2083",
+       "name": "BIOL 2083 (The Elements of Biochemistry)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      }
+     ]
+    },
+    {
+     "name": "Engineering Science & Mechanics",
+     "desc": "Core engineering mechanics, thermodynamics, and circuit analysis.",
+     "items": [
+      {
+       "id": "CE2450",
+       "addId": "CE2450",
+       "name": "CE 2450 (Statics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CE3400",
+       "addId": "CE3400",
+       "name": "CE 3400 (Mechanics of Materials)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "CE2200",
+       "addId": "CE2200",
+       "name": "CE 2200 (Fluid Mechanics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      },
+      {
+       "id": "CE2460",
+       "addId": "CE2460",
+       "name": "CE 2460 (Dynamics and Vibrations)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "ME3333",
+       "addId": "ME3333",
+       "name": "ME 3333 (Thermodynamics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "EE2950",
+       "addId": "EE2950",
+       "name": "EE 2950 (Comprehensive Electrical Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      }
+     ]
+    },
+    {
+     "name": "Math, Physics & Chemistry",
+     "desc": "Physical sciences, organic chemistry, and mathematics sequence.",
+     "items": [
+      {
+       "id": "MATH1550",
+       "addId": "MATH1550",
+       "name": "MATH 1550 (Differential & Integral Calculus (Calculus I))",
+       "cr": 5,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "MATH1552",
+       "addId": "MATH1552",
+       "name": "MATH 1552 (Analytic Geometry & Calculus II)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "MATH2065",
+       "addId": "MATH2065",
+       "name": "MATH 2065 (Elementary Differential Equations)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "PHYS2110",
+       "addId": "PHYS2110",
+       "name": "PHYS 2110 (Particle Mechanics (General Physics I))",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2113",
+       "addId": "PHYS2113",
+       "name": "PHYS 2113 (Fields: Gravity, Electricity & Magnetism)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "CHEM1201",
+       "addId": "CHEM1201",
+       "name": "CHEM 1201 (General Chemistry I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "CHEM1202",
+       "addId": "CHEM1202",
+       "name": "CHEM 1202 (General Chemistry II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "CHEM1212",
+       "addId": "CHEM1212",
+       "name": "CHEM 1212 (General Chemistry Laboratory)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "CHEM2261",
+       "addId": "CHEM2261",
+       "name": "CHEM 2261 (Organic Chemistry I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "double_robotics_preset": [
+  {
+   "major": "Electrical Engineering",
+   "targetCredits": 127,
+   "categories": [
+    {
+     "name": "Electrical Engineering Core",
+     "desc": "All 13 foundational and intermediate EE courses required.",
+     "items": [
+      {
+       "id": "EE1810",
+       "addId": "EE1810",
+       "name": "EE 1810 (Introduction to Electrical and Computer Engineering)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "EE2120",
+       "addId": "EE2120",
+       "name": "EE 2120 (Circuits I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "EE2130",
+       "addId": "EE2130",
+       "name": "EE 2130 (Circuits II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE2230",
+       "addId": "EE2230",
+       "name": "EE 2230 (Electronics I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE2231",
+       "addId": "EE2231",
+       "name": "EE 2231 (Electronics I Laboratory)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE2741",
+       "addId": "EE2741",
+       "name": "EE 2741 (Digital Logic I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "EE2742",
+       "addId": "EE2742",
+       "name": "EE 2742 (Digital Logic II)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "EE2810",
+       "addId": "EE2810",
+       "name": "EE 2810 (Tools in Electrical and Computer Engineering)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE3150",
+       "addId": "EE3150",
+       "name": "EE 3150 (Probability for Electrical and Computer Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "EE3320",
+       "addId": "EE3320",
+       "name": "EE 3320 (Electromagnetic Fields)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      },
+      {
+       "id": "EE3610",
+       "addId": "EE3610",
+       "name": "EE 3610 (Signals and Systems)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "EE4810",
+       "addId": "EE4810",
+       "name": "EE 4810 (Senior Design I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "EE4820",
+       "addId": "EE4820",
+       "name": "EE 4820 (Senior Design II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      }
+     ]
+    },
+    {
+     "name": "EE Breadth Electives",
+     "desc": "Students must select courses from at least 4 of the 5 groups (4/4 groups represented, 6/6 breadth courses placed).",
+     "items": [
+      {
+       "id": "EE3160",
+       "name": "EE 3160: Introduction to Digital Signal Processing",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "EE3220",
+       "addId": "EE3220",
+       "name": "Group 2: Electronics & Solid State (EE 3220 or EE 3223 or EE 3232)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3410",
+       "name": "EE 3410: Electric Power",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "EE3530",
+       "name": "EE 3530: Introduction to Control Systems",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "EE3755",
+       "name": "EE 3755: Computer Organization",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      }
+     ],
+     "customStatus": true
+    },
+    {
+     "name": "Mathematics, Sciences & Computing",
+     "desc": "Foundational STEM curriculum required for Electrical Engineering.",
+     "items": [
+      {
+       "id": "MATH1550",
+       "addId": "MATH1550",
+       "name": "MATH 1550 (Differential & Integral Calculus (Calculus I))",
+       "cr": 5,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "MATH1552",
+       "addId": "MATH1552",
+       "name": "MATH 1552 (Analytic Geometry & Calculus II)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "MATH2057",
+       "addId": "MATH2057",
+       "name": "MATH 2057 (Multidimensional Calculus (Calculus III))",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "MATH2070",
+       "addId": "MATH2070",
+       "name": "MATH 2070 (Mathematical Methods in Engineering)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CSC1253",
+       "addId": "CSC1253",
+       "name": "CSC 1253 (Computer Science I with C++)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2110",
+       "addId": "PHYS2110",
+       "name": "PHYS 2110 (Particle Mechanics (General Physics I))",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2108",
+       "addId": "PHYS2108",
+       "name": "PHYS 2108 (Introductory Physics Laboratory)",
+       "cr": 1,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2113",
+       "addId": "PHYS2113",
+       "name": "PHYS 2113 (Fields: Gravity, Electricity & Magnetism)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CHEM1201",
+       "addId": "CHEM1201",
+       "name": "CHEM 1201 (General Chemistry I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "BIOL1201",
+       "addId": "BIOL1201",
+       "name": "BIOL 1201 (Biology for Science Majors I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      }
+     ]
+    },
+    {
+     "name": "General Education & Humanities",
+     "desc": "University core requirements including communication, ethics, and arts.",
+     "items": [
+      {
+       "id": "ENGL1001",
+       "addId": "ENGL1001",
+       "name": "ENGL 1001 (English Composition I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "ENGL2000",
+       "addId": "ENGL2000",
+       "name": "ENGL 2000 (English Composition II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "PHIL2020",
+       "addId": "PHIL2020",
+       "name": "PHIL 2020 (Ethics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "ART",
+       "addId": "ART",
+       "name": "ART GEN ED (General Education Art)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "HUMN1",
+       "addId": "HUMN1",
+       "name": "HUMN GEN ED 1 (Humanities Elective 1)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      },
+      {
+       "id": "HUMN2",
+       "addId": "HUMN2",
+       "name": "HUMN GEN ED 2 (Humanities Elective 2)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "SOCSCI1",
+       "addId": "SOCSCI1",
+       "name": "SOC SCI 1 (Social Science Gen Ed)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "SOCSCI_2000",
+       "addId": "SOCSCI_2000",
+       "name": "SOC SCI 2000+ (2000-Level Social Science Elective)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    },
+    {
+     "name": "Design & Technical Electives",
+     "desc": "Advanced technical specialization courses (3 Design + 3 Technical).",
+     "items": [
+      {
+       "id": "EE_DESIGN1",
+       "addId": "EE_DESIGN1",
+       "name": "EE DESIGN 1 (EE Design Elective 1)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "EE_DESIGN2",
+       "addId": "EE_DESIGN2",
+       "name": "EE DESIGN 2 (EE Design Elective 2)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      },
+      {
+       "id": "EE_DESIGN3",
+       "addId": "EE_DESIGN3",
+       "name": "EE DESIGN 3 (EE Design Elective 3)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE_TECH1",
+       "addId": "EE_TECH1",
+       "name": "TECH ELECT 1 (Technical Elective 1)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "EE_TECH2",
+       "addId": "EE_TECH2",
+       "name": "TECH ELECT 2 (Technical Elective 2)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      },
+      {
+       "id": "EE_TECH3",
+       "addId": "EE_TECH3",
+       "name": "TECH ELECT 3 (Technical Elective 3)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "major": "Biological Engineering",
+   "targetCredits": 128,
+   "categories": [
+    {
+     "name": "Biological Engineering Core",
+     "desc": "All 10 required biological engineering courses.",
+     "items": [
+      {
+       "id": "BE1251",
+       "addId": "BE1251",
+       "name": "BE 1251 (Introduction to Engineering Methods)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "BE1252",
+       "addId": "BE1252",
+       "name": "BE 1252 (Biology in Engineering)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "BE2350",
+       "addId": "BE2350",
+       "name": "BE 2350 (Experimental Methods for Engineers)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      },
+      {
+       "id": "BE2352",
+       "addId": "BE2352",
+       "name": "BE 2352 (Quantitative Biology in Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "BE3320",
+       "addId": "BE3320",
+       "name": "BE 3320 (Mechanical Design for Biological Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "BE3340",
+       "addId": "BE3340",
+       "name": "BE 3340 (Process Design in Biological Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "BE4303",
+       "addId": "BE4303",
+       "name": "BE 4303 (Engineering Properties of Biological Materials)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "BE4352",
+       "addId": "BE4352",
+       "name": "BE 4352 (Transport Phenomena in Biological Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "BE4390",
+       "addId": "BE4390",
+       "name": "BE 4390 (Senior Engineering Design I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "BE4392",
+       "addId": "BE4392",
+       "name": "BE 4392 (Senior Engineering Design II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      }
+     ]
+    },
+    {
+     "name": "Biological Sciences",
+     "desc": "Foundational life sciences courses and laboratories.",
+     "items": [
+      {
+       "id": "BIOL1201",
+       "addId": "BIOL1201",
+       "name": "BIOL 1201 (Biology for Science Majors I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "BIOL1208",
+       "addId": "BIOL1208",
+       "name": "BIOL 1208 (Biology Lab for Science Majors I)",
+       "cr": 1,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "BIOL1202",
+       "addId": "BIOL1202",
+       "name": "BIOL 1202 (Biology for Science Majors II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "BIOL1209",
+       "addId": "BIOL1209",
+       "name": "BIOL 1209 (Biology Lab for Science Majors II)",
+       "cr": 1,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "BIOL2051",
+       "addId": "BIOL2051",
+       "name": "BIOL 2051 (General Microbiology)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "BIOL2083",
+       "addId": "BIOL2083",
+       "name": "BIOL 2083 (The Elements of Biochemistry)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      }
+     ]
+    },
+    {
+     "name": "Engineering Science & Mechanics",
+     "desc": "Core engineering mechanics, thermodynamics, and circuit analysis.",
+     "items": [
+      {
+       "id": "CE2450",
+       "addId": "CE2450",
+       "name": "CE 2450 (Statics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "CE3400",
+       "addId": "CE3400",
+       "name": "CE 3400 (Mechanics of Materials)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "CE2200",
+       "addId": "CE2200",
+       "name": "CE 2200 (Fluid Mechanics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "CE2460",
+       "addId": "CE2460",
+       "name": "CE 2460 (Dynamics and Vibrations)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "ME3333",
+       "addId": "ME3333",
+       "name": "ME 3333 (Thermodynamics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      },
+      {
+       "id": "EE2120",
+       "addId": "EE2120",
+       "name": "EE 2120 (Circuits I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      }
+     ]
+    },
+    {
+     "name": "Math, Physics & Chemistry",
+     "desc": "Physical sciences, organic chemistry, and mathematics sequence.",
+     "items": [
+      {
+       "id": "MATH1550",
+       "addId": "MATH1550",
+       "name": "MATH 1550 (Differential & Integral Calculus (Calculus I))",
+       "cr": 5,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "MATH1552",
+       "addId": "MATH1552",
+       "name": "MATH 1552 (Analytic Geometry & Calculus II)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "MATH2070",
+       "addId": "MATH2070",
+       "name": "MATH 2070 (Mathematical Methods in Engineering)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "PHYS2110",
+       "addId": "PHYS2110",
+       "name": "PHYS 2110 (Particle Mechanics (General Physics I))",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2113",
+       "addId": "PHYS2113",
+       "name": "PHYS 2113 (Fields: Gravity, Electricity & Magnetism)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CHEM1201",
+       "addId": "CHEM1201",
+       "name": "CHEM 1201 (General Chemistry I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "CHEM1202",
+       "addId": "CHEM1202",
+       "name": "CHEM 1202 (General Chemistry II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "CHEM1212",
+       "addId": "CHEM1212",
+       "name": "CHEM 1212 (General Chemistry Laboratory)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "CHEM2261",
+       "addId": "CHEM2261",
+       "name": "CHEM 2261 (Organic Chemistry I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "minor": "Robotics Engineering Minor",
+   "targetCredits": 21,
+   "categories": [
+    {
+     "name": "Robotics Engineering Minor (21 Credit Hours)",
+     "desc": "Minimum GPA 2.5 and grade C or better required in all minor courses. At least one core course must be outside your major department.",
+     "items": [
+      {
+       "id": "MATH2070",
+       "addId": "MATH2070",
+       "name": "MATH 2070 (Mathematical Methods in Engineering)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CSC1253",
+       "addId": "CSC1253",
+       "name": "CSC 1253 (Computer Science I with C++)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "ENGR3100",
+       "addId": "ENGR3100",
+       "name": "ENGR 3100 (Introduction to Robotics)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3530",
+       "addId": "EE3530",
+       "name": "EE 3530 (Introduction to Control Systems)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "EE3755",
+       "addId": "EE3755",
+       "name": "EE 3755 (Computer Organization)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "BE3320",
+       "addId": "BE3320",
+       "name": "BE 3320 (Mechanical Design for Biological Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "ENGR4100",
+       "addId": "ENGR4100",
+       "name": "ENGR 4100 (Industrial Robotics)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "double_bio_done": [
+  {
+   "major": "Electrical Engineering",
+   "targetCredits": 127,
+   "categories": [
+    {
+     "name": "Electrical Engineering Core",
+     "desc": "All 13 foundational and intermediate EE courses required.",
+     "items": [
+      {
+       "id": "EE1810",
+       "addId": "EE1810",
+       "name": "EE 1810 (Introduction to Electrical and Computer Engineering)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "EE2120",
+       "addId": "EE2120",
+       "name": "EE 2120 (Circuits I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "EE2130",
+       "addId": "EE2130",
+       "name": "EE 2130 (Circuits II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE2230",
+       "addId": "EE2230",
+       "name": "EE 2230 (Electronics I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE2231",
+       "addId": "EE2231",
+       "name": "EE 2231 (Electronics I Laboratory)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE2741",
+       "addId": "EE2741",
+       "name": "EE 2741 (Digital Logic I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "EE2742",
+       "addId": "EE2742",
+       "name": "EE 2742 (Digital Logic II)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "EE2810",
+       "addId": "EE2810",
+       "name": "EE 2810 (Tools in Electrical and Computer Engineering)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE3150",
+       "addId": "EE3150",
+       "name": "EE 3150 (Probability for Electrical and Computer Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "EE3320",
+       "addId": "EE3320",
+       "name": "EE 3320 (Electromagnetic Fields)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      },
+      {
+       "id": "EE3610",
+       "addId": "EE3610",
+       "name": "EE 3610 (Signals and Systems)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "EE4810",
+       "addId": "EE4810",
+       "name": "EE 4810 (Senior Design I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "EE4820",
+       "addId": "EE4820",
+       "name": "EE 4820 (Senior Design II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      }
+     ]
+    },
+    {
+     "name": "EE Breadth Electives",
+     "desc": "Students must select courses from at least 4 of the 5 groups (4/4 groups represented, 6/6 breadth courses placed).",
+     "items": [
+      {
+       "id": "EE3160",
+       "name": "EE 3160: Introduction to Digital Signal Processing",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "EE3220",
+       "addId": "EE3220",
+       "name": "Group 2: Electronics & Solid State (EE 3220 or EE 3223 or EE 3232)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3410",
+       "name": "EE 3410: Electric Power",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "EE3530",
+       "name": "EE 3530: Introduction to Control Systems",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "EE3755",
+       "name": "EE 3755: Computer Organization",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      }
+     ],
+     "customStatus": true
+    },
+    {
+     "name": "Mathematics, Sciences & Computing",
+     "desc": "Foundational STEM curriculum required for Electrical Engineering.",
+     "items": [
+      {
+       "id": "MATH1550",
+       "addId": "MATH1550",
+       "name": "MATH 1550 (Differential & Integral Calculus (Calculus I))",
+       "cr": 5,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "MATH1552",
+       "addId": "MATH1552",
+       "name": "MATH 1552 (Analytic Geometry & Calculus II)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "MATH2057",
+       "addId": "MATH2057",
+       "name": "MATH 2057 (Multidimensional Calculus (Calculus III))",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "MATH2070",
+       "addId": "MATH2070",
+       "name": "MATH 2070 (Mathematical Methods in Engineering)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CSC1253",
+       "addId": "CSC1253",
+       "name": "CSC 1253 (Computer Science I with C++)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2110",
+       "addId": "PHYS2110",
+       "name": "PHYS 2110 (Particle Mechanics (General Physics I))",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2108",
+       "addId": "PHYS2108",
+       "name": "PHYS 2108 (Introductory Physics Laboratory)",
+       "cr": 1,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2113",
+       "addId": "PHYS2113",
+       "name": "PHYS 2113 (Fields: Gravity, Electricity & Magnetism)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CHEM1201",
+       "addId": "CHEM1201",
+       "name": "CHEM 1201 (General Chemistry I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "BIOL1201",
+       "addId": "BIOL1201",
+       "name": "BIOL 1201 (Biology for Science Majors I)",
+       "cr": 3,
+       "status": "completed",
+       "term": "year1-fall"
+      }
+     ]
+    },
+    {
+     "name": "General Education & Humanities",
+     "desc": "University core requirements including communication, ethics, and arts.",
+     "items": [
+      {
+       "id": "ENGL1001",
+       "addId": "ENGL1001",
+       "name": "ENGL 1001 (English Composition I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "ENGL2000",
+       "addId": "ENGL2000",
+       "name": "ENGL 2000 (English Composition II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "PHIL2020",
+       "addId": "PHIL2020",
+       "name": "PHIL 2020 (Ethics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "ART",
+       "addId": "ART",
+       "name": "ART GEN ED (General Education Art)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "HUMN1",
+       "addId": "HUMN1",
+       "name": "HUMN GEN ED 1 (Humanities Elective 1)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      },
+      {
+       "id": "HUMN2",
+       "addId": "HUMN2",
+       "name": "HUMN GEN ED 2 (Humanities Elective 2)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "SOCSCI1",
+       "addId": "SOCSCI1",
+       "name": "SOC SCI 1 (Social Science Gen Ed)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "SOCSCI_2000",
+       "addId": "SOCSCI_2000",
+       "name": "SOC SCI 2000+ (2000-Level Social Science Elective)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    },
+    {
+     "name": "Design & Technical Electives",
+     "desc": "Advanced technical specialization courses (3 Design + 3 Technical).",
+     "items": [
+      {
+       "id": "EE_DESIGN1",
+       "addId": "EE_DESIGN1",
+       "name": "EE DESIGN 1 (EE Design Elective 1)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "EE_DESIGN2",
+       "addId": "EE_DESIGN2",
+       "name": "EE DESIGN 2 (EE Design Elective 2)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      },
+      {
+       "id": "EE_DESIGN3",
+       "addId": "EE_DESIGN3",
+       "name": "EE DESIGN 3 (EE Design Elective 3)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE_TECH1",
+       "addId": "EE_TECH1",
+       "name": "TECH ELECT 1 (Technical Elective 1)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "EE_TECH2",
+       "addId": "EE_TECH2",
+       "name": "TECH ELECT 2 (Technical Elective 2)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      },
+      {
+       "id": "EE_TECH3",
+       "addId": "EE_TECH3",
+       "name": "TECH ELECT 3 (Technical Elective 3)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "major": "Biological Engineering",
+   "targetCredits": 128,
+   "categories": [
+    {
+     "name": "Biological Engineering Core",
+     "desc": "All 10 required biological engineering courses.",
+     "items": [
+      {
+       "id": "BE1251",
+       "addId": "BE1251",
+       "name": "BE 1251 (Introduction to Engineering Methods)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "BE1252",
+       "addId": "BE1252",
+       "name": "BE 1252 (Biology in Engineering)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "BE2350",
+       "addId": "BE2350",
+       "name": "BE 2350 (Experimental Methods for Engineers)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      },
+      {
+       "id": "BE2352",
+       "addId": "BE2352",
+       "name": "BE 2352 (Quantitative Biology in Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "BE3320",
+       "addId": "BE3320",
+       "name": "BE 3320 (Mechanical Design for Biological Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "BE3340",
+       "addId": "BE3340",
+       "name": "BE 3340 (Process Design in Biological Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "BE4303",
+       "addId": "BE4303",
+       "name": "BE 4303 (Engineering Properties of Biological Materials)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "BE4352",
+       "addId": "BE4352",
+       "name": "BE 4352 (Transport Phenomena in Biological Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "BE4390",
+       "addId": "BE4390",
+       "name": "BE 4390 (Senior Engineering Design I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "BE4392",
+       "addId": "BE4392",
+       "name": "BE 4392 (Senior Engineering Design II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      }
+     ]
+    },
+    {
+     "name": "Biological Sciences",
+     "desc": "Foundational life sciences courses and laboratories.",
+     "items": [
+      {
+       "id": "BIOL1201",
+       "addId": "BIOL1201",
+       "name": "BIOL 1201 (Biology for Science Majors I)",
+       "cr": 3,
+       "status": "completed",
+       "term": "year1-fall"
+      },
+      {
+       "id": "BIOL1208",
+       "addId": "BIOL1208",
+       "name": "BIOL 1208 (Biology Lab for Science Majors I)",
+       "cr": 1,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "BIOL1202",
+       "addId": "BIOL1202",
+       "name": "BIOL 1202 (Biology for Science Majors II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "BIOL1209",
+       "addId": "BIOL1209",
+       "name": "BIOL 1209 (Biology Lab for Science Majors II)",
+       "cr": 1,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "BIOL2051",
+       "addId": "BIOL2051",
+       "name": "BIOL 2051 (General Microbiology)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "BIOL2083",
+       "addId": "BIOL2083",
+       "name": "BIOL 2083 (The Elements of Biochemistry)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      }
+     ]
+    },
+    {
+     "name": "Engineering Science & Mechanics",
+     "desc": "Core engineering mechanics, thermodynamics, and circuit analysis.",
+     "items": [
+      {
+       "id": "CE2450",
+       "addId": "CE2450",
+       "name": "CE 2450 (Statics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "CE3400",
+       "addId": "CE3400",
+       "name": "CE 3400 (Mechanics of Materials)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "CE2200",
+       "addId": "CE2200",
+       "name": "CE 2200 (Fluid Mechanics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "CE2460",
+       "addId": "CE2460",
+       "name": "CE 2460 (Dynamics and Vibrations)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "ME3333",
+       "addId": "ME3333",
+       "name": "ME 3333 (Thermodynamics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      },
+      {
+       "id": "EE2120",
+       "addId": "EE2120",
+       "name": "EE 2120 (Circuits I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      }
+     ]
+    },
+    {
+     "name": "Math, Physics & Chemistry",
+     "desc": "Physical sciences, organic chemistry, and mathematics sequence.",
+     "items": [
+      {
+       "id": "MATH1550",
+       "addId": "MATH1550",
+       "name": "MATH 1550 (Differential & Integral Calculus (Calculus I))",
+       "cr": 5,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "MATH1552",
+       "addId": "MATH1552",
+       "name": "MATH 1552 (Analytic Geometry & Calculus II)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "MATH2070",
+       "addId": "MATH2070",
+       "name": "MATH 2070 (Mathematical Methods in Engineering)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "PHYS2110",
+       "addId": "PHYS2110",
+       "name": "PHYS 2110 (Particle Mechanics (General Physics I))",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2113",
+       "addId": "PHYS2113",
+       "name": "PHYS 2113 (Fields: Gravity, Electricity & Magnetism)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CHEM1201",
+       "addId": "CHEM1201",
+       "name": "CHEM 1201 (General Chemistry I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "CHEM1202",
+       "addId": "CHEM1202",
+       "name": "CHEM 1202 (General Chemistry II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "CHEM1212",
+       "addId": "CHEM1212",
+       "name": "CHEM 1212 (General Chemistry Laboratory)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "CHEM2261",
+       "addId": "CHEM2261",
+       "name": "CHEM 2261 (Organic Chemistry I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "minor": "Robotics Engineering Minor",
+   "targetCredits": 21,
+   "categories": [
+    {
+     "name": "Robotics Engineering Minor (21 Credit Hours)",
+     "desc": "Minimum GPA 2.5 and grade C or better required in all minor courses. At least one core course must be outside your major department.",
+     "items": [
+      {
+       "id": "MATH2070",
+       "addId": "MATH2070",
+       "name": "MATH 2070 (Mathematical Methods in Engineering)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CSC1253",
+       "addId": "CSC1253",
+       "name": "CSC 1253 (Computer Science I with C++)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "ENGR3100",
+       "addId": "ENGR3100",
+       "name": "ENGR 3100 (Introduction to Robotics)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3530",
+       "addId": "EE3530",
+       "name": "EE 3530 (Introduction to Control Systems)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "EE3755",
+       "addId": "EE3755",
+       "name": "EE 3755 (Computer Organization)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "BE3320",
+       "addId": "BE3320",
+       "name": "BE 3320 (Mechanical Design for Biological Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "ENGR4100",
+       "addId": "ENGR4100",
+       "name": "ENGR 4100 (Industrial Robotics)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "double_math2090_sub": [
+  {
+   "major": "Electrical Engineering",
+   "targetCredits": 127,
+   "categories": [
+    {
+     "name": "Electrical Engineering Core",
+     "desc": "All 13 foundational and intermediate EE courses required.",
+     "items": [
+      {
+       "id": "EE1810",
+       "addId": "EE1810",
+       "name": "EE 1810 (Introduction to Electrical and Computer Engineering)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "EE2120",
+       "addId": "EE2120",
+       "name": "EE 2120 (Circuits I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "EE2130",
+       "addId": "EE2130",
+       "name": "EE 2130 (Circuits II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE2230",
+       "addId": "EE2230",
+       "name": "EE 2230 (Electronics I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE2231",
+       "addId": "EE2231",
+       "name": "EE 2231 (Electronics I Laboratory)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE2741",
+       "addId": "EE2741",
+       "name": "EE 2741 (Digital Logic I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "EE2742",
+       "addId": "EE2742",
+       "name": "EE 2742 (Digital Logic II)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "EE2810",
+       "addId": "EE2810",
+       "name": "EE 2810 (Tools in Electrical and Computer Engineering)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE3150",
+       "addId": "EE3150",
+       "name": "EE 3150 (Probability for Electrical and Computer Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "EE3320",
+       "addId": "EE3320",
+       "name": "EE 3320 (Electromagnetic Fields)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      },
+      {
+       "id": "EE3610",
+       "addId": "EE3610",
+       "name": "EE 3610 (Signals and Systems)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "EE4810",
+       "addId": "EE4810",
+       "name": "EE 4810 (Senior Design I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "EE4820",
+       "addId": "EE4820",
+       "name": "EE 4820 (Senior Design II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      }
+     ]
+    },
+    {
+     "name": "EE Breadth Electives",
+     "desc": "Students must select courses from at least 4 of the 5 groups (4/4 groups represented, 6/6 breadth courses placed).",
+     "items": [
+      {
+       "id": "EE3160",
+       "name": "EE 3160: Introduction to Digital Signal Processing",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "EE3220",
+       "addId": "EE3220",
+       "name": "Group 2: Electronics & Solid State (EE 3220 or EE 3223 or EE 3232)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3410",
+       "name": "EE 3410: Electric Power",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "EE3530",
+       "name": "EE 3530: Introduction to Control Systems",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "EE3755",
+       "name": "EE 3755: Computer Organization",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      }
+     ],
+     "customStatus": true
+    },
+    {
+     "name": "Mathematics, Sciences & Computing",
+     "desc": "Foundational STEM curriculum required for Electrical Engineering.",
+     "items": [
+      {
+       "id": "MATH1550",
+       "addId": "MATH1550",
+       "name": "MATH 1550 (Differential & Integral Calculus (Calculus I))",
+       "cr": 5,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "MATH1552",
+       "addId": "MATH1552",
+       "name": "MATH 1552 (Analytic Geometry & Calculus II)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "MATH2057",
+       "addId": "MATH2057",
+       "name": "MATH 2057 (Multidimensional Calculus (Calculus III))",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "MATH2090",
+       "addId": "MATH2090",
+       "name": "MATH 2090 (Elementary Differential Equations and Linear Algebra)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CSC1253",
+       "addId": "CSC1253",
+       "name": "CSC 1253 (Computer Science I with C++)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2110",
+       "addId": "PHYS2110",
+       "name": "PHYS 2110 (Particle Mechanics (General Physics I))",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2108",
+       "addId": "PHYS2108",
+       "name": "PHYS 2108 (Introductory Physics Laboratory)",
+       "cr": 1,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2113",
+       "addId": "PHYS2113",
+       "name": "PHYS 2113 (Fields: Gravity, Electricity & Magnetism)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CHEM1201",
+       "addId": "CHEM1201",
+       "name": "CHEM 1201 (General Chemistry I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "BIOL1201",
+       "addId": "BIOL1201",
+       "name": "BIOL 1201 (Biology for Science Majors I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      }
+     ]
+    },
+    {
+     "name": "General Education & Humanities",
+     "desc": "University core requirements including communication, ethics, and arts.",
+     "items": [
+      {
+       "id": "ENGL1001",
+       "addId": "ENGL1001",
+       "name": "ENGL 1001 (English Composition I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "ENGL2000",
+       "addId": "ENGL2000",
+       "name": "ENGL 2000 (English Composition II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "PHIL2020",
+       "addId": "PHIL2020",
+       "name": "PHIL 2020 (Ethics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "ART",
+       "addId": "ART",
+       "name": "ART GEN ED (General Education Art)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "HUMN1",
+       "addId": "HUMN1",
+       "name": "HUMN GEN ED 1 (Humanities Elective 1)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      },
+      {
+       "id": "HUMN2",
+       "addId": "HUMN2",
+       "name": "HUMN GEN ED 2 (Humanities Elective 2)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "SOCSCI1",
+       "addId": "SOCSCI1",
+       "name": "SOC SCI 1 (Social Science Gen Ed)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "SOCSCI_2000",
+       "addId": "SOCSCI_2000",
+       "name": "SOC SCI 2000+ (2000-Level Social Science Elective)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    },
+    {
+     "name": "Design & Technical Electives",
+     "desc": "Advanced technical specialization courses (3 Design + 3 Technical).",
+     "items": [
+      {
+       "id": "EE_DESIGN1",
+       "addId": "EE_DESIGN1",
+       "name": "EE DESIGN 1 (EE Design Elective 1)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "EE_DESIGN2",
+       "addId": "EE_DESIGN2",
+       "name": "EE DESIGN 2 (EE Design Elective 2)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      },
+      {
+       "id": "EE_DESIGN3",
+       "addId": "EE_DESIGN3",
+       "name": "EE DESIGN 3 (EE Design Elective 3)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE_TECH1",
+       "addId": "EE_TECH1",
+       "name": "TECH ELECT 1 (Technical Elective 1)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "EE_TECH2",
+       "addId": "EE_TECH2",
+       "name": "TECH ELECT 2 (Technical Elective 2)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      },
+      {
+       "id": "EE_TECH3",
+       "addId": "EE_TECH3",
+       "name": "TECH ELECT 3 (Technical Elective 3)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "major": "Biological Engineering",
+   "targetCredits": 128,
+   "categories": [
+    {
+     "name": "Biological Engineering Core",
+     "desc": "All 10 required biological engineering courses.",
+     "items": [
+      {
+       "id": "BE1251",
+       "addId": "BE1251",
+       "name": "BE 1251 (Introduction to Engineering Methods)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "BE1252",
+       "addId": "BE1252",
+       "name": "BE 1252 (Biology in Engineering)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "BE2350",
+       "addId": "BE2350",
+       "name": "BE 2350 (Experimental Methods for Engineers)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      },
+      {
+       "id": "BE2352",
+       "addId": "BE2352",
+       "name": "BE 2352 (Quantitative Biology in Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "BE3320",
+       "addId": "BE3320",
+       "name": "BE 3320 (Mechanical Design for Biological Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "BE3340",
+       "addId": "BE3340",
+       "name": "BE 3340 (Process Design in Biological Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "BE4303",
+       "addId": "BE4303",
+       "name": "BE 4303 (Engineering Properties of Biological Materials)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "BE4352",
+       "addId": "BE4352",
+       "name": "BE 4352 (Transport Phenomena in Biological Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "BE4390",
+       "addId": "BE4390",
+       "name": "BE 4390 (Senior Engineering Design I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "BE4392",
+       "addId": "BE4392",
+       "name": "BE 4392 (Senior Engineering Design II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      }
+     ]
+    },
+    {
+     "name": "Biological Sciences",
+     "desc": "Foundational life sciences courses and laboratories.",
+     "items": [
+      {
+       "id": "BIOL1201",
+       "addId": "BIOL1201",
+       "name": "BIOL 1201 (Biology for Science Majors I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "BIOL1208",
+       "addId": "BIOL1208",
+       "name": "BIOL 1208 (Biology Lab for Science Majors I)",
+       "cr": 1,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "BIOL1202",
+       "addId": "BIOL1202",
+       "name": "BIOL 1202 (Biology for Science Majors II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "BIOL1209",
+       "addId": "BIOL1209",
+       "name": "BIOL 1209 (Biology Lab for Science Majors II)",
+       "cr": 1,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "BIOL2051",
+       "addId": "BIOL2051",
+       "name": "BIOL 2051 (General Microbiology)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "BIOL2083",
+       "addId": "BIOL2083",
+       "name": "BIOL 2083 (The Elements of Biochemistry)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      }
+     ]
+    },
+    {
+     "name": "Engineering Science & Mechanics",
+     "desc": "Core engineering mechanics, thermodynamics, and circuit analysis.",
+     "items": [
+      {
+       "id": "CE2450",
+       "addId": "CE2450",
+       "name": "CE 2450 (Statics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "CE3400",
+       "addId": "CE3400",
+       "name": "CE 3400 (Mechanics of Materials)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "CE2200",
+       "addId": "CE2200",
+       "name": "CE 2200 (Fluid Mechanics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "CE2460",
+       "addId": "CE2460",
+       "name": "CE 2460 (Dynamics and Vibrations)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "ME3333",
+       "addId": "ME3333",
+       "name": "ME 3333 (Thermodynamics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      },
+      {
+       "id": "EE2120",
+       "addId": "EE2120",
+       "name": "EE 2120 (Circuits I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      }
+     ]
+    },
+    {
+     "name": "Math, Physics & Chemistry",
+     "desc": "Physical sciences, organic chemistry, and mathematics sequence.",
+     "items": [
+      {
+       "id": "MATH1550",
+       "addId": "MATH1550",
+       "name": "MATH 1550 (Differential & Integral Calculus (Calculus I))",
+       "cr": 5,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "MATH1552",
+       "addId": "MATH1552",
+       "name": "MATH 1552 (Analytic Geometry & Calculus II)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "MATH2090",
+       "addId": "MATH2090",
+       "name": "MATH 2090 (Elementary Differential Equations and Linear Algebra)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "PHYS2110",
+       "addId": "PHYS2110",
+       "name": "PHYS 2110 (Particle Mechanics (General Physics I))",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2113",
+       "addId": "PHYS2113",
+       "name": "PHYS 2113 (Fields: Gravity, Electricity & Magnetism)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CHEM1201",
+       "addId": "CHEM1201",
+       "name": "CHEM 1201 (General Chemistry I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "CHEM1202",
+       "addId": "CHEM1202",
+       "name": "CHEM 1202 (General Chemistry II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "CHEM1212",
+       "addId": "CHEM1212",
+       "name": "CHEM 1212 (General Chemistry Laboratory)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "CHEM2261",
+       "addId": "CHEM2261",
+       "name": "CHEM 2261 (Organic Chemistry I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "minor": "Robotics Engineering Minor",
+   "targetCredits": 21,
+   "categories": [
+    {
+     "name": "Robotics Engineering Minor (21 Credit Hours)",
+     "desc": "Minimum GPA 2.5 and grade C or better required in all minor courses. At least one core course must be outside your major department.",
+     "items": [
+      {
+       "id": "MATH2090",
+       "addId": "MATH2090",
+       "name": "MATH 2090 (Elementary Differential Equations and Linear Algebra)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CSC1253",
+       "addId": "CSC1253",
+       "name": "CSC 1253 (Computer Science I with C++)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "ENGR3100",
+       "addId": "ENGR3100",
+       "name": "ENGR 3100 (Introduction to Robotics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "EE3530",
+       "addId": "EE3530",
+       "name": "EE 3530 (Introduction to Control Systems)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "EE3755",
+       "addId": "EE3755",
+       "name": "EE 3755 (Computer Organization)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "BE3320",
+       "addId": "BE3320",
+       "name": "BE 3320 (Mechanical Design for Biological Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "ENGR4100",
+       "addId": "ENGR4100",
+       "name": "ENGR 4100 (Industrial Robotics)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "double_partial_done": [
+  {
+   "major": "Electrical Engineering",
+   "targetCredits": 127,
+   "categories": [
+    {
+     "name": "Electrical Engineering Core",
+     "desc": "All 13 foundational and intermediate EE courses required.",
+     "items": [
+      {
+       "id": "EE1810",
+       "addId": "EE1810",
+       "name": "EE 1810 (Introduction to Electrical and Computer Engineering)",
+       "cr": 2,
+       "status": "completed",
+       "term": "year1-fall"
+      },
+      {
+       "id": "EE2120",
+       "addId": "EE2120",
+       "name": "EE 2120 (Circuits I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "EE2130",
+       "addId": "EE2130",
+       "name": "EE 2130 (Circuits II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE2230",
+       "addId": "EE2230",
+       "name": "EE 2230 (Electronics I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE2231",
+       "addId": "EE2231",
+       "name": "EE 2231 (Electronics I Laboratory)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE2741",
+       "addId": "EE2741",
+       "name": "EE 2741 (Digital Logic I)",
+       "cr": 3,
+       "status": "completed",
+       "term": "year1-spring"
+      },
+      {
+       "id": "EE2742",
+       "addId": "EE2742",
+       "name": "EE 2742 (Digital Logic II)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "EE2810",
+       "addId": "EE2810",
+       "name": "EE 2810 (Tools in Electrical and Computer Engineering)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE3150",
+       "addId": "EE3150",
+       "name": "EE 3150 (Probability for Electrical and Computer Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "EE3320",
+       "addId": "EE3320",
+       "name": "EE 3320 (Electromagnetic Fields)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      },
+      {
+       "id": "EE3610",
+       "addId": "EE3610",
+       "name": "EE 3610 (Signals and Systems)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "EE4810",
+       "addId": "EE4810",
+       "name": "EE 4810 (Senior Design I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "EE4820",
+       "addId": "EE4820",
+       "name": "EE 4820 (Senior Design II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      }
+     ]
+    },
+    {
+     "name": "EE Breadth Electives",
+     "desc": "Students must select courses from at least 4 of the 5 groups (4/4 groups represented, 6/6 breadth courses placed).",
+     "items": [
+      {
+       "id": "EE3160",
+       "name": "EE 3160: Introduction to Digital Signal Processing",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "EE3220",
+       "addId": "EE3220",
+       "name": "Group 2: Electronics & Solid State (EE 3220 or EE 3223 or EE 3232)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3410",
+       "name": "EE 3410: Electric Power",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "EE3530",
+       "name": "EE 3530: Introduction to Control Systems",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "EE3755",
+       "name": "EE 3755: Computer Organization",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      }
+     ],
+     "customStatus": true
+    },
+    {
+     "name": "Mathematics, Sciences & Computing",
+     "desc": "Foundational STEM curriculum required for Electrical Engineering.",
+     "items": [
+      {
+       "id": "MATH1550",
+       "addId": "MATH1550",
+       "name": "MATH 1550 (Differential & Integral Calculus (Calculus I))",
+       "cr": 5,
+       "status": "completed",
+       "term": "completed"
+      },
+      {
+       "id": "MATH1552",
+       "addId": "MATH1552",
+       "name": "MATH 1552 (Analytic Geometry & Calculus II)",
+       "cr": 4,
+       "status": "completed",
+       "term": "year1-spring"
+      },
+      {
+       "id": "MATH2057",
+       "addId": "MATH2057",
+       "name": "MATH 2057 (Multidimensional Calculus (Calculus III))",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "MATH2070",
+       "addId": "MATH2070",
+       "name": "MATH 2070 (Mathematical Methods in Engineering)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CSC1253",
+       "addId": "CSC1253",
+       "name": "CSC 1253 (Computer Science I with C++)",
+       "cr": 3,
+       "status": "completed",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2110",
+       "addId": "PHYS2110",
+       "name": "PHYS 2110 (Particle Mechanics (General Physics I))",
+       "cr": 3,
+       "status": "completed",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2108",
+       "addId": "PHYS2108",
+       "name": "PHYS 2108 (Introductory Physics Laboratory)",
+       "cr": 1,
+       "status": "completed",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2113",
+       "addId": "PHYS2113",
+       "name": "PHYS 2113 (Fields: Gravity, Electricity & Magnetism)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CHEM1201",
+       "addId": "CHEM1201",
+       "name": "CHEM 1201 (General Chemistry I)",
+       "cr": 3,
+       "status": "completed",
+       "term": "year1-fall"
+      },
+      {
+       "id": "BIOL1201",
+       "addId": "BIOL1201",
+       "name": "BIOL 1201 (Biology for Science Majors I)",
+       "cr": 3,
+       "status": "completed",
+       "term": "year1-fall"
+      }
+     ]
+    },
+    {
+     "name": "General Education & Humanities",
+     "desc": "University core requirements including communication, ethics, and arts.",
+     "items": [
+      {
+       "id": "ENGL1001",
+       "addId": "ENGL1001",
+       "name": "ENGL 1001 (English Composition I)",
+       "cr": 3,
+       "status": "completed",
+       "term": "year1-fall"
+      },
+      {
+       "id": "ENGL2000",
+       "addId": "ENGL2000",
+       "name": "ENGL 2000 (English Composition II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "PHIL2020",
+       "addId": "PHIL2020",
+       "name": "PHIL 2020 (Ethics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "ART",
+       "addId": "ART",
+       "name": "ART GEN ED (General Education Art)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "HUMN1",
+       "addId": "HUMN1",
+       "name": "HUMN GEN ED 1 (Humanities Elective 1)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      },
+      {
+       "id": "HUMN2",
+       "addId": "HUMN2",
+       "name": "HUMN GEN ED 2 (Humanities Elective 2)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "SOCSCI1",
+       "addId": "SOCSCI1",
+       "name": "SOC SCI 1 (Social Science Gen Ed)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "SOCSCI_2000",
+       "addId": "SOCSCI_2000",
+       "name": "SOC SCI 2000+ (2000-Level Social Science Elective)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    },
+    {
+     "name": "Design & Technical Electives",
+     "desc": "Advanced technical specialization courses (3 Design + 3 Technical).",
+     "items": [
+      {
+       "id": "EE_DESIGN1",
+       "addId": "EE_DESIGN1",
+       "name": "EE DESIGN 1 (EE Design Elective 1)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "EE_DESIGN2",
+       "addId": "EE_DESIGN2",
+       "name": "EE DESIGN 2 (EE Design Elective 2)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      },
+      {
+       "id": "EE_DESIGN3",
+       "addId": "EE_DESIGN3",
+       "name": "EE DESIGN 3 (EE Design Elective 3)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE_TECH1",
+       "addId": "EE_TECH1",
+       "name": "TECH ELECT 1 (Technical Elective 1)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "EE_TECH2",
+       "addId": "EE_TECH2",
+       "name": "TECH ELECT 2 (Technical Elective 2)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      },
+      {
+       "id": "EE_TECH3",
+       "addId": "EE_TECH3",
+       "name": "TECH ELECT 3 (Technical Elective 3)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "major": "Biological Engineering",
+   "targetCredits": 128,
+   "categories": [
+    {
+     "name": "Biological Engineering Core",
+     "desc": "All 10 required biological engineering courses.",
+     "items": [
+      {
+       "id": "BE1251",
+       "addId": "BE1251",
+       "name": "BE 1251 (Introduction to Engineering Methods)",
+       "cr": 2,
+       "status": "completed",
+       "term": "year1-fall"
+      },
+      {
+       "id": "BE1252",
+       "addId": "BE1252",
+       "name": "BE 1252 (Biology in Engineering)",
+       "cr": 2,
+       "status": "completed",
+       "term": "year1-spring"
+      },
+      {
+       "id": "BE2350",
+       "addId": "BE2350",
+       "name": "BE 2350 (Experimental Methods for Engineers)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      },
+      {
+       "id": "BE2352",
+       "addId": "BE2352",
+       "name": "BE 2352 (Quantitative Biology in Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "BE3320",
+       "addId": "BE3320",
+       "name": "BE 3320 (Mechanical Design for Biological Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "BE3340",
+       "addId": "BE3340",
+       "name": "BE 3340 (Process Design in Biological Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "BE4303",
+       "addId": "BE4303",
+       "name": "BE 4303 (Engineering Properties of Biological Materials)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "BE4352",
+       "addId": "BE4352",
+       "name": "BE 4352 (Transport Phenomena in Biological Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "BE4390",
+       "addId": "BE4390",
+       "name": "BE 4390 (Senior Engineering Design I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-fall"
+      },
+      {
+       "id": "BE4392",
+       "addId": "BE4392",
+       "name": "BE 4392 (Senior Engineering Design II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year5-spring"
+      }
+     ]
+    },
+    {
+     "name": "Biological Sciences",
+     "desc": "Foundational life sciences courses and laboratories.",
+     "items": [
+      {
+       "id": "BIOL1201",
+       "addId": "BIOL1201",
+       "name": "BIOL 1201 (Biology for Science Majors I)",
+       "cr": 3,
+       "status": "completed",
+       "term": "year1-fall"
+      },
+      {
+       "id": "BIOL1208",
+       "addId": "BIOL1208",
+       "name": "BIOL 1208 (Biology Lab for Science Majors I)",
+       "cr": 1,
+       "status": "completed",
+       "term": "year1-fall"
+      },
+      {
+       "id": "BIOL1202",
+       "addId": "BIOL1202",
+       "name": "BIOL 1202 (Biology for Science Majors II)",
+       "cr": 3,
+       "status": "completed",
+       "term": "year1-spring"
+      },
+      {
+       "id": "BIOL1209",
+       "addId": "BIOL1209",
+       "name": "BIOL 1209 (Biology Lab for Science Majors II)",
+       "cr": 1,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "BIOL2051",
+       "addId": "BIOL2051",
+       "name": "BIOL 2051 (General Microbiology)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "BIOL2083",
+       "addId": "BIOL2083",
+       "name": "BIOL 2083 (The Elements of Biochemistry)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      }
+     ]
+    },
+    {
+     "name": "Engineering Science & Mechanics",
+     "desc": "Core engineering mechanics, thermodynamics, and circuit analysis.",
+     "items": [
+      {
+       "id": "CE2450",
+       "addId": "CE2450",
+       "name": "CE 2450 (Statics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "CE3400",
+       "addId": "CE3400",
+       "name": "CE 3400 (Mechanics of Materials)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "CE2200",
+       "addId": "CE2200",
+       "name": "CE 2200 (Fluid Mechanics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "CE2460",
+       "addId": "CE2460",
+       "name": "CE 2460 (Dynamics and Vibrations)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "ME3333",
+       "addId": "ME3333",
+       "name": "ME 3333 (Thermodynamics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      },
+      {
+       "id": "EE2120",
+       "addId": "EE2120",
+       "name": "EE 2120 (Circuits I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      }
+     ]
+    },
+    {
+     "name": "Math, Physics & Chemistry",
+     "desc": "Physical sciences, organic chemistry, and mathematics sequence.",
+     "items": [
+      {
+       "id": "MATH1550",
+       "addId": "MATH1550",
+       "name": "MATH 1550 (Differential & Integral Calculus (Calculus I))",
+       "cr": 5,
+       "status": "completed",
+       "term": "completed"
+      },
+      {
+       "id": "MATH1552",
+       "addId": "MATH1552",
+       "name": "MATH 1552 (Analytic Geometry & Calculus II)",
+       "cr": 4,
+       "status": "completed",
+       "term": "year1-spring"
+      },
+      {
+       "id": "MATH2070",
+       "addId": "MATH2070",
+       "name": "MATH 2070 (Mathematical Methods in Engineering)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "PHYS2110",
+       "addId": "PHYS2110",
+       "name": "PHYS 2110 (Particle Mechanics (General Physics I))",
+       "cr": 3,
+       "status": "completed",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2113",
+       "addId": "PHYS2113",
+       "name": "PHYS 2113 (Fields: Gravity, Electricity & Magnetism)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CHEM1201",
+       "addId": "CHEM1201",
+       "name": "CHEM 1201 (General Chemistry I)",
+       "cr": 3,
+       "status": "completed",
+       "term": "year1-fall"
+      },
+      {
+       "id": "CHEM1202",
+       "addId": "CHEM1202",
+       "name": "CHEM 1202 (General Chemistry II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "CHEM1212",
+       "addId": "CHEM1212",
+       "name": "CHEM 1212 (General Chemistry Laboratory)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "CHEM2261",
+       "addId": "CHEM2261",
+       "name": "CHEM 2261 (Organic Chemistry I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "minor": "Robotics Engineering Minor",
+   "targetCredits": 21,
+   "categories": [
+    {
+     "name": "Robotics Engineering Minor (21 Credit Hours)",
+     "desc": "Minimum GPA 2.5 and grade C or better required in all minor courses. At least one core course must be outside your major department.",
+     "items": [
+      {
+       "id": "MATH2070",
+       "addId": "MATH2070",
+       "name": "MATH 2070 (Mathematical Methods in Engineering)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CSC1253",
+       "addId": "CSC1253",
+       "name": "CSC 1253 (Computer Science I with C++)",
+       "cr": 3,
+       "status": "completed",
+       "term": "year1-spring"
+      },
+      {
+       "id": "ENGR3100",
+       "addId": "ENGR3100",
+       "name": "ENGR 3100 (Introduction to Robotics)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3530",
+       "addId": "EE3530",
+       "name": "EE 3530 (Introduction to Control Systems)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "EE3755",
+       "addId": "EE3755",
+       "name": "EE 3755 (Computer Organization)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "BE3320",
+       "addId": "BE3320",
+       "name": "BE 3320 (Mechanical Design for Biological Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "ENGR4100",
+       "addId": "ENGR4100",
+       "name": "ENGR 4100 (Industrial Robotics)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "ee_empty": [
+  {
+   "major": "Electrical Engineering",
+   "targetCredits": 127,
+   "categories": [
+    {
+     "name": "Electrical Engineering Core",
+     "desc": "All 13 foundational and intermediate EE courses required.",
+     "items": [
+      {
+       "id": "EE1810",
+       "addId": "EE1810",
+       "name": "EE 1810 (Introduction to Electrical and Computer Engineering)",
+       "cr": 2,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE2120",
+       "addId": "EE2120",
+       "name": "EE 2120 (Circuits I)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE2130",
+       "addId": "EE2130",
+       "name": "EE 2130 (Circuits II)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE2230",
+       "addId": "EE2230",
+       "name": "EE 2230 (Electronics I)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE2231",
+       "addId": "EE2231",
+       "name": "EE 2231 (Electronics I Laboratory)",
+       "cr": 2,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE2741",
+       "addId": "EE2741",
+       "name": "EE 2741 (Digital Logic I)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE2742",
+       "addId": "EE2742",
+       "name": "EE 2742 (Digital Logic II)",
+       "cr": 2,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE2810",
+       "addId": "EE2810",
+       "name": "EE 2810 (Tools in Electrical and Computer Engineering)",
+       "cr": 2,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3150",
+       "addId": "EE3150",
+       "name": "EE 3150 (Probability for Electrical and Computer Engineering)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3320",
+       "addId": "EE3320",
+       "name": "EE 3320 (Electromagnetic Fields)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3610",
+       "addId": "EE3610",
+       "name": "EE 3610 (Signals and Systems)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE4810",
+       "addId": "EE4810",
+       "name": "EE 4810 (Senior Design I)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE4820",
+       "addId": "EE4820",
+       "name": "EE 4820 (Senior Design II)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    },
+    {
+     "name": "EE Breadth Electives",
+     "desc": "Students must select courses from at least 4 of the 5 groups (0/4 groups represented, 0/6 breadth courses placed).",
+     "items": [
+      {
+       "id": "EE3160",
+       "addId": "EE3160",
+       "name": "Group 1: Digital Signal Processing (EE 3160)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3220",
+       "addId": "EE3220",
+       "name": "Group 2: Electronics & Solid State (EE 3220 or EE 3223 or EE 3232)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3410",
+       "addId": "EE3410",
+       "name": "Group 3: Electric Power (EE 3410)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3530",
+       "addId": "EE3530",
+       "name": "Group 4: Control Systems (EE 3530)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3710",
+       "addId": "EE3710",
+       "name": "Group 5: Computers & Architecture (EE 3710 or EE 3740 or EE 3752 or EE 3755)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ],
+     "customStatus": false
+    },
+    {
+     "name": "Mathematics, Sciences & Computing",
+     "desc": "Foundational STEM curriculum required for Electrical Engineering.",
+     "items": [
+      {
+       "id": "MATH1550",
+       "addId": "MATH1550",
+       "name": "MATH 1550 (Differential & Integral Calculus (Calculus I))",
+       "cr": 5,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "MATH1552",
+       "addId": "MATH1552",
+       "name": "MATH 1552 (Analytic Geometry & Calculus II)",
+       "cr": 4,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "MATH2057",
+       "addId": "MATH2057",
+       "name": "MATH 2057 (Multidimensional Calculus (Calculus III))",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "MATH2070",
+       "addId": "MATH2070",
+       "name": "MATH 2070 (Mathematical Methods in Engineering)",
+       "cr": 4,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "CSC1253",
+       "addId": "CSC1253",
+       "name": "CSC 1253 (Computer Science I with C++)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "PHYS2110",
+       "addId": "PHYS2110",
+       "name": "PHYS 2110 (Particle Mechanics (General Physics I))",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "PHYS2108",
+       "addId": "PHYS2108",
+       "name": "PHYS 2108 (Introductory Physics Laboratory)",
+       "cr": 1,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "PHYS2113",
+       "addId": "PHYS2113",
+       "name": "PHYS 2113 (Fields: Gravity, Electricity & Magnetism)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "CHEM1201",
+       "addId": "CHEM1201",
+       "name": "CHEM 1201 (General Chemistry I)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "LIFESCI",
+       "addId": "LIFESCI",
+       "name": "LIFE SCI (Life Science Gen Ed)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    },
+    {
+     "name": "General Education & Humanities",
+     "desc": "University core requirements including communication, ethics, and arts.",
+     "items": [
+      {
+       "id": "ENGL1001",
+       "addId": "ENGL1001",
+       "name": "ENGL 1001 (English Composition I)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "ENGL2000",
+       "addId": "ENGL2000",
+       "name": "ENGL 2000 (English Composition II)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "PHIL2020",
+       "addId": "PHIL2020",
+       "name": "PHIL 2020 (Ethics)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "ART",
+       "addId": "ART",
+       "name": "ART GEN ED (General Education Art)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "HUMN1",
+       "addId": "HUMN1",
+       "name": "HUMN GEN ED 1 (Humanities Elective 1)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "HUMN2",
+       "addId": "HUMN2",
+       "name": "HUMN GEN ED 2 (Humanities Elective 2)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "SOCSCI1",
+       "addId": "SOCSCI1",
+       "name": "SOC SCI 1 (Social Science Gen Ed)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "SOCSCI_2000",
+       "addId": "SOCSCI_2000",
+       "name": "SOC SCI 2000+ (2000-Level Social Science Elective)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    },
+    {
+     "name": "Design & Technical Electives",
+     "desc": "Advanced technical specialization courses (3 Design + 3 Technical).",
+     "items": [
+      {
+       "id": "EE_DESIGN1",
+       "addId": "EE_DESIGN1",
+       "name": "EE DESIGN 1 (EE Design Elective 1)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE_DESIGN2",
+       "addId": "EE_DESIGN2",
+       "name": "EE DESIGN 2 (EE Design Elective 2)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE_DESIGN3",
+       "addId": "EE_DESIGN3",
+       "name": "EE DESIGN 3 (EE Design Elective 3)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE_TECH1",
+       "addId": "EE_TECH1",
+       "name": "TECH ELECT 1 (Technical Elective 1)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE_TECH2",
+       "addId": "EE_TECH2",
+       "name": "TECH ELECT 2 (Technical Elective 2)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE_TECH3",
+       "addId": "EE_TECH3",
+       "name": "TECH ELECT 3 (Technical Elective 3)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "ee_broken_order": [
+  {
+   "major": "Electrical Engineering",
+   "targetCredits": 127,
+   "categories": [
+    {
+     "name": "Electrical Engineering Core",
+     "desc": "All 13 foundational and intermediate EE courses required.",
+     "items": [
+      {
+       "id": "EE1810",
+       "addId": "EE1810",
+       "name": "EE 1810 (Introduction to Electrical and Computer Engineering)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "EE2120",
+       "addId": "EE2120",
+       "name": "EE 2120 (Circuits I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "EE2130",
+       "addId": "EE2130",
+       "name": "EE 2130 (Circuits II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "EE2230",
+       "addId": "EE2230",
+       "name": "EE 2230 (Electronics I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-summer"
+      },
+      {
+       "id": "EE2231",
+       "addId": "EE2231",
+       "name": "EE 2231 (Electronics I Laboratory)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE2741",
+       "addId": "EE2741",
+       "name": "EE 2741 (Digital Logic I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "EE2742",
+       "addId": "EE2742",
+       "name": "EE 2742 (Digital Logic II)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "EE2810",
+       "addId": "EE2810",
+       "name": "EE 2810 (Tools in Electrical and Computer Engineering)",
+       "cr": 2,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "EE3150",
+       "addId": "EE3150",
+       "name": "EE 3150 (Probability for Electrical and Computer Engineering)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "EE3320",
+       "addId": "EE3320",
+       "name": "EE 3320 (Electromagnetic Fields)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      },
+      {
+       "id": "EE3610",
+       "addId": "EE3610",
+       "name": "EE 3610 (Signals and Systems)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "EE4810",
+       "addId": "EE4810",
+       "name": "EE 4810 (Senior Design I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "EE4820",
+       "addId": "EE4820",
+       "name": "EE 4820 (Senior Design II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      }
+     ]
+    },
+    {
+     "name": "EE Breadth Electives",
+     "desc": "Students must select courses from at least 4 of the 5 groups (0/4 groups represented, 6/6 breadth courses placed).",
+     "items": [
+      {
+       "id": "EE3160",
+       "addId": "EE3160",
+       "name": "Group 1: Digital Signal Processing (EE 3160)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3220",
+       "addId": "EE3220",
+       "name": "Group 2: Electronics & Solid State (EE 3220 or EE 3223 or EE 3232)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3410",
+       "addId": "EE3410",
+       "name": "Group 3: Electric Power (EE 3410)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3530",
+       "addId": "EE3530",
+       "name": "Group 4: Control Systems (EE 3530)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3710",
+       "addId": "EE3710",
+       "name": "Group 5: Computers & Architecture (EE 3710 or EE 3740 or EE 3752 or EE 3755)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ],
+     "customStatus": true
+    },
+    {
+     "name": "Mathematics, Sciences & Computing",
+     "desc": "Foundational STEM curriculum required for Electrical Engineering.",
+     "items": [
+      {
+       "id": "MATH1550",
+       "addId": "MATH1550",
+       "name": "MATH 1550 (Differential & Integral Calculus (Calculus I))",
+       "cr": 5,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "MATH1552",
+       "addId": "MATH1552",
+       "name": "MATH 1552 (Analytic Geometry & Calculus II)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "MATH2057",
+       "addId": "MATH2057",
+       "name": "MATH 2057 (Multidimensional Calculus (Calculus III))",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "MATH2070",
+       "addId": "MATH2070",
+       "name": "MATH 2070 (Mathematical Methods in Engineering)",
+       "cr": 4,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CSC1253",
+       "addId": "CSC1253",
+       "name": "CSC 1253 (Computer Science I with C++)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2110",
+       "addId": "PHYS2110",
+       "name": "PHYS 2110 (Particle Mechanics (General Physics I))",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2108",
+       "addId": "PHYS2108",
+       "name": "PHYS 2108 (Introductory Physics Laboratory)",
+       "cr": 1,
+       "status": "planned",
+       "term": "year1-spring"
+      },
+      {
+       "id": "PHYS2113",
+       "addId": "PHYS2113",
+       "name": "PHYS 2113 (Fields: Gravity, Electricity & Magnetism)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "CHEM1201",
+       "addId": "CHEM1201",
+       "name": "CHEM 1201 (General Chemistry I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "LIFESCI",
+       "addId": "LIFESCI",
+       "name": "LIFE SCI (Life Science Gen Ed)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-spring"
+      }
+     ]
+    },
+    {
+     "name": "General Education & Humanities",
+     "desc": "University core requirements including communication, ethics, and arts.",
+     "items": [
+      {
+       "id": "ENGL1001",
+       "addId": "ENGL1001",
+       "name": "ENGL 1001 (English Composition I)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "ENGL2000",
+       "addId": "ENGL2000",
+       "name": "ENGL 2000 (English Composition II)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-spring"
+      },
+      {
+       "id": "PHIL2020",
+       "addId": "PHIL2020",
+       "name": "PHIL 2020 (Ethics)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      },
+      {
+       "id": "ART",
+       "addId": "ART",
+       "name": "ART GEN ED (General Education Art)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year1-fall"
+      },
+      {
+       "id": "HUMN1",
+       "addId": "HUMN1",
+       "name": "HUMN GEN ED 1 (Humanities Elective 1)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year2-fall"
+      },
+      {
+       "id": "HUMN2",
+       "addId": "HUMN2",
+       "name": "HUMN GEN ED 2 (Humanities Elective 2)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "SOCSCI1",
+       "addId": "SOCSCI1",
+       "name": "SOC SCI 1 (Social Science Gen Ed)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "SOCSCI_2000",
+       "addId": "SOCSCI_2000",
+       "name": "SOC SCI 2000+ (2000-Level Social Science Elective)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-spring"
+      }
+     ]
+    },
+    {
+     "name": "Design & Technical Electives",
+     "desc": "Advanced technical specialization courses (3 Design + 3 Technical).",
+     "items": [
+      {
+       "id": "EE_DESIGN1",
+       "addId": "EE_DESIGN1",
+       "name": "EE DESIGN 1 (EE Design Elective 1)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "EE_DESIGN2",
+       "addId": "EE_DESIGN2",
+       "name": "EE DESIGN 2 (EE Design Elective 2)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "EE_DESIGN3",
+       "addId": "EE_DESIGN3",
+       "name": "EE DESIGN 3 (EE Design Elective 3)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "EE_TECH1",
+       "addId": "EE_TECH1",
+       "name": "TECH ELECT 1 (Technical Elective 1)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-fall"
+      },
+      {
+       "id": "EE_TECH2",
+       "addId": "EE_TECH2",
+       "name": "TECH ELECT 2 (Technical Elective 2)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      },
+      {
+       "id": "EE_TECH3",
+       "addId": "EE_TECH3",
+       "name": "TECH ELECT 3 (Technical Elective 3)",
+       "cr": 3,
+       "status": "planned",
+       "term": "year4-spring"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "ee_breadth_one_group": [
+  {
+   "major": "Electrical Engineering",
+   "targetCredits": 127,
+   "categories": [
+    {
+     "name": "Electrical Engineering Core",
+     "desc": "All 13 foundational and intermediate EE courses required.",
+     "items": [
+      {
+       "id": "EE1810",
+       "addId": "EE1810",
+       "name": "EE 1810 (Introduction to Electrical and Computer Engineering)",
+       "cr": 2,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE2120",
+       "addId": "EE2120",
+       "name": "EE 2120 (Circuits I)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE2130",
+       "addId": "EE2130",
+       "name": "EE 2130 (Circuits II)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE2230",
+       "addId": "EE2230",
+       "name": "EE 2230 (Electronics I)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE2231",
+       "addId": "EE2231",
+       "name": "EE 2231 (Electronics I Laboratory)",
+       "cr": 2,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE2741",
+       "addId": "EE2741",
+       "name": "EE 2741 (Digital Logic I)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE2742",
+       "addId": "EE2742",
+       "name": "EE 2742 (Digital Logic II)",
+       "cr": 2,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE2810",
+       "addId": "EE2810",
+       "name": "EE 2810 (Tools in Electrical and Computer Engineering)",
+       "cr": 2,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3150",
+       "addId": "EE3150",
+       "name": "EE 3150 (Probability for Electrical and Computer Engineering)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3320",
+       "addId": "EE3320",
+       "name": "EE 3320 (Electromagnetic Fields)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3610",
+       "addId": "EE3610",
+       "name": "EE 3610 (Signals and Systems)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE4810",
+       "addId": "EE4810",
+       "name": "EE 4810 (Senior Design I)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE4820",
+       "addId": "EE4820",
+       "name": "EE 4820 (Senior Design II)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    },
+    {
+     "name": "EE Breadth Electives",
+     "desc": "Students must select courses from at least 4 of the 5 groups (1/4 groups represented, 4/6 breadth courses placed).",
+     "items": [
+      {
+       "id": "EE3160",
+       "addId": "EE3160",
+       "name": "Group 1: Digital Signal Processing (EE 3160)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3220",
+       "name": "EE 3220: Semiconductor Devices",
+       "cr": 3,
+       "status": "planned",
+       "term": "year3-fall"
+      },
+      {
+       "id": "EE3410",
+       "addId": "EE3410",
+       "name": "Group 3: Electric Power (EE 3410)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3530",
+       "addId": "EE3530",
+       "name": "Group 4: Control Systems (EE 3530)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE3710",
+       "addId": "EE3710",
+       "name": "Group 5: Computers & Architecture (EE 3710 or EE 3740 or EE 3752 or EE 3755)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ],
+     "customStatus": true
+    },
+    {
+     "name": "Mathematics, Sciences & Computing",
+     "desc": "Foundational STEM curriculum required for Electrical Engineering.",
+     "items": [
+      {
+       "id": "MATH1550",
+       "addId": "MATH1550",
+       "name": "MATH 1550 (Differential & Integral Calculus (Calculus I))",
+       "cr": 5,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "MATH1552",
+       "addId": "MATH1552",
+       "name": "MATH 1552 (Analytic Geometry & Calculus II)",
+       "cr": 4,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "MATH2057",
+       "addId": "MATH2057",
+       "name": "MATH 2057 (Multidimensional Calculus (Calculus III))",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "MATH2070",
+       "addId": "MATH2070",
+       "name": "MATH 2070 (Mathematical Methods in Engineering)",
+       "cr": 4,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "CSC1253",
+       "addId": "CSC1253",
+       "name": "CSC 1253 (Computer Science I with C++)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "PHYS2110",
+       "addId": "PHYS2110",
+       "name": "PHYS 2110 (Particle Mechanics (General Physics I))",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "PHYS2108",
+       "addId": "PHYS2108",
+       "name": "PHYS 2108 (Introductory Physics Laboratory)",
+       "cr": 1,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "PHYS2113",
+       "addId": "PHYS2113",
+       "name": "PHYS 2113 (Fields: Gravity, Electricity & Magnetism)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "CHEM1201",
+       "addId": "CHEM1201",
+       "name": "CHEM 1201 (General Chemistry I)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "LIFESCI",
+       "addId": "LIFESCI",
+       "name": "LIFE SCI (Life Science Gen Ed)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    },
+    {
+     "name": "General Education & Humanities",
+     "desc": "University core requirements including communication, ethics, and arts.",
+     "items": [
+      {
+       "id": "ENGL1001",
+       "addId": "ENGL1001",
+       "name": "ENGL 1001 (English Composition I)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "ENGL2000",
+       "addId": "ENGL2000",
+       "name": "ENGL 2000 (English Composition II)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "PHIL2020",
+       "addId": "PHIL2020",
+       "name": "PHIL 2020 (Ethics)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "ART",
+       "addId": "ART",
+       "name": "ART GEN ED (General Education Art)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "HUMN1",
+       "addId": "HUMN1",
+       "name": "HUMN GEN ED 1 (Humanities Elective 1)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "HUMN2",
+       "addId": "HUMN2",
+       "name": "HUMN GEN ED 2 (Humanities Elective 2)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "SOCSCI1",
+       "addId": "SOCSCI1",
+       "name": "SOC SCI 1 (Social Science Gen Ed)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "SOCSCI_2000",
+       "addId": "SOCSCI_2000",
+       "name": "SOC SCI 2000+ (2000-Level Social Science Elective)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    },
+    {
+     "name": "Design & Technical Electives",
+     "desc": "Advanced technical specialization courses (3 Design + 3 Technical).",
+     "items": [
+      {
+       "id": "EE_DESIGN1",
+       "addId": "EE_DESIGN1",
+       "name": "EE DESIGN 1 (EE Design Elective 1)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE_DESIGN2",
+       "addId": "EE_DESIGN2",
+       "name": "EE DESIGN 2 (EE Design Elective 2)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE_DESIGN3",
+       "addId": "EE_DESIGN3",
+       "name": "EE DESIGN 3 (EE Design Elective 3)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE_TECH1",
+       "addId": "EE_TECH1",
+       "name": "TECH ELECT 1 (Technical Elective 1)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE_TECH2",
+       "addId": "EE_TECH2",
+       "name": "TECH ELECT 2 (Technical Elective 2)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      },
+      {
+       "id": "EE_TECH3",
+       "addId": "EE_TECH3",
+       "name": "TECH ELECT 3 (Technical Elective 3)",
+       "cr": 3,
+       "status": "missing",
+       "term": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

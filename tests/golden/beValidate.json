@@ -1,0 +1,1277 @@
+{
+ "standard_default": {
+  "AGEC2003": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "ART": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE1251": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE1252": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE2350": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE2352": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE3320": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE3340": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE4303": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE4352": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE4390": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE4392": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL1201": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL1202": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL1208": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL1209": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL2051": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL2083": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CE2200": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CE2450": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CE2460": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CE3400": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM1201": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM1202": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM1212": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM2261": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "DES1": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "DES2": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "DES3": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "EE2950": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "ELEC": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "ENGL1001": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "ENGL2000": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "HUM1": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "HUM2": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "HUM3": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "MATH1550": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "MATH1552": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "MATH2065": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "ME3333": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "PHYS2110": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "PHYS2113": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "SOCSCI": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "TECHELEC": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  }
+ },
+ "premed_default": {
+  "AGEC2003": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "ART": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE1251": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE1252": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE2350": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE2352": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE3320": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE3340": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE4303": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE4352": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE4390": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE4392": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL1201": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL1202": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL1208": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL1209": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL2051": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL2083": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CE2200": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CE2450": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CE2460": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CE3400": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM1201": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM1202": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM1212": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM2261": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM2262": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM2364": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "DES1": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "DES2": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "DES3": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "EE2950": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "ENGL1001": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "ENGL2000": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "HUM1": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "HUM2": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "HUM3": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "MATH1550": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "MATH1552": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "MATH2065": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "ME3333": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "PHYS2108": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "PHYS2109": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "PHYS2110": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "PHYS2113": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "SOCSCI": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  }
+ },
+ "standard_partial": {
+  "AGEC2003": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "ART": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE1251": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE1252": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE2350": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE2352": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE3320": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE3340": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE4303": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE4352": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE4390": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE4392": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL1201": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL1202": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL1208": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL1209": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL2051": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL2083": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CE2200": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CE2450": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CE2460": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CE3400": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM1201": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM1202": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM1212": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM2261": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "DES1": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "DES2": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "DES3": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "EE2950": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "ELEC": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "ENGL1001": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "ENGL2000": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "HUM1": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "HUM2": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "HUM3": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "MATH1550": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "MATH1552": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "MATH2065": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "ME3333": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "PHYS2110": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "PHYS2113": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "SOCSCI": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "TECHELEC": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "c-test1": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  }
+ },
+ "premed_partial": {
+  "AGEC2003": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "ART": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE1251": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE1252": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE2350": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE2352": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE3320": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE3340": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE4303": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE4352": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE4390": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BE4392": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL1201": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL1202": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL1208": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL1209": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL2051": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "BIOL2083": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CE2200": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CE2450": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CE2460": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CE3400": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM1201": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM1202": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM1212": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM2261": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM2262": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "CHEM2364": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "DES1": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "DES2": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "DES3": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "EE2950": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "ENGL1001": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "ENGL2000": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "HUM1": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "HUM2": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "HUM3": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "MATH1550": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "MATH1552": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "MATH2065": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "ME3333": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "PHYS2108": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "PHYS2109": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "PHYS2110": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "PHYS2113": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  },
+  "SOCSCI": {
+   "pre": true,
+   "co": true,
+   "sem": true,
+   "credits": true,
+   "ok": true
+  }
+ }
+}

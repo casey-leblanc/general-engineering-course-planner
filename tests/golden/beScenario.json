@@ -1,0 +1,4106 @@
+{
+ "standard_default": {
+  "terms": [
+   {
+    "key": "completed",
+    "rank": 0,
+    "season": "",
+    "tp": -1,
+    "open": false
+   },
+   {
+    "key": "year1-fall",
+    "rank": 1,
+    "season": "F",
+    "tp": 3,
+    "open": true
+   },
+   {
+    "key": "year1-spring",
+    "rank": 2,
+    "season": "S",
+    "tp": 4,
+    "open": true
+   },
+   {
+    "key": "year2-fall",
+    "rank": 3,
+    "season": "F",
+    "tp": 6,
+    "open": true
+   },
+   {
+    "key": "year2-spring",
+    "rank": 4,
+    "season": "S",
+    "tp": 7,
+    "open": true
+   },
+   {
+    "key": "year3-fall",
+    "rank": 5,
+    "season": "F",
+    "tp": 9,
+    "open": true
+   },
+   {
+    "key": "year3-spring",
+    "rank": 6,
+    "season": "S",
+    "tp": 10,
+    "open": true
+   },
+   {
+    "key": "year4-fall",
+    "rank": 7,
+    "season": "F",
+    "tp": 12,
+    "open": true
+   },
+   {
+    "key": "year4-spring",
+    "rank": 8,
+    "season": "S",
+    "tp": 13,
+    "open": true
+   }
+  ],
+  "movable": [
+   {
+    "id": "BE1251",
+    "cr": 2,
+    "eff": 2,
+    "seasons": [
+     "F"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CHEM1201",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BIOL1201",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MJ",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "MATH1550",
+    "cr": 5,
+    "eff": 7.5,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BIOL1208",
+    "cr": 1,
+    "eff": 1,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [
+     "BIOL1201"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "ENGL1001",
+    "cr": 3,
+    "eff": 2.7,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "BE1252",
+    "cr": 2,
+    "eff": 2,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [
+     "BIOL1201"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BIOL1202",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "JA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BIOL1201"
+    ],
+    "co": [
+     "BIOL1208"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "MATH1552",
+    "cr": 4,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1550"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CHEM1202",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CHEM1201"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BIOL1209",
+    "cr": 1,
+    "eff": 1,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BIOL1208"
+    ],
+    "co": [
+     "BIOL1202"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "PHYS2110",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [
+     "MATH1552"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE2352",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BE1252"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BIOL2051",
+    "cr": 4,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BIOL1202",
+     "BIOL1209",
+     "CHEM1202"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "EE2950",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1552"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "MATH2065",
+    "cr": 3,
+    "eff": 4.5,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MJ",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1552"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CE2450",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MJ",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1552",
+     "PHYS2110"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE2350",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [
+     "EE2950",
+     "PHYS2113"
+    ],
+    "coAny": true,
+    "float": false
+   },
+   {
+    "id": "CE3400",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MJ",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CE2450"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "PHYS2113",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "PHYS2110"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "ENGL2000",
+    "cr": 3,
+    "eff": 2.7,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "ENGL1001"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "CHEM1212",
+    "cr": 2,
+    "eff": 2,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "JA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [
+     "CHEM1202"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CHEM2261",
+    "cr": 3,
+    "eff": 4.5,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CHEM1202"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE4303",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH2065"
+    ],
+    "co": [
+     "CE3400"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "AGEC2003",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "BIOL2083",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CHEM2261"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "ME3333",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MJ",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1552",
+     "PHYS2110"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "HUM1",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": true,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "BE3340",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH2065"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE4352",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BE2352",
+     "BIOL2051"
+    ],
+    "co": [
+     "CE2200",
+     "ME3333"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CE2200",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "JA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CE2450"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "HUM2",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": true,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "DES1",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": true,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "BE3320",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CE3400"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE4390",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BE2350"
+    ],
+    "co": [
+     "CE3400"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CE2460",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CE2450"
+    ],
+    "co": [
+     "MATH2065"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "DES2",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": true,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "ART",
+    "cr": 3,
+    "eff": 2.7,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "ELEC",
+    "cr": 2,
+    "eff": 1.8,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "BE4392",
+    "cr": 3,
+    "eff": 9,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BE4390"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "DES3",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": true,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "HUM3",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": true,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "SOCSCI",
+    "cr": 3,
+    "eff": 2.7,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "TECHELEC",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   }
+  ],
+  "fixedRank": {},
+  "fixedTP": {},
+  "fixedCr": {},
+  "fixedEff": {},
+  "defTerm": {
+   "BE1251": "year1-fall",
+   "CHEM1201": "year1-fall",
+   "BIOL1201": "year1-fall",
+   "MATH1550": "year1-fall",
+   "BIOL1208": "year1-fall",
+   "ENGL1001": "year1-fall",
+   "BE1252": "year1-spring",
+   "BIOL1202": "year1-spring",
+   "MATH1552": "year1-spring",
+   "CHEM1202": "year1-spring",
+   "BIOL1209": "year1-spring",
+   "PHYS2110": "year1-spring",
+   "BE2352": "year2-fall",
+   "BIOL2051": "year2-fall",
+   "EE2950": "year2-fall",
+   "MATH2065": "year2-fall",
+   "CE2450": "year2-fall",
+   "BE2350": "year2-spring",
+   "CE3400": "year2-spring",
+   "PHYS2113": "year2-spring",
+   "ENGL2000": "year2-spring",
+   "CHEM1212": "year2-spring",
+   "CHEM2261": "year2-spring",
+   "BE4303": "year3-fall",
+   "AGEC2003": "year3-fall",
+   "BIOL2083": "year3-fall",
+   "ME3333": "year3-fall",
+   "HUM1": "year3-fall",
+   "BE3340": "year3-spring",
+   "BE4352": "year3-spring",
+   "CE2200": "year3-spring",
+   "HUM2": "year3-spring",
+   "DES1": "year3-spring",
+   "BE3320": "year4-fall",
+   "BE4390": "year4-fall",
+   "CE2460": "year4-fall",
+   "DES2": "year4-fall",
+   "ART": "year4-fall",
+   "ELEC": "year4-fall",
+   "BE4392": "year4-spring",
+   "DES3": "year4-spring",
+   "HUM3": "year4-spring",
+   "SOCSCI": "year4-spring",
+   "TECHELEC": "year4-spring"
+  },
+  "defTP": {
+   "BE1251": 3,
+   "CHEM1201": 3,
+   "BIOL1201": 3,
+   "MATH1550": 3,
+   "BIOL1208": 3,
+   "ENGL1001": null,
+   "BE1252": 4,
+   "BIOL1202": 4,
+   "MATH1552": 4,
+   "CHEM1202": 4,
+   "BIOL1209": 4,
+   "PHYS2110": 4,
+   "BE2352": 6,
+   "BIOL2051": 6,
+   "EE2950": 6,
+   "MATH2065": 6,
+   "CE2450": 6,
+   "BE2350": 7,
+   "CE3400": 7,
+   "PHYS2113": 7,
+   "ENGL2000": null,
+   "CHEM1212": 7,
+   "CHEM2261": 7,
+   "BE4303": 9,
+   "AGEC2003": null,
+   "BIOL2083": 9,
+   "ME3333": 9,
+   "HUM1": null,
+   "BE3340": 10,
+   "BE4352": 10,
+   "CE2200": 10,
+   "HUM2": null,
+   "DES1": null,
+   "BE3320": 12,
+   "BE4390": 12,
+   "CE2460": 12,
+   "DES2": null,
+   "ART": null,
+   "ELEC": null,
+   "BE4392": 13,
+   "DES3": null,
+   "HUM3": null,
+   "SOCSCI": null,
+   "TECHELEC": null
+  },
+  "pairs": [
+   {
+    "a": "BE4390",
+    "b": "BE4392",
+    "gap": 1
+   }
+  ],
+  "apCredits": 0,
+  "desMinCredits": 60,
+  "pmAfterTP": 9,
+  "caps": {
+   "fsMin": 12,
+   "fsMax": 18,
+   "suMax": 6
+  },
+  "weights": {
+   "band": 10000000,
+   "even": 1000,
+   "flat": 20,
+   "pmLate": 2000,
+   "desExtra": 2000,
+   "coSep": 1500,
+   "anchor": 300,
+   "anchorPair": 1500
+  }
+ },
+ "premed_default": {
+  "terms": [
+   {
+    "key": "completed",
+    "rank": 0,
+    "season": "",
+    "tp": -1,
+    "open": false
+   },
+   {
+    "key": "year1-fall",
+    "rank": 1,
+    "season": "F",
+    "tp": 3,
+    "open": true
+   },
+   {
+    "key": "year1-spring",
+    "rank": 2,
+    "season": "S",
+    "tp": 4,
+    "open": true
+   },
+   {
+    "key": "year2-fall",
+    "rank": 3,
+    "season": "F",
+    "tp": 6,
+    "open": true
+   },
+   {
+    "key": "year2-spring",
+    "rank": 4,
+    "season": "S",
+    "tp": 7,
+    "open": true
+   },
+   {
+    "key": "year3-fall",
+    "rank": 5,
+    "season": "F",
+    "tp": 9,
+    "open": true
+   },
+   {
+    "key": "year3-spring",
+    "rank": 6,
+    "season": "S",
+    "tp": 10,
+    "open": true
+   },
+   {
+    "key": "year4-fall",
+    "rank": 7,
+    "season": "F",
+    "tp": 12,
+    "open": true
+   },
+   {
+    "key": "year4-spring",
+    "rank": 8,
+    "season": "S",
+    "tp": 13,
+    "open": true
+   }
+  ],
+  "movable": [
+   {
+    "id": "BE1251",
+    "cr": 2,
+    "eff": 2,
+    "seasons": [
+     "F"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CHEM1201",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 1,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BIOL1201",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MJ",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 1,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "MATH1550",
+    "cr": 5,
+    "eff": 7.5,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BIOL1208",
+    "cr": 1,
+    "eff": 1,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0.5,
+    "pre": [],
+    "co": [
+     "BIOL1201"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "ENGL1001",
+    "cr": 3,
+    "eff": 2.7,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0.5,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "BE1252",
+    "cr": 2,
+    "eff": 2,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [
+     "BIOL1201"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BIOL1202",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "JA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 1,
+    "pre": [
+     "BIOL1201"
+    ],
+    "co": [
+     "BIOL1208"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "MATH1552",
+    "cr": 4,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1550"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CHEM1202",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 1,
+    "pre": [
+     "CHEM1201"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BIOL1209",
+    "cr": 1,
+    "eff": 1,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0.5,
+    "pre": [
+     "BIOL1208"
+    ],
+    "co": [
+     "BIOL1202"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "PHYS2110",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 1,
+    "pre": [],
+    "co": [
+     "MATH1552"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "PHYS2108",
+    "cr": 1,
+    "eff": 1,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0.5,
+    "pre": [],
+    "co": [
+     "PHYS2110"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE2352",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BE1252"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CHEM1212",
+    "cr": 2,
+    "eff": 2,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "JA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0.5,
+    "pre": [],
+    "co": [
+     "CHEM1202"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CHEM2261",
+    "cr": 3,
+    "eff": 4.5,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 1,
+    "pre": [
+     "CHEM1202"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "MATH2065",
+    "cr": 3,
+    "eff": 4.5,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MJ",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1552"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CE2450",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MJ",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1552",
+     "PHYS2110"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "SOCSCI",
+    "cr": 3,
+    "eff": 2.7,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "BIOL2051",
+    "cr": 4,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BIOL1202",
+     "BIOL1209",
+     "CHEM1202"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BIOL2083",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 1,
+    "pre": [
+     "CHEM2261"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CHEM2262",
+    "cr": 3,
+    "eff": 4.5,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 1,
+    "pre": [
+     "CHEM2261"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "PHYS2113",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 1,
+    "pre": [
+     "PHYS2110"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "PHYS2109",
+    "cr": 1,
+    "eff": 1,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0.5,
+    "pre": [
+     "PHYS2108"
+    ],
+    "co": [
+     "PHYS2113"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "ENGL2000",
+    "cr": 3,
+    "eff": 2.7,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0.5,
+    "pre": [
+     "ENGL1001"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "AGEC2003",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "ART",
+    "cr": 3,
+    "eff": 2.7,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "BE4303",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH2065"
+    ],
+    "co": [
+     "CE3400"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CE2200",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "JA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CE2450"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CE3400",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MJ",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CE2450"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CHEM2364",
+    "cr": 2,
+    "eff": 2,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "JA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0.5,
+    "pre": [
+     "CHEM1212"
+    ],
+    "co": [
+     "CHEM2262"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE2350",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [
+     "EE2950",
+     "PHYS2113"
+    ],
+    "coAny": true,
+    "float": false
+   },
+   {
+    "id": "BE3340",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH2065"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE4352",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BE2352",
+     "BIOL2051"
+    ],
+    "co": [
+     "CE2200",
+     "ME3333"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "EE2950",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1552"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "ME3333",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MJ",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1552",
+     "PHYS2110"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE3320",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CE3400"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE4390",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BE2350"
+    ],
+    "co": [
+     "CE3400"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CE2460",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CE2450"
+    ],
+    "co": [
+     "MATH2065"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "DES1",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": true,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "HUM1",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": true,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "BE4392",
+    "cr": 3,
+    "eff": 9,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BE4390"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "DES2",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": true,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "DES3",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": true,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "HUM2",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": true,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "HUM3",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": true,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   }
+  ],
+  "fixedRank": {},
+  "fixedTP": {},
+  "fixedCr": {},
+  "fixedEff": {},
+  "defTerm": {
+   "BE1251": "year1-fall",
+   "CHEM1201": "year1-fall",
+   "BIOL1201": "year1-fall",
+   "MATH1550": "year1-fall",
+   "BIOL1208": "year1-fall",
+   "ENGL1001": "year1-fall",
+   "BE1252": "year1-spring",
+   "BIOL1202": "year1-spring",
+   "MATH1552": "year1-spring",
+   "CHEM1202": "year1-spring",
+   "BIOL1209": "year1-spring",
+   "PHYS2110": "year1-spring",
+   "PHYS2108": "year1-spring",
+   "BE2352": "year2-fall",
+   "CHEM1212": "year2-fall",
+   "CHEM2261": "year2-fall",
+   "MATH2065": "year2-fall",
+   "CE2450": "year2-fall",
+   "SOCSCI": "year2-fall",
+   "BIOL2051": "year2-spring",
+   "BIOL2083": "year2-spring",
+   "CHEM2262": "year2-spring",
+   "PHYS2113": "year2-spring",
+   "PHYS2109": "year2-spring",
+   "ENGL2000": "year2-spring",
+   "AGEC2003": "year3-fall",
+   "ART": "year3-fall",
+   "BE4303": "year3-fall",
+   "CE2200": "year3-fall",
+   "CE3400": "year3-fall",
+   "CHEM2364": "year3-fall",
+   "BE2350": "year3-spring",
+   "BE3340": "year3-spring",
+   "BE4352": "year3-spring",
+   "EE2950": "year3-spring",
+   "ME3333": "year3-spring",
+   "BE3320": "year4-fall",
+   "BE4390": "year4-fall",
+   "CE2460": "year4-fall",
+   "DES1": "year4-fall",
+   "HUM1": "year4-fall",
+   "BE4392": "year4-spring",
+   "DES2": "year4-spring",
+   "DES3": "year4-spring",
+   "HUM2": "year4-spring",
+   "HUM3": "year4-spring"
+  },
+  "defTP": {
+   "BE1251": 3,
+   "CHEM1201": 3,
+   "BIOL1201": 3,
+   "MATH1550": 3,
+   "BIOL1208": 3,
+   "ENGL1001": null,
+   "BE1252": 4,
+   "BIOL1202": 4,
+   "MATH1552": 4,
+   "CHEM1202": 4,
+   "BIOL1209": 4,
+   "PHYS2110": 4,
+   "PHYS2108": 4,
+   "BE2352": 6,
+   "CHEM1212": 6,
+   "CHEM2261": 6,
+   "MATH2065": 6,
+   "CE2450": 6,
+   "SOCSCI": null,
+   "BIOL2051": 7,
+   "BIOL2083": 7,
+   "CHEM2262": 7,
+   "PHYS2113": 7,
+   "PHYS2109": 7,
+   "ENGL2000": null,
+   "AGEC2003": null,
+   "ART": null,
+   "BE4303": 9,
+   "CE2200": 9,
+   "CE3400": 9,
+   "CHEM2364": 9,
+   "BE2350": 10,
+   "BE3340": 10,
+   "BE4352": 10,
+   "EE2950": 10,
+   "ME3333": 10,
+   "BE3320": 12,
+   "BE4390": 12,
+   "CE2460": 12,
+   "DES1": null,
+   "HUM1": null,
+   "BE4392": 13,
+   "DES2": null,
+   "DES3": null,
+   "HUM2": null,
+   "HUM3": null
+  },
+  "pairs": [
+   {
+    "a": "BE4390",
+    "b": "BE4392",
+    "gap": 1
+   }
+  ],
+  "apCredits": 0,
+  "desMinCredits": 60,
+  "pmAfterTP": 9,
+  "caps": {
+   "fsMin": 12,
+   "fsMax": 18,
+   "suMax": 6
+  },
+  "weights": {
+   "band": 10000000,
+   "even": 1000,
+   "flat": 20,
+   "pmLate": 2000,
+   "desExtra": 2000,
+   "coSep": 1500,
+   "anchor": 300,
+   "anchorPair": 1500
+  }
+ },
+ "standard_partial": {
+  "terms": [
+   {
+    "key": "completed",
+    "rank": 0,
+    "season": "",
+    "tp": -1,
+    "open": false
+   },
+   {
+    "key": "year1-fall",
+    "rank": 1,
+    "season": "F",
+    "tp": 3,
+    "open": true
+   },
+   {
+    "key": "year1-spring",
+    "rank": 2,
+    "season": "S",
+    "tp": 4,
+    "open": true
+   },
+   {
+    "key": "year2-fall",
+    "rank": 3,
+    "season": "F",
+    "tp": 6,
+    "open": true
+   },
+   {
+    "key": "year2-spring",
+    "rank": 4,
+    "season": "S",
+    "tp": 7,
+    "open": true
+   },
+   {
+    "key": "year3-fall",
+    "rank": 5,
+    "season": "F",
+    "tp": 9,
+    "open": true
+   },
+   {
+    "key": "year3-spring",
+    "rank": 6,
+    "season": "S",
+    "tp": 10,
+    "open": true
+   },
+   {
+    "key": "year4-fall",
+    "rank": 7,
+    "season": "F",
+    "tp": 12,
+    "open": true
+   },
+   {
+    "key": "year4-spring",
+    "rank": 8,
+    "season": "S",
+    "tp": 13,
+    "open": true
+   },
+   {
+    "key": "year5-fall",
+    "rank": 9,
+    "season": "F",
+    "tp": 15,
+    "open": true
+   }
+  ],
+  "movable": [
+   {
+    "id": "BIOL1208",
+    "cr": 1,
+    "eff": 1,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [
+     "BIOL1201"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "ENGL1001",
+    "cr": 3,
+    "eff": 2.7,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "BE1252",
+    "cr": 2,
+    "eff": 2,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [
+     "BIOL1201"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BIOL1202",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "JA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BIOL1201"
+    ],
+    "co": [
+     "BIOL1208"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "MATH1552",
+    "cr": 4,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1550"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CHEM1202",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CHEM1201"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BIOL1209",
+    "cr": 1,
+    "eff": 1,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BIOL1208"
+    ],
+    "co": [
+     "BIOL1202"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "PHYS2110",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [
+     "MATH1552"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE2352",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BE1252"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BIOL2051",
+    "cr": 4,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BIOL1202",
+     "BIOL1209",
+     "CHEM1202"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "EE2950",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1552"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "MATH2065",
+    "cr": 3,
+    "eff": 4.5,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MJ",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1552"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CE2450",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MJ",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1552",
+     "PHYS2110"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE2350",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [
+     "EE2950",
+     "PHYS2113"
+    ],
+    "coAny": true,
+    "float": false
+   },
+   {
+    "id": "CE3400",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MJ",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CE2450"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "PHYS2113",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "PHYS2110"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "ENGL2000",
+    "cr": 3,
+    "eff": 2.7,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "ENGL1001"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "CHEM1212",
+    "cr": 2,
+    "eff": 2,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "JA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [
+     "CHEM1202"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CHEM2261",
+    "cr": 3,
+    "eff": 4.5,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CHEM1202"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE4303",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH2065"
+    ],
+    "co": [
+     "CE3400"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "AGEC2003",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "BIOL2083",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CHEM2261"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "ME3333",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MJ",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1552",
+     "PHYS2110"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "HUM1",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": true,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "BE3340",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH2065"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE4352",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BE2352",
+     "BIOL2051"
+    ],
+    "co": [
+     "CE2200",
+     "ME3333"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CE2200",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "JA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CE2450"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "HUM2",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": true,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "DES1",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": true,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "BE3320",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CE3400"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE4390",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BE2350"
+    ],
+    "co": [
+     "CE3400"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CE2460",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CE2450"
+    ],
+    "co": [
+     "MATH2065"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "DES2",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": true,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "ART",
+    "cr": 3,
+    "eff": 2.7,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "ELEC",
+    "cr": 2,
+    "eff": 1.8,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "BE4392",
+    "cr": 3,
+    "eff": 9,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BE4390"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "DES3",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": true,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "HUM3",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": true,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "SOCSCI",
+    "cr": 3,
+    "eff": 2.7,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "TECHELEC",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "c-test1",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": false
+   }
+  ],
+  "fixedRank": {
+   "BE1251": 1,
+   "CHEM1201": 1,
+   "BIOL1201": 1,
+   "MATH1550": 0
+  },
+  "fixedTP": {
+   "BE1251": 3,
+   "CHEM1201": 3,
+   "BIOL1201": 3,
+   "MATH1550": -1
+  },
+  "fixedCr": {
+   "year1-fall": 8
+  },
+  "fixedEff": {
+   "year1-fall": 8
+  },
+  "defTerm": {
+   "BIOL1208": "year1-fall",
+   "ENGL1001": "year1-fall",
+   "BE1252": "year1-spring",
+   "BIOL1202": "year1-spring",
+   "MATH1552": "year1-spring",
+   "CHEM1202": "year1-spring",
+   "BIOL1209": "year1-spring",
+   "PHYS2110": "year1-spring",
+   "BE2352": "year2-fall",
+   "BIOL2051": "year2-fall",
+   "EE2950": "year2-fall",
+   "MATH2065": "year2-fall",
+   "CE2450": "year2-fall",
+   "BE2350": "year2-spring",
+   "CE3400": "year2-spring",
+   "PHYS2113": "year2-spring",
+   "ENGL2000": "year2-spring",
+   "CHEM1212": "year2-spring",
+   "CHEM2261": "year2-spring",
+   "BE4303": "year3-fall",
+   "AGEC2003": "year3-fall",
+   "BIOL2083": "year3-fall",
+   "ME3333": "year3-fall",
+   "HUM1": "year3-fall",
+   "BE3340": "year3-spring",
+   "BE4352": "year3-spring",
+   "CE2200": "year3-spring",
+   "HUM2": "year3-spring",
+   "DES1": "year3-spring",
+   "BE3320": "year4-fall",
+   "BE4390": "year4-fall",
+   "CE2460": "year4-fall",
+   "DES2": "year4-fall",
+   "ART": "year4-fall",
+   "ELEC": "year4-fall",
+   "BE4392": "year4-spring",
+   "DES3": "year4-spring",
+   "HUM3": "year4-spring",
+   "SOCSCI": "year4-spring",
+   "TECHELEC": "year4-spring",
+   "c-test1": null
+  },
+  "defTP": {
+   "BIOL1208": 3,
+   "ENGL1001": null,
+   "BE1252": 4,
+   "BIOL1202": 4,
+   "MATH1552": 4,
+   "CHEM1202": 4,
+   "BIOL1209": 4,
+   "PHYS2110": 4,
+   "BE2352": 6,
+   "BIOL2051": 6,
+   "EE2950": 6,
+   "MATH2065": 6,
+   "CE2450": 6,
+   "BE2350": 7,
+   "CE3400": 7,
+   "PHYS2113": 7,
+   "ENGL2000": null,
+   "CHEM1212": 7,
+   "CHEM2261": 7,
+   "BE4303": 9,
+   "AGEC2003": null,
+   "BIOL2083": 9,
+   "ME3333": 9,
+   "HUM1": null,
+   "BE3340": 10,
+   "BE4352": 10,
+   "CE2200": 10,
+   "HUM2": null,
+   "DES1": null,
+   "BE3320": 12,
+   "BE4390": 12,
+   "CE2460": 12,
+   "DES2": null,
+   "ART": null,
+   "ELEC": null,
+   "BE4392": 13,
+   "DES3": null,
+   "HUM3": null,
+   "SOCSCI": null,
+   "TECHELEC": null,
+   "c-test1": null
+  },
+  "pairs": [
+   {
+    "a": "BE4390",
+    "b": "BE4392",
+    "gap": 1
+   }
+  ],
+  "apCredits": 5,
+  "desMinCredits": 60,
+  "pmAfterTP": 9,
+  "caps": {
+   "fsMin": 12,
+   "fsMax": 18,
+   "suMax": 6
+  },
+  "weights": {
+   "band": 10000000,
+   "even": 1000,
+   "flat": 20,
+   "pmLate": 2000,
+   "desExtra": 2000,
+   "coSep": 1500,
+   "anchor": 300,
+   "anchorPair": 1500
+  }
+ },
+ "premed_partial": {
+  "terms": [
+   {
+    "key": "completed",
+    "rank": 0,
+    "season": "",
+    "tp": -1,
+    "open": false
+   },
+   {
+    "key": "year1-fall",
+    "rank": 1,
+    "season": "F",
+    "tp": 3,
+    "open": true
+   },
+   {
+    "key": "year1-spring",
+    "rank": 2,
+    "season": "S",
+    "tp": 4,
+    "open": true
+   },
+   {
+    "key": "year2-fall",
+    "rank": 3,
+    "season": "F",
+    "tp": 6,
+    "open": true
+   },
+   {
+    "key": "year2-spring",
+    "rank": 4,
+    "season": "S",
+    "tp": 7,
+    "open": true
+   },
+   {
+    "key": "year3-fall",
+    "rank": 5,
+    "season": "F",
+    "tp": 9,
+    "open": true
+   },
+   {
+    "key": "year3-spring",
+    "rank": 6,
+    "season": "S",
+    "tp": 10,
+    "open": true
+   },
+   {
+    "key": "year4-fall",
+    "rank": 7,
+    "season": "F",
+    "tp": 12,
+    "open": true
+   },
+   {
+    "key": "year4-spring",
+    "rank": 8,
+    "season": "S",
+    "tp": 13,
+    "open": true
+   }
+  ],
+  "movable": [
+   {
+    "id": "BE1251",
+    "cr": 2,
+    "eff": 2,
+    "seasons": [
+     "F"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BIOL1208",
+    "cr": 1,
+    "eff": 1,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0.5,
+    "pre": [],
+    "co": [
+     "BIOL1201"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "ENGL1001",
+    "cr": 3,
+    "eff": 2.7,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0.5,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "BE1252",
+    "cr": 2,
+    "eff": 2,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [
+     "BIOL1201"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BIOL1202",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "JA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 1,
+    "pre": [
+     "BIOL1201"
+    ],
+    "co": [
+     "BIOL1208"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "MATH1552",
+    "cr": 4,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1550"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CHEM1202",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 1,
+    "pre": [
+     "CHEM1201"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BIOL1209",
+    "cr": 1,
+    "eff": 1,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0.5,
+    "pre": [
+     "BIOL1208"
+    ],
+    "co": [
+     "BIOL1202"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "PHYS2110",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 1,
+    "pre": [],
+    "co": [
+     "MATH1552"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "PHYS2108",
+    "cr": 1,
+    "eff": 1,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0.5,
+    "pre": [],
+    "co": [
+     "PHYS2110"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE2352",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BE1252"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CHEM1212",
+    "cr": 2,
+    "eff": 2,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "JA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0.5,
+    "pre": [],
+    "co": [
+     "CHEM1202"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CHEM2261",
+    "cr": 3,
+    "eff": 4.5,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 1,
+    "pre": [
+     "CHEM1202"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "MATH2065",
+    "cr": 3,
+    "eff": 4.5,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MJ",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1552"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CE2450",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MJ",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1552",
+     "PHYS2110"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "SOCSCI",
+    "cr": 3,
+    "eff": 2.7,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "BIOL2051",
+    "cr": 4,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BIOL1202",
+     "BIOL1209",
+     "CHEM1202"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BIOL2083",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 1,
+    "pre": [
+     "CHEM2261"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CHEM2262",
+    "cr": 3,
+    "eff": 4.5,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 1,
+    "pre": [
+     "CHEM2261"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "PHYS2113",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 1,
+    "pre": [
+     "PHYS2110"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "PHYS2109",
+    "cr": 1,
+    "eff": 1,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0.5,
+    "pre": [
+     "PHYS2108"
+    ],
+    "co": [
+     "PHYS2113"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "ENGL2000",
+    "cr": 3,
+    "eff": 2.7,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0.5,
+    "pre": [
+     "ENGL1001"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "AGEC2003",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "BOTH",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "ART",
+    "cr": 3,
+    "eff": 2.7,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "BE4303",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH2065"
+    ],
+    "co": [
+     "CE3400"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CE2200",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "JA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CE2450"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CE3400",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MJ",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CE2450"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CHEM2364",
+    "cr": 2,
+    "eff": 2,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "JA",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0.5,
+    "pre": [
+     "CHEM1212"
+    ],
+    "co": [
+     "CHEM2262"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE2350",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [
+     "EE2950",
+     "PHYS2113"
+    ],
+    "coAny": true,
+    "float": false
+   },
+   {
+    "id": "BE3340",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH2065"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE4352",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BE2352",
+     "BIOL2051"
+    ],
+    "co": [
+     "CE2200",
+     "ME3333"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "EE2950",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1552"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "ME3333",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S",
+     "Su"
+    ],
+    "summer": "MJ",
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "MATH1552",
+     "PHYS2110"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE3320",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CE3400"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "BE4390",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BE2350"
+    ],
+    "co": [
+     "CE3400"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "CE2460",
+    "cr": 3,
+    "eff": 6,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "CE2450"
+    ],
+    "co": [
+     "MATH2065"
+    ],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "DES1",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": true,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "HUM1",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": true,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "BE4392",
+    "cr": 3,
+    "eff": 9,
+    "seasons": [
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [
+     "BE4390"
+    ],
+    "co": [],
+    "coAny": false,
+    "float": false
+   },
+   {
+    "id": "DES2",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": true,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "DES3",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": true,
+    "isHum": false,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "HUM2",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": true,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   },
+   {
+    "id": "HUM3",
+    "cr": 3,
+    "eff": 3,
+    "seasons": [
+     "F",
+     "S"
+    ],
+    "summer": null,
+    "isDesign": false,
+    "isHum": true,
+    "pmw": 0,
+    "pre": [],
+    "co": [],
+    "coAny": false,
+    "float": true
+   }
+  ],
+  "fixedRank": {
+   "CHEM1201": 1,
+   "BIOL1201": 1,
+   "MATH1550": 0
+  },
+  "fixedTP": {
+   "CHEM1201": 3,
+   "BIOL1201": 3,
+   "MATH1550": -1
+  },
+  "fixedCr": {
+   "year1-fall": 6
+  },
+  "fixedEff": {
+   "year1-fall": 6
+  },
+  "defTerm": {
+   "BE1251": "year1-fall",
+   "BIOL1208": "year1-fall",
+   "ENGL1001": "year1-fall",
+   "BE1252": "year1-spring",
+   "BIOL1202": "year1-spring",
+   "MATH1552": "year1-spring",
+   "CHEM1202": "year1-spring",
+   "BIOL1209": "year1-spring",
+   "PHYS2110": "year1-spring",
+   "PHYS2108": "year1-spring",
+   "BE2352": "year2-fall",
+   "CHEM1212": "year2-fall",
+   "CHEM2261": "year2-fall",
+   "MATH2065": "year2-fall",
+   "CE2450": "year2-fall",
+   "SOCSCI": "year2-fall",
+   "BIOL2051": "year2-spring",
+   "BIOL2083": "year2-spring",
+   "CHEM2262": "year2-spring",
+   "PHYS2113": "year2-spring",
+   "PHYS2109": "year2-spring",
+   "ENGL2000": "year2-spring",
+   "AGEC2003": "year3-fall",
+   "ART": "year3-fall",
+   "BE4303": "year3-fall",
+   "CE2200": "year3-fall",
+   "CE3400": "year3-fall",
+   "CHEM2364": "year3-fall",
+   "BE2350": "year3-spring",
+   "BE3340": "year3-spring",
+   "BE4352": "year3-spring",
+   "EE2950": "year3-spring",
+   "ME3333": "year3-spring",
+   "BE3320": "year4-fall",
+   "BE4390": "year4-fall",
+   "CE2460": "year4-fall",
+   "DES1": "year4-fall",
+   "HUM1": "year4-fall",
+   "BE4392": "year4-spring",
+   "DES2": "year4-spring",
+   "DES3": "year4-spring",
+   "HUM2": "year4-spring",
+   "HUM3": "year4-spring"
+  },
+  "defTP": {
+   "BE1251": 3,
+   "BIOL1208": 3,
+   "ENGL1001": null,
+   "BE1252": 4,
+   "BIOL1202": 4,
+   "MATH1552": 4,
+   "CHEM1202": 4,
+   "BIOL1209": 4,
+   "PHYS2110": 4,
+   "PHYS2108": 4,
+   "BE2352": 6,
+   "CHEM1212": 6,
+   "CHEM2261": 6,
+   "MATH2065": 6,
+   "CE2450": 6,
+   "SOCSCI": null,
+   "BIOL2051": 7,
+   "BIOL2083": 7,
+   "CHEM2262": 7,
+   "PHYS2113": 7,
+   "PHYS2109": 7,
+   "ENGL2000": null,
+   "AGEC2003": null,
+   "ART": null,
+   "BE4303": 9,
+   "CE2200": 9,
+   "CE3400": 9,
+   "CHEM2364": 9,
+   "BE2350": 10,
+   "BE3340": 10,
+   "BE4352": 10,
+   "EE2950": 10,
+   "ME3333": 10,
+   "BE3320": 12,
+   "BE4390": 12,
+   "CE2460": 12,
+   "DES1": null,
+   "HUM1": null,
+   "BE4392": 13,
+   "DES2": null,
+   "DES3": null,
+   "HUM2": null,
+   "HUM3": null
+  },
+  "pairs": [
+   {
+    "a": "BE4390",
+    "b": "BE4392",
+    "gap": 1
+   }
+  ],
+  "apCredits": 5,
+  "desMinCredits": 60,
+  "pmAfterTP": 9,
+  "caps": {
+   "fsMin": 12,
+   "fsMax": 18,
+   "suMax": 6
+  },
+  "weights": {
+   "band": 10000000,
+   "even": 1000,
+   "flat": 20,
+   "pmLate": 2000,
+   "desExtra": 2000,
+   "coSep": 1500,
+   "anchor": 300,
+   "anchorPair": 1500
+  }
+ }
+}
