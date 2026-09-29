@@ -1,0 +1,137 @@
+{
+ "schema": "manifest/1",
+ "defaultYear": "2026-2027",
+ "years": {
+  "2026-2027": {
+   "label": "2026-27",
+   "courses": "data/2026-2027/courses.json",
+   "overlay": "data/2026-2027/overlay.json",
+   "presets": "data/2026-2027/presets.json",
+   "rules": [
+    "data/rules/2026-2027/be-ee.json"
+   ],
+   "programs": [
+    {
+     "id": "BE-BSBE",
+     "kind": "major",
+     "name": "Biological Engineering",
+     "degree": "B.S.B.E.",
+     "totalCredits": 128,
+     "verified": false,
+     "tracks": [
+      {
+       "id": "standard",
+       "name": "Standard",
+       "default": true,
+       "note": "The recommended plan from the 2026-27 flowchart."
+      },
+      {
+       "id": "premed",
+       "name": "Pre-med",
+       "note": "Adds the medical school prerequisites: Orgo II and its lab fill the technical elective and the elective, and the physics labs are added. Courses that medical schools ask for are flagged."
+      }
+     ],
+     "flowchartUrl": "https://www.lsu.edu/eng/docs/Flowcharts/2026-2027/be_flowchart_2026-2027.pdf",
+     "file": "data/2026-2027/programs/BE-BSBE.json"
+    },
+    {
+     "id": "CSC-CCN",
+     "kind": "major",
+     "name": "Computer Science (Cloud Computing & Networking)",
+     "degree": "B.S.",
+     "group": "Computer Science",
+     "variant": "Cloud Computing & Networking",
+     "totalCredits": 120,
+     "verified": false,
+     "flowchartUrl": "https://www.lsu.edu/eng/docs/Flowcharts/2026-2027/csc-ccn_flowchart_2026-2027.pdf",
+     "staleness": "The chart is labelled 2026-2027 but its footer says \"Rev. 1/25/2024\" and it points to the 2023-2024 General Catalog, so it may predate the 2026-27 catalog.",
+     "file": "data/2026-2027/programs/CSC-CCN.json"
+    },
+    {
+     "id": "CSC-CYB",
+     "kind": "major",
+     "name": "Computer Science (Cybersecurity)",
+     "degree": "B.S.",
+     "group": "Computer Science",
+     "variant": "Cybersecurity",
+     "totalCredits": 120,
+     "verified": false,
+     "flowchartUrl": "https://www.lsu.edu/eng/docs/Flowcharts/2026-2027/csc-cyb_flowchart_2026-2027.pdf",
+     "staleness": "The chart is labelled 2026-2027 but its footer says \"Rev. 1/25/2024\" and it points to the 2023-2024 General Catalog, so it may predate the 2026-27 catalog.",
+     "file": "data/2026-2027/programs/CSC-CYB.json"
+    },
+    {
+     "id": "CSC-DSA",
+     "kind": "major",
+     "name": "Computer Science (Data Science & Analytics)",
+     "degree": "B.S.",
+     "group": "Computer Science",
+     "variant": "Data Science & Analytics",
+     "totalCredits": 120,
+     "verified": false,
+     "flowchartUrl": "https://www.lsu.edu/eng/docs/Flowcharts/2026-2027/csc-dsa_flowchart_2026-2027.pdf",
+     "staleness": "The chart is labelled 2026-2027 but its footer says \"Rev. 1/25/2024\" and it points to the 2023-2024 General Catalog, so it may predate the 2026-27 catalog.",
+     "file": "data/2026-2027/programs/CSC-DSA.json"
+    },
+    {
+     "id": "CSC-SD",
+     "kind": "major",
+     "name": "Computer Science (Second Discipline)",
+     "degree": "B.S.",
+     "group": "Computer Science",
+     "variant": "Second Discipline",
+     "totalCredits": 120,
+     "verified": false,
+     "flowchartUrl": "https://www.lsu.edu/eng/docs/Flowcharts/2026-2027/csc-sd_flowchart_2026-2027.pdf",
+     "staleness": "The chart is labelled 2026-2027 but its footer says \"Rev. 1/25/2024\" and it points to the 2023-2024 General Catalog, so it may predate the 2026-27 catalog.",
+     "file": "data/2026-2027/programs/CSC-SD.json"
+    },
+    {
+     "id": "CSC-SEG",
+     "kind": "major",
+     "name": "Computer Science (Software Engineering)",
+     "degree": "B.S.",
+     "group": "Computer Science",
+     "variant": "Software Engineering",
+     "totalCredits": 120,
+     "verified": false,
+     "flowchartUrl": "https://www.lsu.edu/eng/docs/Flowcharts/2026-2027/csc-seg_flowchart_2026-2027.pdf",
+     "staleness": "The chart is labelled 2026-2027 but its footer says \"Rev. 1/25/2024\" and it points to the 2023-2024 General Catalog, so it may predate the 2026-27 catalog.",
+     "file": "data/2026-2027/programs/CSC-SEG.json"
+    },
+    {
+     "id": "EE-BSEE",
+     "kind": "major",
+     "name": "Electrical Engineering",
+     "degree": "B.S.E.E.",
+     "totalCredits": 127,
+     "verified": false,
+     "flowchartUrl": "https://www.lsu.edu/eng/docs/Flowcharts/2026-2027/ee_flowchart_2026-2027.pdf",
+     "file": "data/2026-2027/programs/EE-BSEE.json"
+    },
+    {
+     "id": "ROBO-MIN",
+     "kind": "minor",
+     "name": "Robotics Engineering Minor",
+     "group": "Minors",
+     "totalCredits": 21,
+     "verified": false,
+     "file": "data/2026-2027/programs/ROBO-MIN.json"
+    }
+   ],
+   "defaultPrograms": [
+    "EE-BSEE",
+    "BE-BSBE"
+   ],
+   "stats": {
+    "courses": 107,
+    "verified": 1,
+    "legacy": 74,
+    "flowchartOnly": 32,
+    "catalog": 0,
+    "workday": 1
+   },
+   "rulesAsOf": "2026-09-28"
+  }
+ }
+}

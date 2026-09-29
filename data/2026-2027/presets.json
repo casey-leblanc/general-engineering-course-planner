@@ -1,0 +1,356 @@
+{
+ "schema": "presets/1",
+ "catalogYear": "2026-2027",
+ "presets": {
+  "EE-BSEE+BE-BSBE": {
+   "programs": [
+    "EE-BSEE",
+    "BE-BSBE"
+   ],
+   "tracks": {},
+   "terms": [
+    "completed",
+    "year1-fall",
+    "year1-spring",
+    "year2-fall",
+    "year2-spring",
+    "year3-fall",
+    "year3-spring",
+    "year4-fall",
+    "year4-spring",
+    "year5-fall",
+    "year5-spring",
+    "year6-fall"
+   ],
+   "placed": {
+    "AGEC2003": "year1-fall",
+    "BE-BSBE/tech-elective": "year5-spring",
+    "BE1251": "year2-fall",
+    "BE1252": "year1-spring",
+    "BE2350": "year3-spring",
+    "BE2352": "year3-fall",
+    "BE3320": "year5-fall",
+    "BE3340": "year4-spring",
+    "BE4303": "year4-fall",
+    "BE4352": "year4-spring",
+    "BIOL1201": "year1-spring",
+    "BIOL1202": "year2-fall",
+    "BIOL1208": "year1-spring",
+    "BIOL1209": "year2-fall",
+    "BIOL2051": "year3-fall",
+    "BIOL2083": "year5-spring",
+    "CE2200": "year4-spring",
+    "CE2450": "year3-fall",
+    "CE2460": "year6-fall",
+    "CE3400": "year4-fall",
+    "CHEM1201": "year1-fall",
+    "CHEM1202": "year2-spring",
+    "CHEM1212": "year3-spring",
+    "CHEM2261": "year3-fall",
+    "CSC1253": "year2-spring",
+    "EE-BSEE/breadth/1": "year4-fall",
+    "EE-BSEE/breadth/2": "year4-fall",
+    "EE-BSEE/breadth/3": "year5-fall",
+    "EE-BSEE/breadth/4": "year5-fall",
+    "EE-BSEE/breadth/5": "year3-spring",
+    "EE-BSEE/breadth/6": "year6-fall",
+    "EE-BSEE/ee-design/1": "year4-fall",
+    "EE-BSEE/ee-design/2": "year3-fall",
+    "EE-BSEE/ee-design/3": "year6-fall",
+    "EE-BSEE/ee-tech/1": "year5-spring",
+    "EE-BSEE/ee-tech/2": "year6-fall",
+    "EE-BSEE/ee-tech/3": "year5-spring",
+    "EE-BSEE/gen-ed/art": "year5-fall",
+    "EE-BSEE/gen-ed/humanities/1": "year5-spring",
+    "EE-BSEE/gen-ed/humanities/2": "year1-fall",
+    "EE-BSEE/gen-ed/socsci": "year2-spring",
+    "EE-BSEE/gen-ed/socsci-2000": "year6-fall",
+    "EE1820": "year2-fall",
+    "EE2120": "year2-fall",
+    "EE2130": "year3-spring",
+    "EE2230": "year3-spring",
+    "EE2231": "year3-spring",
+    "EE2741": "year2-spring",
+    "EE2742": "year3-fall",
+    "EE2820": "year3-spring",
+    "EE3150": "year5-fall",
+    "EE3320": "year4-spring",
+    "EE3610": "year4-fall",
+    "EE4810": "year5-fall",
+    "EE4820": "year5-spring",
+    "ENGL1001": "year1-fall",
+    "ENGL2000": "year6-fall",
+    "MATH1550": "year1-fall",
+    "MATH1552": "year1-spring",
+    "MATH2057": "year2-spring",
+    "MATH2065": "year2-spring",
+    "MATH2070": "year2-fall",
+    "ME3333": "year4-spring",
+    "PHIL2020": "year4-spring",
+    "PHYS2108": "year1-spring",
+    "PHYS2110": "year1-spring",
+    "PHYS2113": "year2-fall"
+   },
+   "assign": {},
+   "credits": 193,
+   "dropped": [
+    {
+     "id": "BE-BSBE/design-electives/1",
+     "by": "EE-BSEE/ee-design/1",
+     "via": [
+      "be-design-electives-ee-4000-design"
+     ]
+    },
+    {
+     "id": "BE-BSBE/design-electives/2",
+     "by": "EE-BSEE/ee-design/2",
+     "via": [
+      "be-design-electives-ee-4000-design"
+     ]
+    },
+    {
+     "id": "BE-BSBE/design-electives/3",
+     "by": "EE-BSEE/ee-design/3",
+     "via": [
+      "be-design-electives-ee-4000-design"
+     ]
+    },
+    {
+     "id": "BE-BSBE/gen-ed/art",
+     "by": "EE-BSEE/gen-ed/art",
+     "via": []
+    },
+    {
+     "id": "BE-BSBE/gen-ed/humanity/1",
+     "by": "EE-BSEE/gen-ed/humanities/1",
+     "via": []
+    },
+    {
+     "id": "BE-BSBE/gen-ed/humanity/2",
+     "by": "EE-BSEE/gen-ed/humanities/2",
+     "via": []
+    },
+    {
+     "id": "BE-BSBE/gen-ed/humanity/3",
+     "by": "PHIL2020",
+     "via": [
+      "be-gened-ilc-from-other-major"
+     ]
+    },
+    {
+     "id": "BE-BSBE/gen-ed/socsci",
+     "by": "EE-BSEE/gen-ed/socsci",
+     "via": []
+    },
+    {
+     "id": "BE-BSBE/general-elective",
+     "by": "EE-BSEE/breadth/1",
+     "via": [
+      "be-general-elective-any-course"
+     ]
+    },
+    {
+     "id": "BE4390",
+     "by": "EE4810",
+     "via": [
+      "be-senior-design-1-any-major"
+     ]
+    },
+    {
+     "id": "BE4392",
+     "by": "EE4820",
+     "via": [
+      "be-senior-design-2-any-major"
+     ]
+    },
+    {
+     "id": "EE-BSEE/gen-ed/life-science",
+     "by": "BIOL1201",
+     "via": []
+    },
+    {
+     "id": "EE2950",
+     "by": "EE2120",
+     "via": [
+      "be-ee2950-via-ee2120"
+     ]
+    }
+   ]
+  },
+  "BE-BSBE+EE-BSEE": {
+   "programs": [
+    "BE-BSBE",
+    "EE-BSEE"
+   ],
+   "tracks": {},
+   "terms": [
+    "completed",
+    "year1-fall",
+    "year1-spring",
+    "year2-fall",
+    "year2-spring",
+    "year3-fall",
+    "year3-spring",
+    "year4-fall",
+    "year4-spring",
+    "year5-fall",
+    "year5-spring",
+    "year6-fall"
+   ],
+   "placed": {
+    "AGEC2003": "year1-fall",
+    "BE-BSBE/gen-ed/art": "year5-fall",
+    "BE-BSBE/gen-ed/humanity/1": "year1-fall",
+    "BE-BSBE/gen-ed/humanity/2": "year2-spring",
+    "BE-BSBE/gen-ed/socsci": "year5-spring",
+    "BE-BSBE/tech-elective": "year5-spring",
+    "BE1251": "year3-fall",
+    "BE1252": "year1-spring",
+    "BE2350": "year3-spring",
+    "BE2352": "year3-fall",
+    "BE3320": "year6-fall",
+    "BE3340": "year5-spring",
+    "BE4303": "year5-fall",
+    "BE4352": "year4-spring",
+    "BIOL1201": "year1-spring",
+    "BIOL1202": "year2-spring",
+    "BIOL1208": "year1-spring",
+    "BIOL1209": "year2-spring",
+    "BIOL2051": "year3-fall",
+    "BIOL2083": "year4-fall",
+    "CE2200": "year4-spring",
+    "CE2450": "year2-spring",
+    "CE2460": "year6-fall",
+    "CE3400": "year5-fall",
+    "CHEM1201": "year1-fall",
+    "CHEM1202": "year2-fall",
+    "CHEM1212": "year2-fall",
+    "CHEM2261": "year3-spring",
+    "CSC1253": "year2-spring",
+    "EE-BSEE/breadth/1": "year4-fall",
+    "EE-BSEE/breadth/2": "year3-spring",
+    "EE-BSEE/breadth/3": "year4-fall",
+    "EE-BSEE/breadth/4": "year4-spring",
+    "EE-BSEE/breadth/5": "year4-spring",
+    "EE-BSEE/breadth/6": "year3-spring",
+    "EE-BSEE/ee-design/1": "year4-fall",
+    "EE-BSEE/ee-design/2": "year4-spring",
+    "EE-BSEE/ee-design/3": "year6-fall",
+    "EE-BSEE/ee-tech/1": "year5-fall",
+    "EE-BSEE/ee-tech/2": "year5-spring",
+    "EE-BSEE/ee-tech/3": "year6-fall",
+    "EE-BSEE/gen-ed/socsci-2000": "year6-fall",
+    "EE1820": "year2-fall",
+    "EE2120": "year2-fall",
+    "EE2130": "year2-spring",
+    "EE2230": "year3-fall",
+    "EE2231": "year3-fall",
+    "EE2741": "year1-spring",
+    "EE2742": "year3-fall",
+    "EE2820": "year3-fall",
+    "EE3150": "year5-fall",
+    "EE3320": "year4-fall",
+    "EE3610": "year4-fall",
+    "EE4810": "year5-fall",
+    "EE4820": "year5-spring",
+    "ENGL1001": "year1-fall",
+    "ENGL2000": "year6-fall",
+    "MATH1550": "year1-fall",
+    "MATH1552": "year1-spring",
+    "MATH2057": "year3-spring",
+    "MATH2065": "year3-spring",
+    "MATH2070": "year2-fall",
+    "ME3333": "year4-spring",
+    "PHIL2020": "year5-spring",
+    "PHYS2108": "year1-spring",
+    "PHYS2110": "year1-spring",
+    "PHYS2113": "year2-fall"
+   },
+   "assign": {},
+   "credits": 193,
+   "dropped": [
+    {
+     "id": "BE-BSBE/design-electives/1",
+     "by": "EE-BSEE/ee-design/1",
+     "via": [
+      "be-design-electives-ee-4000-design"
+     ]
+    },
+    {
+     "id": "BE-BSBE/design-electives/2",
+     "by": "EE-BSEE/ee-design/2",
+     "via": [
+      "be-design-electives-ee-4000-design"
+     ]
+    },
+    {
+     "id": "BE-BSBE/design-electives/3",
+     "by": "EE-BSEE/ee-design/3",
+     "via": [
+      "be-design-electives-ee-4000-design"
+     ]
+    },
+    {
+     "id": "BE-BSBE/gen-ed/humanity/3",
+     "by": "PHIL2020",
+     "via": [
+      "be-gened-ilc-from-other-major"
+     ]
+    },
+    {
+     "id": "BE-BSBE/general-elective",
+     "by": "EE-BSEE/breadth/1",
+     "via": [
+      "be-general-elective-any-course"
+     ]
+    },
+    {
+     "id": "BE4390",
+     "by": "EE4810",
+     "via": [
+      "be-senior-design-1-any-major"
+     ]
+    },
+    {
+     "id": "BE4392",
+     "by": "EE4820",
+     "via": [
+      "be-senior-design-2-any-major"
+     ]
+    },
+    {
+     "id": "EE-BSEE/gen-ed/art",
+     "by": "BE-BSBE/gen-ed/art",
+     "via": []
+    },
+    {
+     "id": "EE-BSEE/gen-ed/humanities/1",
+     "by": "BE-BSBE/gen-ed/humanity/1",
+     "via": []
+    },
+    {
+     "id": "EE-BSEE/gen-ed/humanities/2",
+     "by": "BE-BSBE/gen-ed/humanity/2",
+     "via": []
+    },
+    {
+     "id": "EE-BSEE/gen-ed/life-science",
+     "by": "BIOL1201",
+     "via": []
+    },
+    {
+     "id": "EE-BSEE/gen-ed/socsci",
+     "by": "BE-BSBE/gen-ed/socsci",
+     "via": []
+    },
+    {
+     "id": "EE2950",
+     "by": "EE2120",
+     "via": [
+      "be-ee2950-via-ee2120"
+     ]
+    }
+   ]
+  }
+ }
+}
