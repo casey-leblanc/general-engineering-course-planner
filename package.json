@@ -1,0 +1,20 @@
+{
+  "name": "general-engineering-course-planner",
+  "private": true,
+  "description": "Static LSU degree planner (no build step). package.json exists only for dev tooling and tests; the deployed site does not use it.",
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.js\" \"tests/**/*.test.mjs\"",
+    "golden:update": "node tests/tools/generate-golden.js",
+    "convert:legacy": "node tools/convert-legacy.js",
+    "build:data": "node tools/flowcharts/build.mjs && node tools/programs/derive.mjs && node tools/data/build-2026-2027.mjs && node tools/data/build-manifest.mjs",
+    "compare:flowcharts": "node tools/flowcharts/compare-legacy.mjs",
+    "verify:legacy": "node tools/verify.js",
+    "build:presets": "node tools/plans/build-presets.mjs && node tools/data/build-manifest.mjs",
+    "serve": "node tools/serve.mjs",
+    "sheet": "node tools/plans/advisor-sheet.mjs",
+    "flowchart": "node tools/plans/flowchart.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

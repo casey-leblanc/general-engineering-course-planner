@@ -1,0 +1,23 @@
+name: tests
+
+# Runs the whole suite on every push and pull request: engine and data checks, the frozen legacy-link readers, the recorded
+# behaviour of the two retired planners, the pre-computed plans, and the page's rendering. A deliberately broken prerequisite, a
+# rule that points at a missing requirement, a stale pre-computed plan or a program that no longer validates fails here.
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Tests
+        run: npm test
+      - name: Generated data is up to date
+        run: |
+          npm run build:data
+          git diff --exit-code -- data/ || (echo "Generated data differs from what is committed. Run npm run build:data and commit the result." && exit 1)

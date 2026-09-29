@@ -1,0 +1,12 @@
+# Claude Code context files (local only, never committed)
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+.claude-context/
+
+# Node tooling
+node_modules/
+
+# Raw catalog pages fetched by tools/crawl (local cache; derived facts live in data/)
+.catalog-cache/
+
