@@ -1,194 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LSU Engineering Course Planner — Electrical &amp; Double Major</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moved to the LSU Course Planner</title>
+<meta name="robots" content="noindex">
+<style>
+  html,body{height:100%;margin:0;}
+  body{font-family:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;background:#f3f2f7;color:#1c1a26;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;}
+  .card{max-width:460px;}
+  h1{font-family:'Space Grotesk','Segoe UI',system-ui,sans-serif;font-weight:600;font-size:19px;margin:0 0 8px;}
+  p{color:#55506a;font-size:14px;line-height:1.5;margin:0 0 16px;}
+  a{display:inline-block;background:#461D7C;color:#fff;text-decoration:none;font-weight:600;font-size:14px;padding:10px 18px;border-radius:9px;}
+</style>
+<script>
+// The EE / double-major tab is now part of the one planner. Every old link keeps working: the query string
+// (?plan=… from this page) is passed through unchanged and index.html reads it.
+(function () {
+  try { window.location.replace('index.html' + (window.location.search || '') + (window.location.hash || '')); } catch (e) { /* the link below still works */ }
+})();
+</script>
 </head>
 <body>
-
-<header class="topbar">
-  <div class="brand">
-    <span class="mark">LSU Engineering Course Planner</span>
+  <div class="card">
+    <h1>This page has moved</h1>
+    <p>Electrical Engineering, Biological Engineering and double majors are all in the main course planner now. You should be redirected automatically, and your saved plan or shared link is carried over.</p>
+    <p><a id="go" href="index.html">Open the planner →</a></p>
   </div>
-
-  <!-- Primary Navigation Tabs between Versions -->
-  <nav class="app-nav-tabs" aria-label="Planner versions">
-    <a class="nav-tab" href="index.html" title="Biological Engineering planner with automated MILP solver">Biological Engineering <span class="tab-badge">With Solver</span></a>
-    <a class="nav-tab active" href="ee.html" title="Electrical Engineering and Double Major planner referencing LSU Course Catalog">EE &amp; Double Major <span class="tab-badge alt">Catalog + Dual Degree</span></a>
-  </nav>
-
-  <div class="prog" title="Gold = completed credits. Faint = credits in your plan.">
-    <div class="track">
-      <div class="plan" id="prog-plan"></div>
-      <div class="done" id="prog-done"></div>
-    </div>
-    <span class="lbl"><b id="prog-num">0</b> / <span id="prog-target">127</span> credits completed</span>
-  </div>
-
-  <div class="spacer"></div>
-
-  <div class="acts">
-    <span class="chip" id="saved-chip"><span class="d"></span><span id="saved-indicator">Saved</span></span>
-    <button class="btn" id="btn-share" title="Copy a link that reopens this exact plan">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>Copy link
-    </button>
-    <button class="btn" id="btn-print" title="Print or Save as PDF">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>Print / PDF
-    </button>
-    <button class="btn" id="btn-reset" title="Reset plan">Reset</button>
-  </div>
-</header>
-
-<div class="page">
-  <div class="intro">
-    <div>
-      <h1>Plan Your LSU Engineering Degree</h1>
-      <p>Interactive course planner supporting <strong>Electrical Engineering (EE)</strong>, <strong>Biological Engineering (BE)</strong>, and <strong>BE + EE Double Majoring</strong>. Reference courses from the official LSU Course Catalog and track prerequisites across semesters.</p>
-      <div class="intro-links">
-        <button class="htoggle cat-launch-btn" id="btn-open-catalog">
-          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>Browse LSU Course Catalog
-        </button>
-        <button class="htoggle" id="btn-preset-plan">Load Recommended Plan ▾</button>
-        <a class="htoggle doclink" href="https://catalog.lsu.edu" target="_blank" rel="noopener">LSU General Catalog ↗</a>
-        <a class="htoggle doclink" href="https://www.lsu.edu/eng/current/resources/flowcharts.php" target="_blank" rel="noopener">LSU Flowcharts ↗</a>
-      </div>
-    </div>
-
-    <!-- Major & Double Major Configuration Card -->
-    <div class="major-config-card">
-      <div class="major-config-row">
-        <label for="primary-major-select" class="major-lbl">Primary Major</label>
-        <select id="primary-major-select" class="major-select">
-          <option value="EE">Electrical Engineering (B.S.E.E.)</option>
-          <option value="BE">Biological Engineering (B.S.B.E.)</option>
-          <option value="EEC" disabled>Computer Engineering (Coming Soon)</option>
-          <option value="ME" disabled>Mechanical Engineering (Coming Soon)</option>
-        </select>
-      </div>
-
-      <div class="double-major-toggle-row">
-        <label class="dm-chk-label">
-          <input type="checkbox" id="double-major-toggle" checked>
-          <span class="dm-chk-custom"></span>
-          <span>Double Major</span>
-        </label>
-        <div id="sec-major-wrap" class="sec-major-wrap">
-          <span class="dm-plus">+</span>
-          <select id="secondary-major-select" class="major-select">
-            <option value="BE">Biological Engineering (B.S.B.E.)</option>
-            <option value="EE">Electrical Engineering (B.S.E.E.)</option>
-            <option value="MATH_MINOR" disabled>Mathematics (Coming Soon)</option>
-          </select>
-        </div>
-      </div>
-
-      <!-- Minor Selection -->
-      <div class="minor-config-row">
-        <label for="minor-select" class="major-lbl">Minor</label>
-        <select id="minor-select" class="major-select">
-          <option value="none">None</option>
-          <option value="ROBOTICS">Robotics Engineering Minor (21 cr)</option>
-          <option value="CS_MINOR" disabled>Computer Science Minor (Coming Soon)</option>
-        </select>
-      </div>
-
-      <!-- Dual Requirement Progress Breakdown -->
-      <div class="dual-prog-wrap" id="dual-prog-wrap">
-        <div class="dual-meter">
-          <div class="meter-head">
-            <span class="meter-name"><span class="t-major-badge be mini">BE</span> Bio Engineering:</span>
-            <b class="meter-val" id="be-prog-txt">0 / 128 cr</b>
-          </div>
-          <div class="meter-bar-track"><div class="meter-bar-fill be" id="be-prog-bar"></div></div>
-        </div>
-        <div class="dual-meter">
-          <div class="meter-head">
-            <span class="meter-name"><span class="t-major-badge ee mini">EE</span> Electrical Eng:</span>
-            <b class="meter-val" id="ee-prog-txt">0 / 127 cr</b>
-          </div>
-          <div class="meter-bar-track"><div class="meter-bar-fill ee" id="ee-prog-bar"></div></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="phead">
-    <span class="t">Your Semester Plan</span>
-    <span class="phead-sub">Drag courses between terms. Requirements and prerequisite chains update live.</span>
-    <span class="spacer" style="flex:1"></span>
-    <button class="addterm autobtn" id="btn-auto" title="Optimally arrange uncompleted courses across your active semesters">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3v4M3 5h4M6 17v4M4 19h4"/><path d="M13 3l2.4 6.6L22 12l-6.6 2.4L13 21l-2.4-6.6L4 12l6.6-2.4z"/></svg>
-      <span class="lbl"><span class="li">Auto-arrange</span><span class="lb">Arranging…</span></span>
-    </button>
-    <button class="addterm" id="btn-addterm" title="Add a semester to your plan">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>Add semester
-    </button>
-    <div style="display:inline-flex;gap:5px;margin-left:5px">
-      <button class="chev" id="sc-left" title="Scroll left" aria-label="Scroll left"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 18l-6-6 6-6"/></svg></button>
-      <button class="chev" id="sc-right" title="Scroll right" aria-label="Scroll right"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 18l6-6-6-6"/></svg></button>
-    </div>
-  </div>
-
-  <div class="ledger" id="ledger"></div>
-
-  <!-- Degree Audit & Requirements Checklist Section -->
-  <section class="audit-section" id="degree-audit-section">
-    <div class="audit-header" id="audit-toggle-header">
-      <div class="audit-title-group">
-        <span class="audit-badge-status" id="audit-overall-pill">Checking requirements...</span>
-        <h2>Degree Audit &amp; Requirements Checklist</h2>
-      </div>
-      <div class="audit-summary-text" id="audit-summary-count"></div>
-      <button class="audit-collapse-btn" id="audit-collapse-toggle" aria-label="Toggle degree audit section">
-        <svg class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg>
-      </button>
-    </div>
-    <div class="audit-body" id="audit-body">
-      <!-- Dynamically filled with audit cards for each major & minor -->
-    </div>
-  </section>
-
-  <div class="foot">
-    <section class="issues" id="issues">
-      <div class="ih" id="ih">
-        <span class="p clear" id="ipill">All clear</span>
-        <span class="tt">Things to review</span>
-        <span class="c2"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg></span>
-      </div>
-      <div class="ib" id="ib"></div>
-    </section>
-
-    <aside class="legend">
-      <h4>Major &amp; Minor Badges</h4>
-      <div class="lg"><span class="t-major-badge both">BE + EE</span> Shared requirement satisfying both degrees (e.g. Calculus, Physics, Chemistry).</div>
-      <div class="lg"><span class="t-major-badge ee">EE</span> Electrical Engineering degree specific course.</div>
-      <div class="lg"><span class="t-major-badge be">BE</span> Biological Engineering degree specific course.</div>
-      <div class="lg"><span class="t-major-badge robo">Robo</span> Robotics Engineering Minor course.</div>
-
-      <h4 style="margin-top:14px">Difficulty &amp; Status</h4>
-      <div class="lg"><span class="t-dbadge avg">difficult</span> Aim for ≤ 2 per semester</div>
-      <div class="lg"><span class="t-dbadge most">very difficult</span> Aim for ≤ 1 per semester</div>
-      <div class="lg"><span class="sq" style="border-color:var(--bad-edge);background:var(--bad-tint)"></span> Prerequisite or offering rule broken.</div>
-      <div class="lg"><span class="t-done locked"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Completed course counting toward degree.</div>
-    </aside>
-  </div>
-
-  <p class="credit-line">Louisiana State University College of Engineering Course Planner · Division of Electrical &amp; Computer Engineering and Department of Biological &amp; Agricultural Engineering.</p>
-</div>
-
-<div id="pop-host"></div>
-<div class="toasts" id="toasts"></div>
-
-<!-- Scripts (Planner Optimizer, Data, and App) -->
-<script src="planner.js"></script>
-<script src="fflate.min.js"></script>
-<script src="majors-data.js"></script>
-<script src="ee-app.js"></script>
+  <script>
+    (function () { try { document.getElementById('go').href = 'index.html' + (window.location.search || ''); } catch (e) { /* keep the plain link */ } })();
+  </script>
 </body>
 </html>
-

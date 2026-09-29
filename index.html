@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LSU BE Course Planner</title>
+<title>LSU Course Planner</title>
+<meta name="description" content="Plan your LSU degree: drag courses into semesters, check prerequisites, and see how every requirement of your majors and minors is met, including advisor rules for double majors.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -12,59 +13,91 @@
 <body>
 
 <header class="topbar">
-  <div class="brand"><span class="mark">LSU BE Course Planner</span></div>
+  <div class="brand"><span class="mark">LSU Course Planner</span></div>
 
-  <!-- Primary Navigation Tabs between Versions -->
-  <nav class="app-nav-tabs" aria-label="Planner versions">
-    <a class="nav-tab active" href="index.html" title="Biological Engineering planner with automated MILP solver">Biological Engineering <span class="tab-badge">With Solver</span></a>
-    <a class="nav-tab" href="ee.html" title="Electrical Engineering and Double Major planner referencing LSU Course Catalog">EE &amp; Double Major <span class="tab-badge alt">Catalog + Dual Degree</span></a>
-  </nav>
-
-  <div class="prog" title="Gold = credits you’ve completed (AP / transfer counts automatically). Faint = credits in your plan.">
+  <div class="prog" title="Gold = credits you have completed (AP / transfer counts automatically). Faint = credits in your plan.">
     <div class="track"><div class="plan" id="prog-plan"></div><div class="done" id="prog-done"></div></div>
-    <span class="lbl"><b id="prog-num">0</b> / <span id="prog-target">128</span> credits completed</span>
+    <span class="lbl"><b id="prog-num">0</b> / <span id="prog-target">0</span> credits completed</span>
   </div>
+
   <div class="spacer"></div>
+
   <div class="acts">
+    <span class="chip" id="saved-chip"><span class="d"></span><span id="saved-indicator">Saved</span></span>
     <button class="btn" id="btn-share" title="Copy a link that reopens this exact plan">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>Copy link</button>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>Copy link
+    </button>
     <button class="btn" id="btn-print" title="Print or Save as PDF">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>Print / PDF</button>
-    <input type="file" id="file-load" accept=".json,.xml" style="display:none">
-    <button class="btn" id="btn-reset">Reset</button>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>Print / PDF
+    </button>
+    <button class="btn" id="btn-more" title="Backup, and about the data" aria-haspopup="menu">More</button>
+    <input type="file" id="file-load" accept=".json,.xml" hidden>
+    <button class="btn" id="btn-reset" title="Reset to the recommended plan">Reset</button>
   </div>
 </header>
 
 <div class="page">
   <div class="intro">
     <div>
-      <h1>Plan your Biological Engineering degree</h1>
-      <p>Drag courses into the semester you’ll take them. The planner checks prerequisites, corequisites, and credit loads as you go.</p>
-      <button class="htoggle" id="tour-btn">Take a tour</button>
-      <a class="htoggle doclink" href="documentation.html">Full documentation →</a>
-    </div>
-    <div class="trackbox">
-      <span class="trackcap">Curriculum track</span>
-      <div class="trackswitch" role="group" aria-label="Curriculum track">
-        <button class="tsw" id="tsw-standard" data-track="standard" type="button">Standard</button>
-        <button class="tsw" id="tsw-premed" data-track="premed" type="button">Pre-med</button>
+      <h1>Plan your LSU degree</h1>
+      <p>Drag courses into the semester you will take them. The planner checks prerequisites, corequisites and credit loads, and tracks every requirement of your majors and minors, including what your advisors have said counts for what.</p>
+      <div class="intro-links">
+        <button class="htoggle cat-launch-btn" id="btn-open-catalog">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>Browse courses
+        </button>
+        <button class="htoggle" id="btn-preset-plan">Load a plan ▾</button>
+        <button class="htoggle" id="tour-btn" type="button">Take a tour</button>
+        <a class="htoggle doclink" href="documentation.html">Documentation →</a>
+        <a class="htoggle doclink" href="https://catalog.lsu.edu" target="_blank" rel="noopener">LSU General Catalog ↗</a>
+        <a class="htoggle doclink" href="https://www.lsu.edu/eng/current/resources/flowcharts.php" target="_blank" rel="noopener">Flowcharts ↗</a>
       </div>
-      <span class="tracknote" id="track-note"></span>
     </div>
+    <div class="major-config-card" id="programs-card" aria-label="Programs"></div>
   </div>
 
+  <div id="notice"></div>
+
   <div class="phead">
-    <span class="t">Your plan</span>
+    <span class="t">Your semester plan</span>
+    <span class="phead-sub">Drag courses between terms. Requirements and prerequisite chains update live.</span>
     <span class="spacer" style="flex:1"></span>
-    <button class="addterm autobtn" id="btn-auto" title="Optimally arrange every not-yet-completed course across your current semesters"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3v4M3 5h4M6 17v4M4 19h4"/><path d="M13 3l2.4 6.6L22 12l-6.6 2.4L13 21l-2.4-6.6L4 12l6.6-2.4z"/></svg><span class="lbl"><span class="li">Auto-arrange</span><span class="lb">Arranging…</span></span></button>
-    <button class="addterm" id="btn-addterm" title="Add a semester to your plan"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>Add semester</button>
+    <button class="addterm autobtn" id="btn-auto" title="Optimally arrange every not-yet-completed course across your semesters">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3v4M3 5h4M6 17v4M4 19h4"/><path d="M13 3l2.4 6.6L22 12l-6.6 2.4L13 21l-2.4-6.6L4 12l6.6-2.4z"/></svg>
+      <span class="lbl"><span class="li">Auto-arrange</span><span class="lb">Arranging…</span></span>
+    </button>
+    <button class="addterm" id="btn-addterm" title="Add a semester to your plan">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>Add semester
+    </button>
     <div style="display:inline-flex;gap:5px;margin-left:5px">
       <button class="chev" id="sc-left" title="Scroll left" aria-label="Scroll left"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M15 18l-6-6 6-6"/></svg></button>
       <button class="chev" id="sc-right" title="Scroll right" aria-label="Scroll right"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 18l6-6-6-6"/></svg></button>
     </div>
   </div>
 
-  <div class="ledger" id="ledger"></div>
+  <div class="ledger" id="ledger" aria-live="polite"><div class="pad faint">Loading…</div></div>
+
+  <section class="audit-section" id="degree-audit-section">
+    <div class="audit-header" id="audit-toggle-header">
+      <div class="audit-title-group">
+        <span class="audit-badge-status" id="audit-overall-pill">Checking requirements…</span>
+        <h2>Degree audit &amp; requirements checklist</h2>
+      </div>
+      <div class="audit-summary-text" id="audit-summary-count"></div>
+      <button class="audit-collapse-btn" id="audit-collapse-toggle" aria-label="Toggle degree audit section">
+        <svg class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg>
+      </button>
+    </div>
+    <div class="audit-body" id="audit-body"></div>
+  </section>
+
+  <section class="audit-section collapsed" id="rules-section">
+    <div class="audit-header" id="rules-toggle-header">
+      <div class="audit-title-group"><h2>Advisor and custom rules</h2></div>
+      <div class="audit-summary-text">What advisors and departments have said counts, plus your own</div>
+      <button class="audit-collapse-btn" aria-label="Toggle rules section"><svg class="caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg></button>
+    </div>
+    <div class="audit-body" id="rules-body"></div>
+  </section>
 
   <div class="foot">
     <section class="issues" id="issues">
@@ -75,18 +108,21 @@
       </div>
       <div class="ib" id="ib"></div>
     </section>
+
     <aside class="legend">
-      <h4>Difficulty</h4>
+      <h4>Programs</h4>
+      <div class="lg"><span class="t-prog-badge" style="--pc:#5b21b6">EE</span> Each program has its own colour. A tile shows a badge for every program it counts toward.</div>
+      <div class="lg"><span class="t-prog-badge ruled" style="--pc:#15803d">BE<i>§</i></span> Counts through an advisor rule, a shared placeholder, or your own choice. Click it to see why.</div>
+      <h4 style="margin-top:14px">Difficulty &amp; status</h4>
       <div class="lg"><span class="t-dbadge avg">difficult</span> Aim for ≤ 2 per semester</div>
       <div class="lg"><span class="t-dbadge most">very difficult</span> Aim for ≤ 1 per semester</div>
-      <div class="note">Each semester header tallies these (e.g., <span class="tcount avg">2</span> difficult, <span class="tcount most">1</span> very difficult).</div>
-      <h4 style="margin-top:14px">Status</h4>
-      <div class="lg"><span class="sq" style="border-color:var(--bad-edge);background:var(--bad-tint)"></span> A requirement is broken. Open “view details.”</div>
-      <div class="lg"><span class="t-done locked"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Checked = completed, counts toward the progress bar.</div>
+      <div class="lg"><span class="sq" style="border-color:var(--bad-edge);background:var(--bad-tint)"></span> A prerequisite or offering rule is broken.</div>
+      <div class="lg"><span class="t-done locked"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 13l4 4L19 7"/></svg></span> Completed. Counts toward your progress.</div>
       <div class="lg"><span class="t-premed">Pre-med</span> On the pre-med track, a medical school prerequisite.</div>
     </aside>
   </div>
-  <p class="credit-line">Developed by <a href="https://www.lsu.edu/eng/bae/people/faculty/bruno-rego.php" target="_blank" rel="noopener">Dr. Bruno Rego</a>.</p>
+
+  <p class="credit-line"><span id="stamp"></span> · Louisiana State University. An unofficial advising aid: the LSU General Catalog and your advisor are the authority. Originally built for the College of Engineering by <a href="https://www.lsu.edu/eng/bae/people/faculty/bruno-rego.php" target="_blank" rel="noopener">Dr. Bruno Rego</a>.</p>
 </div>
 
 <div id="pop-host"></div>
@@ -94,7 +130,7 @@
 
 <script src="planner.js"></script>
 <script src="fflate.min.js"></script>
-<script src="app.js"></script>
-<script src="tour.js"></script>
+<script type="module" src="src/ui/main.js"></script>
+<script src="tour.js" defer></script>
 </body>
 </html>
