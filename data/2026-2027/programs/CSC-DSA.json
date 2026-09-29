@@ -1,0 +1,490 @@
+{
+ "id": "CSC-DSA",
+ "kind": "major",
+ "name": "Computer Science (Data Science & Analytics)",
+ "degree": "B.S.",
+ "catalogYear": "2026-2027",
+ "totalCredits": 120,
+ "college": "Engineering",
+ "requirements": {
+  "id": "CSC-DSA/root",
+  "type": "all",
+  "label": "Computer Science (Data Science & Analytics)",
+  "items": [
+   {
+    "id": "CSC-DSA/core",
+    "type": "all",
+    "label": "Core courses",
+    "items": [
+     {
+      "id": "CSC-DSA/core/CSC1350",
+      "type": "course",
+      "course": "CSC1350",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-DSA/core/MATH1550",
+      "type": "course",
+      "course": "MATH1550",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-DSA/core/ENGL1001",
+      "type": "course",
+      "course": "ENGL1001",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-DSA/core/CSC1351",
+      "type": "course",
+      "course": "CSC1351",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-DSA/core/MATH1552",
+      "type": "course",
+      "course": "MATH1552",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-DSA/core/CSC3102",
+      "type": "course",
+      "course": "CSC3102",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-DSA/core/CSC2259",
+      "type": "course",
+      "course": "CSC2259",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-DSA/core/MATH2090",
+      "type": "course",
+      "course": "MATH2090"
+     },
+     {
+      "id": "CSC-DSA/core/CSC3380",
+      "type": "course",
+      "course": "CSC3380",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-DSA/core/CSC3501",
+      "type": "course",
+      "course": "CSC3501"
+     },
+     {
+      "id": "CSC-DSA/core/CSC2262",
+      "type": "course",
+      "course": "CSC2262"
+     },
+     {
+      "id": "CSC-DSA/core/ENGL2000",
+      "type": "course",
+      "course": "ENGL2000",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-DSA/core/CSC4402",
+      "type": "course",
+      "course": "CSC4402"
+     },
+     {
+      "id": "CSC-DSA/core/IE3302",
+      "type": "course",
+      "course": "IE3302"
+     },
+     {
+      "id": "CSC-DSA/core/CSC4330",
+      "type": "course",
+      "course": "CSC4330",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-DSA/core/CSC4103",
+      "type": "course",
+      "course": "CSC4103"
+     },
+     {
+      "id": "CSC-DSA/core/CSC4101",
+      "type": "course",
+      "course": "CSC4101",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-DSA/core/CSC3200",
+      "type": "course",
+      "course": "CSC3200",
+      "minGrade": "C"
+     }
+    ]
+   },
+   {
+    "id": "CSC-DSA/concentration",
+    "type": "all",
+    "label": "Concentration courses",
+    "items": [
+     {
+      "id": "CSC-DSA/concentration/CSC2730",
+      "type": "course",
+      "course": "CSC2730",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-DSA/concentration/CSC4740",
+      "type": "course",
+      "course": "CSC4740"
+     },
+     {
+      "id": "CSC-DSA/concentration/CSC3730",
+      "type": "course",
+      "course": "CSC3730"
+     },
+     {
+      "id": "CSC-DSA/concentration/CSC4343",
+      "type": "course",
+      "course": "CSC4343"
+     }
+    ]
+   },
+   {
+    "id": "CSC-DSA/bio-seq-1",
+    "type": "slot",
+    "label": "BIOL Sequence I Requirement",
+    "credits": 3
+   },
+   {
+    "id": "CSC-DSA/physical-sci",
+    "type": "slot",
+    "label": "Physical Science",
+    "credits": 3
+   },
+   {
+    "id": "CSC-DSA/sci-lab",
+    "type": "all",
+    "label": "Science Sequence I or II Lab",
+    "items": [
+     {
+      "id": "CSC-DSA/sci-lab/1",
+      "type": "slot",
+      "label": "Science Sequence I or II Lab",
+      "credits": 1,
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-DSA/sci-lab/2",
+      "type": "slot",
+      "label": "Science Sequence I or II Lab",
+      "credits": 1
+     }
+    ]
+   },
+   {
+    "id": "CSC-DSA/sci-seq-2",
+    "type": "slot",
+    "label": "Science Sequence II Requirement",
+    "credits": 3
+   },
+   {
+    "id": "CSC-DSA/csc-4000",
+    "type": "slot",
+    "label": "CSC 4+++ (DSA)",
+    "credits": 3,
+    "from": {
+     "subject": "CSC",
+     "level": {
+      "min": 4000,
+      "max": 4999
+     }
+    }
+   },
+   {
+    "id": "CSC-DSA/tech-elective-a",
+    "type": "slot",
+    "label": "Tech Elective A",
+    "credits": 3,
+    "from": {
+     "attrs": [
+      "stem"
+     ],
+     "level": {
+      "min": 2000
+     }
+    },
+    "hints": [
+     "elective",
+     "upper"
+    ]
+   },
+   {
+    "id": "CSC-DSA/tech-elective-a-or-b",
+    "type": "slot",
+    "label": "Tech Elective A or B",
+    "credits": 3,
+    "from": [
+     {
+      "attrs": [
+       "stem"
+      ],
+      "level": {
+       "min": 2000
+      }
+     },
+     {
+      "attrs": [
+       "avatar-dm"
+      ]
+     }
+    ],
+    "hints": [
+     "elective",
+     "upper"
+    ]
+   },
+   {
+    "id": "CSC-DSA/area-elective",
+    "type": "slot",
+    "label": "Area Elective (DSA)",
+    "credits": 3,
+    "from": {
+     "courses": [
+      "CSC4444",
+      "CSC4501",
+      "CSC4512",
+      "CSC4610",
+      "CSC4762",
+      "ISDS3105",
+      "ISDS4118",
+      "ISDS4141",
+      "MATH4024",
+      "MATH4025"
+     ]
+    }
+   },
+   {
+    "id": "CSC-DSA/csc-2000",
+    "type": "slot",
+    "label": "CSC 2+++",
+    "credits": 3,
+    "from": {
+     "subject": "CSC",
+     "level": {
+      "min": 2000,
+      "max": 2999
+     }
+    }
+   },
+   {
+    "id": "CSC-DSA/approved-elective",
+    "type": "all",
+    "label": "Approved Elective",
+    "items": [
+     {
+      "id": "CSC-DSA/approved-elective/1",
+      "type": "slot",
+      "label": "Approved Elective",
+      "credits": 3
+     },
+     {
+      "id": "CSC-DSA/approved-elective/2",
+      "type": "slot",
+      "label": "Approved Elective",
+      "credits": 3
+     }
+    ]
+   },
+   {
+    "id": "CSC-DSA/gen-ed",
+    "type": "all",
+    "label": "General education",
+    "items": [
+     {
+      "id": "CSC-DSA/gen-ed/hum-eng",
+      "type": "slot",
+      "label": "Gen Ed Hum ENGL or HNRS 2000+",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "gen-ed:hum-eng"
+       ]
+      },
+      "hints": [
+       "gen-ed"
+      ]
+     },
+     {
+      "id": "CSC-DSA/gen-ed/humanity",
+      "type": "slot",
+      "label": "Gen Ed Humanity",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "gen-ed:humanities"
+       ]
+      },
+      "hints": [
+       "gen-ed"
+      ]
+     },
+     {
+      "id": "CSC-DSA/gen-ed/hum-cmst",
+      "type": "slot",
+      "label": "Gen Ed Hum CMST",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "gen-ed:hum-cmst"
+       ]
+      },
+      "hints": [
+       "gen-ed"
+      ]
+     },
+     {
+      "id": "CSC-DSA/gen-ed/socsci",
+      "type": "slot",
+      "label": "Gen Ed Socl Science",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "gen-ed:socsci"
+       ]
+      },
+      "hints": [
+       "gen-ed"
+      ]
+     },
+     {
+      "id": "CSC-DSA/gen-ed/socsci-2000",
+      "type": "slot",
+      "label": "Gen Ed Socl Science 2000+",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "gen-ed:socsci"
+       ],
+       "level": {
+        "min": 2000
+       }
+      },
+      "hints": [
+       "gen-ed"
+      ]
+     },
+     {
+      "id": "CSC-DSA/gen-ed/art",
+      "type": "slot",
+      "label": "Gen Ed Art",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "gen-ed:art"
+       ]
+      },
+      "hints": [
+       "gen-ed"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "recommendedPlan": [
+  [
+   "year1-fall",
+   [
+    "CSC1350",
+    "MATH1550",
+    "ENGL1001",
+    "CSC-DSA/bio-seq-1"
+   ]
+  ],
+  [
+   "year1-spring",
+   [
+    "CSC1351",
+    "MATH1552",
+    "CSC-DSA/gen-ed/hum-eng",
+    "CSC-DSA/physical-sci",
+    "CSC-DSA/sci-lab/1"
+   ]
+  ],
+  [
+   "year2-fall",
+   [
+    "CSC3102",
+    "CSC2259",
+    "MATH2090",
+    "CSC-DSA/gen-ed/humanity",
+    "CSC-DSA/sci-seq-2",
+    "CSC-DSA/sci-lab/2"
+   ]
+  ],
+  [
+   "year2-spring",
+   [
+    "CSC3380",
+    "CSC3501",
+    "CSC2262",
+    "ENGL2000",
+    "CSC-DSA/gen-ed/hum-cmst"
+   ]
+  ],
+  [
+   "year3-fall",
+   [
+    "CSC4402",
+    "CSC-DSA/csc-4000",
+    "CSC2730",
+    "IE3302",
+    "CSC-DSA/tech-elective-a"
+   ]
+  ],
+  [
+   "year3-spring",
+   [
+    "CSC4330",
+    "CSC4103",
+    "CSC4740",
+    "CSC-DSA/tech-elective-a-or-b",
+    "CSC-DSA/gen-ed/socsci"
+   ]
+  ],
+  [
+   "year4-fall",
+   [
+    "CSC-DSA/area-elective",
+    "CSC4101",
+    "CSC3730",
+    "CSC3200",
+    "CSC-DSA/gen-ed/socsci-2000"
+   ]
+  ],
+  [
+   "year4-spring",
+   [
+    "CSC4343",
+    "CSC-DSA/csc-2000",
+    "CSC-DSA/approved-elective/1",
+    "CSC-DSA/approved-elective/2",
+    "CSC-DSA/gen-ed/art"
+   ]
+  ]
+ ],
+ "flowchartUrl": "https://www.lsu.edu/eng/docs/Flowcharts/2026-2027/csc-dsa_flowchart_2026-2027.pdf",
+ "source": {
+  "catalogYear": "2026-2027",
+  "origin": "flowchart",
+  "verified": false,
+  "evidence": "derived from csc-dsa_flowchart_2026-2027.pdf (read 2026-09-28); not checked against the General Catalog"
+ },
+ "group": "Computer Science",
+ "variant": "Data Science & Analytics",
+ "notes": [
+  "A grade of C or better is required BEFORE enrolling in the next course in the sequence.",
+  "Two hours of science lab are required and must be with the science sequence chosen.",
+  "Tech Elective Group A = STEM 2000 level and above; Group B = AVATAR DM art-track electives; see the CSC & E Division for the approved list and substitutions."
+ ],
+ "staleness": "The chart is labelled 2026-2027 but its footer says \"Rev. 1/25/2024\" and it points to the 2023-2024 General Catalog, so it may predate the 2026-27 catalog."
+}

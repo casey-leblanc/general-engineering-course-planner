@@ -1,0 +1,43 @@
+{
+ "program": "BE-BSBE",
+ "tracks": [
+  {
+   "id": "standard",
+   "name": "Standard",
+   "default": true,
+   "note": "The recommended plan from the 2026-27 flowchart."
+  },
+  {
+   "id": "premed",
+   "name": "Pre-med",
+   "note": "Adds the medical school prerequisites: Orgo II and its lab fill the technical elective and the elective, and the physics labs are added. Courses that medical schools ask for are flagged.",
+   "recommendedPlan": [
+    ["year1-fall", ["BE1251", "CHEM1201", "BIOL1201", "MATH1550", "BIOL1208", "ENGL1001"]],
+    ["year1-spring", ["BE1252", "BIOL1202", "MATH1552", "CHEM1202", "BIOL1209", "PHYS2110", "PHYS2108"]],
+    ["year2-fall", ["BE2352", "CHEM1212", "CHEM2261", "MATH2065", "CE2450", "BE-BSBE/gen-ed/socsci"]],
+    ["year2-spring", ["BIOL2051", "BIOL2083", "CHEM2262", "PHYS2113", "PHYS2109", "ENGL2000"]],
+    ["year3-fall", ["AGEC2003", "BE-BSBE/gen-ed/art", "BE4303", "CE2200", "CE3400", "CHEM2364"]],
+    ["year3-spring", ["BE2350", "BE3340", "BE4352", "EE2950", "ME3333"]],
+    ["year4-fall", ["BE3320", "BE4390", "CE2460", "BE-BSBE/design-electives/1", "BE-BSBE/gen-ed/humanity/1"]],
+    ["year4-spring", ["BE4392", "BE-BSBE/design-electives/2", "BE-BSBE/design-electives/3", "BE-BSBE/gen-ed/humanity/2", "BE-BSBE/gen-ed/humanity/3"]]
+   ],
+   "assign": {
+    "CHEM2262": "BE-BSBE/tech-elective",
+    "CHEM2364": "BE-BSBE/general-elective"
+   },
+   "tags": {
+    "premed": ["CHEM1201", "CHEM1202", "BIOL1201", "BIOL1202", "BIOL1208", "BIOL1209", "ENGL1001", "ENGL2000", "PHYS2110", "PHYS2113", "CHEM1212", "CHEM2261", "BIOL2083", "PHYS2108", "PHYS2109", "CHEM2262", "CHEM2364"],
+    "premed-late-half": ["BIOL1208", "ENGL1001", "BIOL1209", "PHYS2108", "CHEM1212", "CHEM2364", "PHYS2109", "ENGL2000"]
+   },
+   "labels": {
+    "BE-BSBE/gen-ed/socsci": "PSYC 2000: Introduction to Psychology"
+   },
+   "source": {
+    "catalogYear": "2025-2026",
+    "origin": "legacy",
+    "verified": false,
+    "evidence": "the pre-med plan of the old BE planner (hand-authored there in 2025-26); not checked against the catalog"
+   }
+  }
+ ]
+}

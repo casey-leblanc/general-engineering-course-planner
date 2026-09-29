@@ -1,0 +1,36 @@
+[
+ {
+  "id": "EE2120",
+  "subject": "EE",
+  "number": "2120",
+  "title": "Circuits I",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "auto",
+  "prereq": {
+   "all": [
+    {
+     "course": "EE1820",
+     "concurrent": "ok"
+    },
+    {
+     "course": "MATH2070",
+     "concurrent": "ok"
+    },
+    {
+     "course": "PHYS2113",
+     "concurrent": "ok"
+    }
+   ],
+   "waiver": "consent of division"
+  },
+  "prereqText": "Prereq.: Credit or registration in EE 1820, MATH 2070, and PHYS 2113 or consent of division.",
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "workday",
+   "verified": true,
+   "evidence": "Workday \"Find Courses - LSUAM\" report, View Course > Overview (Credit Hours, Eligibility), viewed 2026-09-28 in the owner's signed-in session"
+  }
+ }
+]

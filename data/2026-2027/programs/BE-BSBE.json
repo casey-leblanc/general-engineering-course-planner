@@ -1,0 +1,601 @@
+{
+ "id": "BE-BSBE",
+ "kind": "major",
+ "name": "Biological Engineering",
+ "degree": "B.S.B.E.",
+ "catalogYear": "2026-2027",
+ "totalCredits": 128,
+ "college": "Engineering",
+ "requirements": {
+  "id": "BE-BSBE/root",
+  "type": "all",
+  "label": "Biological Engineering",
+  "items": [
+   {
+    "id": "BE-BSBE/core",
+    "type": "all",
+    "label": "Core courses",
+    "items": [
+     {
+      "id": "BE-BSBE/core/CHEM1201",
+      "type": "course",
+      "course": "CHEM1201"
+     },
+     {
+      "id": "BE-BSBE/core/BIOL1208",
+      "type": "course",
+      "course": "BIOL1208"
+     },
+     {
+      "id": "BE-BSBE/core/BIOL1201",
+      "type": "course",
+      "course": "BIOL1201"
+     },
+     {
+      "id": "BE-BSBE/core/BE1251",
+      "type": "course",
+      "course": "BE1251"
+     },
+     {
+      "id": "BE-BSBE/core/MATH1550",
+      "type": "course",
+      "course": "MATH1550",
+      "minGrade": "C"
+     },
+     {
+      "id": "BE-BSBE/core/ENGL1001",
+      "type": "course",
+      "course": "ENGL1001",
+      "minGrade": "C"
+     },
+     {
+      "id": "BE-BSBE/core/CHEM1202",
+      "type": "course",
+      "course": "CHEM1202"
+     },
+     {
+      "id": "BE-BSBE/core/BIOL1209",
+      "type": "course",
+      "course": "BIOL1209"
+     },
+     {
+      "id": "BE-BSBE/core/BIOL1202",
+      "type": "course",
+      "course": "BIOL1202"
+     },
+     {
+      "id": "BE-BSBE/core/BE1252",
+      "type": "course",
+      "course": "BE1252"
+     },
+     {
+      "id": "BE-BSBE/core/MATH1552",
+      "type": "course",
+      "course": "MATH1552",
+      "minGrade": "C"
+     },
+     {
+      "id": "BE-BSBE/core/PHYS2110",
+      "type": "course",
+      "course": "PHYS2110",
+      "minGrade": "C"
+     },
+     {
+      "id": "BE-BSBE/core/BIOL2051",
+      "type": "course",
+      "course": "BIOL2051"
+     },
+     {
+      "id": "BE-BSBE/core/BE2352",
+      "type": "course",
+      "course": "BE2352"
+     },
+     {
+      "id": "BE-BSBE/core/EE2950",
+      "type": "course",
+      "course": "EE2950"
+     },
+     {
+      "id": "BE-BSBE/core/MATH2065",
+      "type": "course",
+      "course": "MATH2065",
+      "anyOf": [
+       "MATH2090"
+      ]
+     },
+     {
+      "id": "BE-BSBE/core/CE2450",
+      "type": "course",
+      "course": "CE2450",
+      "minGrade": "C"
+     },
+     {
+      "id": "BE-BSBE/core/CHEM2261",
+      "type": "course",
+      "course": "CHEM2261"
+     },
+     {
+      "id": "BE-BSBE/core/CHEM1212",
+      "type": "course",
+      "course": "CHEM1212"
+     },
+     {
+      "id": "BE-BSBE/core/BE2350",
+      "type": "course",
+      "course": "BE2350"
+     },
+     {
+      "id": "BE-BSBE/core/PHYS2113",
+      "type": "course",
+      "course": "PHYS2113"
+     },
+     {
+      "id": "BE-BSBE/core/CE3400",
+      "type": "course",
+      "course": "CE3400"
+     },
+     {
+      "id": "BE-BSBE/core/ENGL2000",
+      "type": "course",
+      "course": "ENGL2000",
+      "minGrade": "C"
+     },
+     {
+      "id": "BE-BSBE/core/BIOL2083",
+      "type": "course",
+      "course": "BIOL2083"
+     },
+     {
+      "id": "BE-BSBE/core/AGEC2003",
+      "type": "course",
+      "course": "AGEC2003",
+      "anyOf": [
+       "ECON2000",
+       "ECON2010",
+       "ECON2030"
+      ]
+     },
+     {
+      "id": "BE-BSBE/core/ME3333",
+      "type": "course",
+      "course": "ME3333"
+     },
+     {
+      "id": "BE-BSBE/core/BE4303",
+      "type": "course",
+      "course": "BE4303"
+     },
+     {
+      "id": "BE-BSBE/core/BE4352",
+      "type": "course",
+      "course": "BE4352"
+     },
+     {
+      "id": "BE-BSBE/core/BE3340",
+      "type": "course",
+      "course": "BE3340"
+     },
+     {
+      "id": "BE-BSBE/core/CE2200",
+      "type": "course",
+      "course": "CE2200"
+     },
+     {
+      "id": "BE-BSBE/core/CE2460",
+      "type": "course",
+      "course": "CE2460"
+     },
+     {
+      "id": "BE-BSBE/core/BE3320",
+      "type": "course",
+      "course": "BE3320"
+     }
+    ]
+   },
+   {
+    "id": "BE-BSBE/senior-design",
+    "type": "all",
+    "label": "Senior design",
+    "items": [
+     {
+      "id": "BE-BSBE/senior-design/BE4390",
+      "type": "course",
+      "course": "BE4390"
+     },
+     {
+      "id": "BE-BSBE/senior-design/BE4392",
+      "type": "course",
+      "course": "BE4392"
+     }
+    ]
+   },
+   {
+    "id": "BE-BSBE/design-electives",
+    "type": "all",
+    "label": "Design Elect",
+    "items": [
+     {
+      "id": "BE-BSBE/design-electives/1",
+      "type": "slot",
+      "label": "Design Elect",
+      "credits": 3,
+      "hints": [
+       "design"
+      ]
+     },
+     {
+      "id": "BE-BSBE/design-electives/2",
+      "type": "slot",
+      "label": "Design Elect",
+      "credits": 3,
+      "hints": [
+       "design"
+      ]
+     },
+     {
+      "id": "BE-BSBE/design-electives/3",
+      "type": "slot",
+      "label": "Design Elect",
+      "credits": 3,
+      "hints": [
+       "design"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "BE-BSBE/general-elective",
+    "type": "slot",
+    "label": "Elective or ROTC",
+    "credits": 2,
+    "hints": [
+     "elective"
+    ]
+   },
+   {
+    "id": "BE-BSBE/tech-elective",
+    "type": "slot",
+    "label": "Tech Elective or ROTC",
+    "credits": 3,
+    "hints": [
+     "elective",
+     "upper"
+    ]
+   },
+   {
+    "id": "BE-BSBE/gen-ed",
+    "type": "all",
+    "label": "General education",
+    "items": [
+     {
+      "id": "BE-BSBE/gen-ed/humanity",
+      "type": "all",
+      "label": "HUMANITY Gen Ed",
+      "items": [
+       {
+        "id": "BE-BSBE/gen-ed/humanity/1",
+        "type": "slot",
+        "label": "HUMANITY Gen Ed",
+        "credits": 3,
+        "from": {
+         "attrs": [
+          "gen-ed:humanities"
+         ]
+        },
+        "hints": [
+         "gen-ed"
+        ]
+       },
+       {
+        "id": "BE-BSBE/gen-ed/humanity/2",
+        "type": "slot",
+        "label": "HUMANITY Gen Ed",
+        "credits": 3,
+        "from": {
+         "attrs": [
+          "gen-ed:humanities"
+         ]
+        },
+        "hints": [
+         "gen-ed"
+        ]
+       },
+       {
+        "id": "BE-BSBE/gen-ed/humanity/3",
+        "type": "slot",
+        "label": "HUMANITY Gen Ed",
+        "credits": 3,
+        "from": {
+         "attrs": [
+          "gen-ed:humanities"
+         ]
+        },
+        "hints": [
+         "gen-ed"
+        ]
+       }
+      ]
+     },
+     {
+      "id": "BE-BSBE/gen-ed/art",
+      "type": "slot",
+      "label": "ART Gen Ed",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "gen-ed:art"
+       ]
+      },
+      "hints": [
+       "gen-ed"
+      ]
+     },
+     {
+      "id": "BE-BSBE/gen-ed/socsci",
+      "type": "slot",
+      "label": "SOCL SCI Gen Ed",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "gen-ed:socsci"
+       ]
+      },
+      "hints": [
+       "gen-ed"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "recommendedPlan": [
+  [
+   "year1-fall",
+   [
+    "CHEM1201",
+    "BIOL1208",
+    "BIOL1201",
+    "BE1251",
+    "MATH1550",
+    "ENGL1001"
+   ]
+  ],
+  [
+   "year1-spring",
+   [
+    "CHEM1202",
+    "BIOL1209",
+    "BIOL1202",
+    "BE1252",
+    "MATH1552",
+    "PHYS2110"
+   ]
+  ],
+  [
+   "year2-fall",
+   [
+    "BIOL2051",
+    "BE2352",
+    "EE2950",
+    "MATH2065",
+    "CE2450"
+   ]
+  ],
+  [
+   "year2-spring",
+   [
+    "CHEM2261",
+    "CHEM1212",
+    "BE2350",
+    "PHYS2113",
+    "CE3400",
+    "ENGL2000"
+   ]
+  ],
+  [
+   "year3-fall",
+   [
+    "BIOL2083",
+    "AGEC2003",
+    "BE-BSBE/gen-ed/humanity/1",
+    "ME3333",
+    "BE4303"
+   ]
+  ],
+  [
+   "year3-spring",
+   [
+    "BE-BSBE/design-electives/1",
+    "BE4352",
+    "BE3340",
+    "CE2200",
+    "BE-BSBE/gen-ed/humanity/2"
+   ]
+  ],
+  [
+   "year4-fall",
+   [
+    "BE-BSBE/general-elective",
+    "BE-BSBE/design-electives/2",
+    "BE-BSBE/gen-ed/art",
+    "CE2460",
+    "BE3320",
+    "BE4390"
+   ]
+  ],
+  [
+   "year4-spring",
+   [
+    "BE-BSBE/tech-elective",
+    "BE-BSBE/gen-ed/socsci",
+    "BE-BSBE/gen-ed/humanity/3",
+    "BE-BSBE/design-electives/3",
+    "BE4392"
+   ]
+  ]
+ ],
+ "flowchartUrl": "https://www.lsu.edu/eng/docs/Flowcharts/2026-2027/be_flowchart_2026-2027.pdf",
+ "source": {
+  "catalogYear": "2026-2027",
+  "origin": "flowchart",
+  "verified": false,
+  "evidence": "derived from be_flowchart_2026-2027.pdf (read 2026-09-28); not checked against the General Catalog"
+ },
+ "sequences": [
+  {
+   "a": "BE4390",
+   "b": "BE4392",
+   "gap": 1
+  }
+ ],
+ "notes": [
+  "Eight-semester path; expect more than four years if working during the academic year.",
+  "Recommended to take courses in the listed semester to reduce time conflicts.",
+  "EE 2950 shows an (OR) link with PHYS 2113 as the corequisite path into BE 2350."
+ ],
+ "tracks": [
+  {
+   "id": "standard",
+   "name": "Standard",
+   "default": true,
+   "note": "The recommended plan from the 2026-27 flowchart."
+  },
+  {
+   "id": "premed",
+   "name": "Pre-med",
+   "note": "Adds the medical school prerequisites: Orgo II and its lab fill the technical elective and the elective, and the physics labs are added. Courses that medical schools ask for are flagged.",
+   "recommendedPlan": [
+    [
+     "year1-fall",
+     [
+      "BE1251",
+      "CHEM1201",
+      "BIOL1201",
+      "MATH1550",
+      "BIOL1208",
+      "ENGL1001"
+     ]
+    ],
+    [
+     "year1-spring",
+     [
+      "BE1252",
+      "BIOL1202",
+      "MATH1552",
+      "CHEM1202",
+      "BIOL1209",
+      "PHYS2110",
+      "PHYS2108"
+     ]
+    ],
+    [
+     "year2-fall",
+     [
+      "BE2352",
+      "CHEM1212",
+      "CHEM2261",
+      "MATH2065",
+      "CE2450",
+      "BE-BSBE/gen-ed/socsci"
+     ]
+    ],
+    [
+     "year2-spring",
+     [
+      "BIOL2051",
+      "BIOL2083",
+      "CHEM2262",
+      "PHYS2113",
+      "PHYS2109",
+      "ENGL2000"
+     ]
+    ],
+    [
+     "year3-fall",
+     [
+      "AGEC2003",
+      "BE-BSBE/gen-ed/art",
+      "BE4303",
+      "CE2200",
+      "CE3400",
+      "CHEM2364"
+     ]
+    ],
+    [
+     "year3-spring",
+     [
+      "BE2350",
+      "BE3340",
+      "BE4352",
+      "EE2950",
+      "ME3333"
+     ]
+    ],
+    [
+     "year4-fall",
+     [
+      "BE3320",
+      "BE4390",
+      "CE2460",
+      "BE-BSBE/design-electives/1",
+      "BE-BSBE/gen-ed/humanity/1"
+     ]
+    ],
+    [
+     "year4-spring",
+     [
+      "BE4392",
+      "BE-BSBE/design-electives/2",
+      "BE-BSBE/design-electives/3",
+      "BE-BSBE/gen-ed/humanity/2",
+      "BE-BSBE/gen-ed/humanity/3"
+     ]
+    ]
+   ],
+   "assign": {
+    "CHEM2262": "BE-BSBE/tech-elective",
+    "CHEM2364": "BE-BSBE/general-elective"
+   },
+   "tags": {
+    "premed": [
+     "CHEM1201",
+     "CHEM1202",
+     "BIOL1201",
+     "BIOL1202",
+     "BIOL1208",
+     "BIOL1209",
+     "ENGL1001",
+     "ENGL2000",
+     "PHYS2110",
+     "PHYS2113",
+     "CHEM1212",
+     "CHEM2261",
+     "BIOL2083",
+     "PHYS2108",
+     "PHYS2109",
+     "CHEM2262",
+     "CHEM2364"
+    ],
+    "premed-late-half": [
+     "BIOL1208",
+     "ENGL1001",
+     "BIOL1209",
+     "PHYS2108",
+     "CHEM1212",
+     "CHEM2364",
+     "PHYS2109",
+     "ENGL2000"
+    ]
+   },
+   "labels": {
+    "BE-BSBE/gen-ed/socsci": "PSYC 2000: Introduction to Psychology"
+   },
+   "source": {
+    "catalogYear": "2025-2026",
+    "origin": "legacy",
+    "verified": false,
+    "evidence": "the pre-med plan of the old BE planner (hand-authored there in 2025-26); not checked against the catalog"
+   }
+  }
+ ]
+}

@@ -1,0 +1,340 @@
+{
+ "schema": "flowchart/1",
+ "program": "EE-BSEE",
+ "name": "Electrical Engineering",
+ "degree": "B.S.E.E.",
+ "catalogYear": "2026-2027",
+ "totalHours": 127,
+ "source": {
+  "kind": "flowchart",
+  "file": "ee_flowchart_2026-2027.pdf",
+  "url": "https://www.lsu.edu/eng/docs/Flowcharts/2026-2027/ee_flowchart_2026-2027.pdf",
+  "revision": null,
+  "sha256": "8abcc94e7f86fe8697e465ba28f14ad0bcfa386ed204010218c091da416389ae",
+  "bytes": 51852,
+  "readOn": "2026-09-28",
+  "method": "hand transcription of the rendered chart; hours cross-checked"
+ },
+ "semesters": [
+  {
+   "n": 1,
+   "season": "F",
+   "hours": 16,
+   "items": [
+    {
+     "course": "CHEM1201",
+     "credits": 3
+    },
+    {
+     "course": "MATH1550",
+     "credits": 5,
+     "minGrade": "C"
+    },
+    {
+     "course": "EE1820",
+     "credits": 2
+    },
+    {
+     "slot": "gened:art",
+     "credits": 3,
+     "label": "ART Gen Ed"
+    },
+    {
+     "course": "ENGL1001",
+     "credits": 3,
+     "minGrade": "C"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "season": "S",
+   "hours": 17,
+   "items": [
+    {
+     "course": "EE2741",
+     "credits": 3,
+     "minGrade": "C"
+    },
+    {
+     "course": "CSC1253",
+     "credits": 3,
+     "minGrade": "C"
+    },
+    {
+     "course": "MATH1552",
+     "credits": 4,
+     "minGrade": "C"
+    },
+    {
+     "course": "PHYS2110",
+     "credits": 3,
+     "minGrade": "C"
+    },
+    {
+     "course": "PHYS2108",
+     "credits": 1
+    },
+    {
+     "slot": "gened:life-science",
+     "credits": 3,
+     "label": "Life Science Gen Ed"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "season": "F",
+   "hours": 15,
+   "items": [
+    {
+     "course": "EE2742",
+     "credits": 2,
+     "mayBePrereq": true
+    },
+    {
+     "course": "MATH2070",
+     "credits": 4,
+     "minGrade": "C"
+    },
+    {
+     "course": "EE2120",
+     "credits": 3,
+     "minGrade": "C"
+    },
+    {
+     "course": "PHYS2113",
+     "credits": 3,
+     "minGrade": "C"
+    },
+    {
+     "slot": "gened:humanities",
+     "credits": 3,
+     "label": "HUMN Gen Ed"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "season": "S",
+   "hours": 16,
+   "items": [
+    {
+     "course": "MATH2057",
+     "credits": 3,
+     "minGrade": "C"
+    },
+    {
+     "course": "EE2130",
+     "credits": 3,
+     "minGrade": "C"
+    },
+    {
+     "course": "EE2820",
+     "credits": 2,
+     "minGrade": "C"
+    },
+    {
+     "course": "EE2230",
+     "credits": 3,
+     "mayBePrereq": true
+    },
+    {
+     "course": "EE2231",
+     "credits": 2,
+     "mayBePrereq": true
+    },
+    {
+     "course": "ENGL2000",
+     "credits": 3,
+     "minGrade": "C"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "season": "F",
+   "hours": 15,
+   "items": [
+    {
+     "course": "EE3150",
+     "credits": 3,
+     "mayBePrereq": true
+    },
+    {
+     "slot": "ee-breadth",
+     "credits": 3,
+     "label": "EE Breadth"
+    },
+    {
+     "course": "EE3610",
+     "credits": 3,
+     "minGrade": "C"
+    },
+    {
+     "slot": "ee-breadth",
+     "credits": 3,
+     "label": "EE Breadth"
+    },
+    {
+     "slot": "ee-breadth",
+     "credits": 3,
+     "label": "EE Breadth"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "season": "S",
+   "hours": 18,
+   "items": [
+    {
+     "course": "EE3320",
+     "credits": 3,
+     "mayBePrereq": true
+    },
+    {
+     "slot": "ee-breadth",
+     "credits": 3,
+     "label": "EE Breadth"
+    },
+    {
+     "slot": "ee-breadth",
+     "credits": 3,
+     "label": "EE Breadth"
+    },
+    {
+     "slot": "ee-breadth",
+     "credits": 3,
+     "label": "EE Breadth"
+    },
+    {
+     "slot": "gened:socsci-2000",
+     "credits": 3,
+     "label": "2000+ level Social Sci Elective"
+    },
+    {
+     "course": "PHIL2020",
+     "credits": 3
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "season": "F",
+   "hours": 15,
+   "items": [
+    {
+     "slot": "ee-design",
+     "credits": 3,
+     "label": "EE Design"
+    },
+    {
+     "slot": "ee-design",
+     "credits": 3,
+     "label": "EE Design"
+    },
+    {
+     "slot": "ee-tech",
+     "credits": 3,
+     "label": "Tech Elect"
+    },
+    {
+     "course": "EE4810",
+     "credits": 3,
+     "minGrade": "C",
+     "offered": "F"
+    },
+    {
+     "slot": "gened:socsci",
+     "credits": 3,
+     "label": "SOC SCI Gen Ed"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "season": "S",
+   "hours": 15,
+   "items": [
+    {
+     "slot": "ee-design",
+     "credits": 3,
+     "label": "EE Design"
+    },
+    {
+     "slot": "ee-tech",
+     "credits": 3,
+     "label": "Tech Elect"
+    },
+    {
+     "slot": "ee-tech",
+     "credits": 3,
+     "label": "Tech Elect"
+    },
+    {
+     "course": "EE4820",
+     "credits": 3,
+     "offered": "S"
+    },
+    {
+     "slot": "gened:humanities",
+     "credits": 3,
+     "label": "HUMN Gen Ed"
+    }
+   ]
+  }
+ ],
+ "groups": {
+  "seniorDesign": [
+   "EE4810",
+   "EE4820"
+  ]
+ },
+ "breadth": {
+  "minGroups": 4,
+  "minCourses": 6,
+  "groups": [
+   {
+    "name": "Group 1: DSP",
+    "courses": {
+     "EE3160": "F"
+    }
+   },
+   {
+    "name": "Group 2: Electronics",
+    "courses": {
+     "EE3220": "S",
+     "EE3223": "S",
+     "EE3232": "F"
+    }
+   },
+   {
+    "name": "Group 3: Power",
+    "courses": {
+     "EE3410": null
+    }
+   },
+   {
+    "name": "Group 4: Control",
+    "courses": {
+     "EE3530": "F"
+    }
+   },
+   {
+    "name": "Group 5: Computers",
+    "courses": {
+     "EE3710": "S",
+     "EE3740": "S",
+     "EE3752": "F",
+     "EE3755": "F"
+    }
+   }
+  ]
+ },
+ "notes": [
+  "A pre-req to any EE course is met only by a grade in the C range or better in each course cited as a pre-requisite.",
+  "EE 4810 requires senior standing (at least 90 credit hours) and one of EE 3160, 3220, 3410, 3530 or 3755.",
+  "Advising tool only; the LSU catalog has the official degree requirements."
+ ]
+}

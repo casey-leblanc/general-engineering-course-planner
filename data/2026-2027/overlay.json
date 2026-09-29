@@ -1,0 +1,1076 @@
+{
+ "AGEC2003": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "BOTH",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  },
+  "float": true
+ },
+ "BE1251": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in F only"
+  }
+ },
+ "BE1252": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in S only"
+  }
+ },
+ "BE2350": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in S only"
+  }
+ },
+ "BE2352": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in F only"
+  }
+ },
+ "BE3320": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in F only"
+  }
+ },
+ "BE3340": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in S only"
+  }
+ },
+ "BE4303": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in F only"
+  }
+ },
+ "BE4352": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in S only"
+  }
+ },
+ "BE4390": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in F only"
+  },
+  "attrs": [
+   "senior-design"
+  ],
+  "attrsEvidence": {
+   "senior-design": "labelled Sr Design on the be_flowchart_2026-2027.pdf flowchart"
+  }
+ },
+ "BE4392": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in S only"
+  },
+  "attrs": [
+   "senior-design"
+  ],
+  "attrsEvidence": {
+   "senior-design": "labelled Sr Design on the be_flowchart_2026-2027.pdf flowchart"
+  }
+ },
+ "BIOL1201": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "MJ",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  },
+  "attrs": [
+   "gen-ed:life-science"
+  ],
+  "attrsEvidence": {
+   "gen-ed:life-science": "legacy EE audit (2025-26) accepted this course for the Life Science gen-ed; unverified until the Workday GE/ILC tags are imported"
+  }
+ },
+ "BIOL1202": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "JA",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  },
+  "attrs": [
+   "gen-ed:life-science"
+  ],
+  "attrsEvidence": {
+   "gen-ed:life-science": "legacy EE audit (2025-26) accepted this course for the Life Science gen-ed; unverified until the Workday GE/ILC tags are imported"
+  }
+ },
+ "BIOL1208": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "BIOL1209": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "BIOL2051": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "BOTH",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "BIOL2083": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "CE2200": {
+  "difficulty": "hardest",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "JA",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "CE2450": {
+  "difficulty": "hardest",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "MJ",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "CE2460": {
+  "difficulty": "hardest",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "CE3400": {
+  "difficulty": "hardest",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "MJ",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "CHEM1201": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "MA",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "CHEM1202": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "MA",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "CHEM1212": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "JA",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "CHEM2261": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "MA",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "CHEM2262": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "MA",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "CHEM2364": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "JA",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "CSC1253": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "CSC2362": {
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in F only"
+  }
+ },
+ "CSC2610": {
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in S only"
+  }
+ },
+ "CSC2730": {
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in F only"
+  }
+ },
+ "CSC3304": {
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in S only"
+  }
+ },
+ "CSC3730": {
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in F only"
+  }
+ },
+ "CSC4332": {
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in S only"
+  }
+ },
+ "CSC4343": {
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in S only"
+  }
+ },
+ "CSC4351": {
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in S only"
+  }
+ },
+ "CSC4360": {
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in S only"
+  }
+ },
+ "CSC4362": {
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in F only"
+  }
+ },
+ "CSC4501": {
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in F only"
+  }
+ },
+ "CSC4562": {
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in S only"
+  }
+ },
+ "CSC4610": {
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in F only"
+  }
+ },
+ "CSC4740": {
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in S only"
+  }
+ },
+ "EE2120": {
+  "difficulty": "hardest",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "BOTH",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "EE2130": {
+  "difficulty": "hardest",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "EE2230": {
+  "difficulty": "hardest",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "EE2231": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "EE2741": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "EE2742": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "EE2950": {
+  "difficulty": "hardest",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "EE3150": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "EE3160": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in F only"
+  },
+  "breadthGroup": 1
+ },
+ "EE3220": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in S only"
+  },
+  "breadthGroup": 2
+ },
+ "EE3223": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in S only"
+  },
+  "breadthGroup": 2
+ },
+ "EE3232": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in F only"
+  },
+  "breadthGroup": 2
+ },
+ "EE3320": {
+  "difficulty": "hardest",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "EE3410": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  },
+  "breadthGroup": 3
+ },
+ "EE3530": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in F only"
+  },
+  "breadthGroup": 4
+ },
+ "EE3610": {
+  "difficulty": "hardest",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "EE3710": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in S only"
+  },
+  "breadthGroup": 5
+ },
+ "EE3740": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in S only"
+  },
+  "breadthGroup": 5
+ },
+ "EE3752": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in F only"
+  },
+  "breadthGroup": 5
+ },
+ "EE3755": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in F only"
+  },
+  "breadthGroup": 5
+ },
+ "EE4160": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  },
+  "attrs": [
+   "design"
+  ],
+  "attrsEvidence": {
+   "design": "legacy EE design elective list (2025-26), unverified; owner confirmed \"design aspects\" means this list"
+  }
+ },
+ "EE4242": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  },
+  "attrs": [
+   "design"
+  ],
+  "attrsEvidence": {
+   "design": "legacy EE design elective list (2025-26), unverified; owner confirmed \"design aspects\" means this list"
+  }
+ },
+ "EE4420": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  },
+  "attrs": [
+   "design"
+  ],
+  "attrsEvidence": {
+   "design": "legacy EE design elective list (2025-26), unverified; owner confirmed \"design aspects\" means this list"
+  }
+ },
+ "EE4530": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  },
+  "attrs": [
+   "design"
+  ],
+  "attrsEvidence": {
+   "design": "legacy EE design elective list (2025-26), unverified; owner confirmed \"design aspects\" means this list"
+  }
+ },
+ "EE4710": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  },
+  "attrs": [
+   "design"
+  ],
+  "attrsEvidence": {
+   "design": "legacy EE design elective list (2025-26), unverified; owner confirmed \"design aspects\" means this list"
+  }
+ },
+ "EE4720": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  },
+  "attrs": [
+   "design"
+  ],
+  "attrsEvidence": {
+   "design": "legacy EE design elective list (2025-26), unverified; owner confirmed \"design aspects\" means this list"
+  }
+ },
+ "EE4810": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in F only"
+  },
+  "attrs": [
+   "senior-design"
+  ],
+  "attrsEvidence": {
+   "senior-design": "labelled Sr Design on the ee_flowchart_2026-2027.pdf flowchart"
+  }
+ },
+ "EE4820": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "curated",
+   "evidence": "flowchart 2026-2027 marks this course as offered in S only"
+  },
+  "attrs": [
+   "senior-design"
+  ],
+  "attrsEvidence": {
+   "senior-design": "labelled Sr Design on the ee_flowchart_2026-2027.pdf flowchart"
+  }
+ },
+ "ENGL1001": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  },
+  "float": true,
+  "light": true
+ },
+ "ENGL2000": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "BOTH",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  },
+  "float": true,
+  "light": true
+ },
+ "ENGR3100": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  },
+  "tags": [
+   "robotics-minor"
+  ]
+ },
+ "ENGR4100": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  },
+  "tags": [
+   "robotics-minor"
+  ]
+ },
+ "ENGR4103": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  },
+  "tags": [
+   "robotics-minor"
+  ]
+ },
+ "ENGR4200": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  },
+  "tags": [
+   "robotics-minor"
+  ]
+ },
+ "MATH1550": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "MATH1552": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "BOTH",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "MATH2057": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "BOTH",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "MATH2065": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "MJ",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "MATH2070": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "MATH2090": {
+  "difficulty": "hard",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "BOTH",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "ME2543": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F",
+    "S"
+   ],
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  },
+  "tags": [
+   "robotics-minor"
+  ]
+ },
+ "ME3333": {
+  "difficulty": "hardest",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "MJ",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "PHIL2020": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "BOTH",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "PHYS2108": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "BOTH",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "PHYS2109": {
+  "difficulty": "normal",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "BOTH",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "PHYS2110": {
+  "difficulty": "hardest",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "BOTH",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ },
+ "PHYS2113": {
+  "difficulty": "hardest",
+  "offered": {
+   "terms": [
+    "F",
+    "S",
+    "Su"
+   ],
+   "summer": "BOTH",
+   "confidence": "assumed",
+   "evidence": "legacy hand-typed"
+  }
+ }
+}

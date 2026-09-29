@@ -1,0 +1,301 @@
+{
+ "schema": "flowchart/1",
+ "program": "CSC-DSA",
+ "name": "Computer Science (Data Science & Analytics)",
+ "degree": "B.S.",
+ "catalogYear": "2026-2027",
+ "totalHours": 120,
+ "source": {
+  "kind": "flowchart",
+  "file": "csc-dsa_flowchart_2026-2027.pdf",
+  "url": "https://www.lsu.edu/eng/docs/Flowcharts/2026-2027/csc-dsa_flowchart_2026-2027.pdf",
+  "revision": "1/25/2024",
+  "sha256": "3ef7b1d638fc0a007d7d7a54fa9a6d5ad88445b095f4eb3018493e34fdf63ba5",
+  "bytes": 299386,
+  "readOn": "2026-09-28",
+  "method": "hand transcription of the rendered chart; hours cross-checked"
+ },
+ "semesters": [
+  {
+   "n": 1,
+   "season": "F",
+   "hours": 15,
+   "items": [
+    {
+     "course": "CSC1350",
+     "credits": 4,
+     "minGrade": "C"
+    },
+    {
+     "course": "MATH1550",
+     "credits": 5,
+     "minGrade": "C"
+    },
+    {
+     "course": "ENGL1001",
+     "credits": 3,
+     "minGrade": "C"
+    },
+    {
+     "slot": "bio-seq-1",
+     "credits": 3,
+     "label": "BIOL Sequence I Requirement"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "season": "S",
+   "hours": 15,
+   "items": [
+    {
+     "course": "CSC1351",
+     "credits": 4,
+     "minGrade": "C"
+    },
+    {
+     "course": "MATH1552",
+     "credits": 4,
+     "minGrade": "C"
+    },
+    {
+     "slot": "gened:hum-eng",
+     "credits": 3,
+     "label": "Gen Ed Hum ENGL or HNRS 2000+"
+    },
+    {
+     "slot": "physical-sci",
+     "credits": 3,
+     "label": "Physical Science"
+    },
+    {
+     "slot": "sci-lab",
+     "credits": 1,
+     "label": "Science Sequence I or II Lab",
+     "minGrade": "C"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "season": "F",
+   "hours": 17,
+   "items": [
+    {
+     "course": "CSC3102",
+     "credits": 3,
+     "minGrade": "C"
+    },
+    {
+     "course": "CSC2259",
+     "credits": 3,
+     "minGrade": "C"
+    },
+    {
+     "course": "MATH2090",
+     "credits": 4
+    },
+    {
+     "slot": "gened:humanity",
+     "credits": 3,
+     "label": "Gen Ed Humanity"
+    },
+    {
+     "slot": "sci-seq-2",
+     "credits": 3,
+     "label": "Science Sequence II Requirement"
+    },
+    {
+     "slot": "sci-lab",
+     "credits": 1,
+     "label": "Science Sequence I or II Lab"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "season": "S",
+   "hours": 15,
+   "items": [
+    {
+     "course": "CSC3380",
+     "credits": 3,
+     "minGrade": "C"
+    },
+    {
+     "course": "CSC3501",
+     "credits": 3
+    },
+    {
+     "course": "CSC2262",
+     "credits": 3
+    },
+    {
+     "course": "ENGL2000",
+     "credits": 3,
+     "minGrade": "C"
+    },
+    {
+     "slot": "gened:hum-cmst",
+     "credits": 3,
+     "label": "Gen Ed Hum CMST"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "season": "F",
+   "hours": 15,
+   "items": [
+    {
+     "course": "CSC4402",
+     "credits": 3
+    },
+    {
+     "slot": "csc-4000",
+     "credits": 3,
+     "label": "CSC 4+++ (DSA)"
+    },
+    {
+     "course": "CSC2730",
+     "credits": 3,
+     "minGrade": "C",
+     "offered": "F"
+    },
+    {
+     "course": "IE3302",
+     "credits": 3
+    },
+    {
+     "slot": "tech-elective-a",
+     "credits": 3,
+     "label": "Tech Elective A"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "season": "S",
+   "hours": 15,
+   "items": [
+    {
+     "course": "CSC4330",
+     "credits": 3,
+     "minGrade": "C"
+    },
+    {
+     "course": "CSC4103",
+     "credits": 3
+    },
+    {
+     "course": "CSC4740",
+     "credits": 3,
+     "offered": "S"
+    },
+    {
+     "slot": "tech-elective-a-or-b",
+     "credits": 3,
+     "label": "Tech Elective A or B"
+    },
+    {
+     "slot": "gened:socsci",
+     "credits": 3,
+     "label": "Gen Ed Socl Science"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "season": "F",
+   "hours": 13,
+   "items": [
+    {
+     "slot": "area-elective",
+     "credits": 3,
+     "label": "Area Elective (DSA)"
+    },
+    {
+     "course": "CSC4101",
+     "credits": 3,
+     "minGrade": "C"
+    },
+    {
+     "course": "CSC3730",
+     "credits": 3,
+     "offered": "F"
+    },
+    {
+     "course": "CSC3200",
+     "credits": 1,
+     "minGrade": "C"
+    },
+    {
+     "slot": "gened:socsci-2000",
+     "credits": 3,
+     "label": "Gen Ed Socl Science 2000+"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "season": "S",
+   "hours": 15,
+   "items": [
+    {
+     "course": "CSC4343",
+     "credits": 3,
+     "offered": "S"
+    },
+    {
+     "slot": "csc-2000",
+     "credits": 3,
+     "label": "CSC 2+++"
+    },
+    {
+     "slot": "approved-elective",
+     "credits": 3,
+     "label": "Approved Elective"
+    },
+    {
+     "slot": "approved-elective",
+     "credits": 3,
+     "label": "Approved Elective"
+    },
+    {
+     "slot": "gened:art",
+     "credits": 3,
+     "label": "Gen Ed Art"
+    }
+   ]
+  }
+ ],
+ "groups": {},
+ "concentration": {
+  "hours": 18,
+  "courses": [
+   "CSC2730",
+   "CSC4740",
+   "CSC3730",
+   "CSC4343"
+  ],
+  "areaElectives": [
+   "CSC4444",
+   "CSC4501",
+   "CSC4512",
+   "CSC4610",
+   "CSC4762",
+   "ISDS3105",
+   "ISDS4118",
+   "ISDS4141",
+   "MATH4024",
+   "MATH4025"
+  ],
+  "note": null
+ },
+ "staleness": "The chart is labelled 2026-2027 but its footer says \"Rev. 1/25/2024\" and it points to the 2023-2024 General Catalog, so it may predate the 2026-27 catalog.",
+ "notes": [
+  "A grade of C or better is required BEFORE enrolling in the next course in the sequence.",
+  "Two hours of science lab are required and must be with the science sequence chosen.",
+  "Tech Elective Group A = STEM 2000 level and above; Group B = AVATAR DM art-track electives; see the CSC & E Division for the approved list and substitutions."
+ ]
+}

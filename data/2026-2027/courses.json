@@ -1,0 +1,2418 @@
+[
+ {
+  "id": "AGEC2003",
+  "subject": "AGEC",
+  "number": "2003",
+  "title": "Agricultural Economics / Microeconomics",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  }
+ },
+ {
+  "id": "BE1251",
+  "subject": "BE",
+  "number": "1251",
+  "title": "Introduction to Engineering Methods",
+  "credits": {
+   "fixed": 2
+  },
+  "parse": "none",
+  "attrs": [
+   "level:1000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  }
+ },
+ {
+  "id": "BE1252",
+  "subject": "BE",
+  "number": "1252",
+  "title": "Biology in Engineering",
+  "credits": {
+   "fixed": 2
+  },
+  "parse": "none",
+  "attrs": [
+   "level:1000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "coreq": {
+   "course": "BIOL1201"
+  }
+ },
+ {
+  "id": "BE2350",
+  "subject": "BE",
+  "number": "2350",
+  "title": "Experimental Methods for Engineers",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "coreq": {
+   "any": [
+    {
+     "course": "EE2120"
+    },
+    {
+     "course": "EE2950"
+    },
+    {
+     "course": "PHYS2113"
+    }
+   ]
+  }
+ },
+ {
+  "id": "BE2352",
+  "subject": "BE",
+  "number": "2352",
+  "title": "Quantitative Biology in Engineering",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "BE1252"
+  }
+ },
+ {
+  "id": "BE3320",
+  "subject": "BE",
+  "number": "3320",
+  "title": "Mechanical Design for Biological Engineering",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "CE3400"
+  }
+ },
+ {
+  "id": "BE3340",
+  "subject": "BE",
+  "number": "3340",
+  "title": "Process Design in Biological Engineering",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "any": [
+    {
+     "course": "MATH2065"
+    },
+    {
+     "course": "MATH2070"
+    },
+    {
+     "course": "MATH2090"
+    }
+   ]
+  }
+ },
+ {
+  "id": "BE4303",
+  "subject": "BE",
+  "number": "4303",
+  "title": "Engineering Properties of Biological Materials",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "any": [
+    {
+     "course": "MATH2065"
+    },
+    {
+     "course": "MATH2070"
+    },
+    {
+     "course": "MATH2090"
+    }
+   ]
+  },
+  "coreq": {
+   "course": "CE3400"
+  }
+ },
+ {
+  "id": "BE4352",
+  "subject": "BE",
+  "number": "4352",
+  "title": "Transport Phenomena in Biological Engineering",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "all": [
+    {
+     "course": "BE2352"
+    },
+    {
+     "course": "BIOL2051"
+    }
+   ]
+  },
+  "coreq": {
+   "all": [
+    {
+     "course": "CE2200"
+    },
+    {
+     "course": "ME3333"
+    }
+   ]
+  }
+ },
+ {
+  "id": "BE4390",
+  "subject": "BE",
+  "number": "4390",
+  "title": "Senior Engineering Design I",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "BE2350"
+  },
+  "coreq": {
+   "course": "CE3400"
+  }
+ },
+ {
+  "id": "BE4392",
+  "subject": "BE",
+  "number": "4392",
+  "title": "Senior Engineering Design II",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "BE4390"
+  }
+ },
+ {
+  "id": "BIOL1201",
+  "subject": "BIOL",
+  "number": "1201",
+  "title": "Biology for Science Majors I",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:1000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  }
+ },
+ {
+  "id": "BIOL1202",
+  "subject": "BIOL",
+  "number": "1202",
+  "title": "Biology for Science Majors II",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:1000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "BIOL1201"
+  },
+  "coreq": {
+   "course": "BIOL1208"
+  }
+ },
+ {
+  "id": "BIOL1208",
+  "subject": "BIOL",
+  "number": "1208",
+  "title": "Biology Lab for Science Majors I",
+  "credits": {
+   "fixed": 1
+  },
+  "parse": "none",
+  "attrs": [
+   "level:1000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "coreq": {
+   "course": "BIOL1201"
+  }
+ },
+ {
+  "id": "BIOL1209",
+  "subject": "BIOL",
+  "number": "1209",
+  "title": "Biology Lab for Science Majors II",
+  "credits": {
+   "fixed": 1
+  },
+  "parse": "none",
+  "attrs": [
+   "level:1000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "BIOL1208"
+  },
+  "coreq": {
+   "course": "BIOL1202"
+  }
+ },
+ {
+  "id": "BIOL2051",
+  "subject": "BIOL",
+  "number": "2051",
+  "title": "General Microbiology",
+  "credits": {
+   "fixed": 4
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "all": [
+    {
+     "course": "BIOL1202"
+    },
+    {
+     "course": "BIOL1209"
+    },
+    {
+     "course": "CHEM1202"
+    }
+   ]
+  }
+ },
+ {
+  "id": "BIOL2083",
+  "subject": "BIOL",
+  "number": "2083",
+  "title": "The Elements of Biochemistry",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "CHEM2261"
+  }
+ },
+ {
+  "id": "CE2200",
+  "subject": "CE",
+  "number": "2200",
+  "title": "Fluid Mechanics",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "CE2450"
+  }
+ },
+ {
+  "id": "CE2450",
+  "subject": "CE",
+  "number": "2450",
+  "title": "Statics",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "all": [
+    {
+     "course": "MATH1552"
+    },
+    {
+     "course": "PHYS2110"
+    }
+   ]
+  }
+ },
+ {
+  "id": "CE2460",
+  "subject": "CE",
+  "number": "2460",
+  "title": "Dynamics and Vibrations",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "CE2450"
+  },
+  "coreq": {
+   "any": [
+    {
+     "course": "MATH2065"
+    },
+    {
+     "course": "MATH2070"
+    },
+    {
+     "course": "MATH2090"
+    }
+   ]
+  }
+ },
+ {
+  "id": "CE3400",
+  "subject": "CE",
+  "number": "3400",
+  "title": "Mechanics of Materials",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "CE2450"
+  }
+ },
+ {
+  "id": "CHEM1201",
+  "subject": "CHEM",
+  "number": "1201",
+  "title": "General Chemistry I",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:1000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  }
+ },
+ {
+  "id": "CHEM1202",
+  "subject": "CHEM",
+  "number": "1202",
+  "title": "General Chemistry II",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:1000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "CHEM1201"
+  }
+ },
+ {
+  "id": "CHEM1212",
+  "subject": "CHEM",
+  "number": "1212",
+  "title": "General Chemistry Laboratory",
+  "credits": {
+   "fixed": 2
+  },
+  "parse": "none",
+  "attrs": [
+   "level:1000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "coreq": {
+   "course": "CHEM1202"
+  }
+ },
+ {
+  "id": "CHEM2261",
+  "subject": "CHEM",
+  "number": "2261",
+  "title": "Organic Chemistry I",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "CHEM1202"
+  }
+ },
+ {
+  "id": "CHEM2262",
+  "subject": "CHEM",
+  "number": "2262",
+  "title": "Organic Chemistry II",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "CHEM2261"
+  }
+ },
+ {
+  "id": "CHEM2364",
+  "subject": "CHEM",
+  "number": "2364",
+  "title": "Organic Chemistry Laboratory",
+  "credits": {
+   "fixed": 2
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "CHEM1212"
+  },
+  "coreq": {
+   "course": "CHEM2262"
+  }
+ },
+ {
+  "id": "CSC1253",
+  "subject": "CSC",
+  "number": "1253",
+  "title": "Computer Science I with C++",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:1000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "MATH1550"
+  }
+ },
+ {
+  "id": "CSC1350",
+  "subject": "CSC",
+  "number": "1350",
+  "title": "CSC1350",
+  "credits": {
+   "fixed": 4
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:1000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-sd_flowchart_2026-2027.pdf, csc-cyb_flowchart_2026-2027.pdf, csc-dsa_flowchart_2026-2027.pdf, csc-seg_flowchart_2026-2027.pdf, csc-ccn_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC1351",
+  "subject": "CSC",
+  "number": "1351",
+  "title": "CSC1351",
+  "credits": {
+   "fixed": 4
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:1000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-sd_flowchart_2026-2027.pdf, csc-cyb_flowchart_2026-2027.pdf, csc-dsa_flowchart_2026-2027.pdf, csc-seg_flowchart_2026-2027.pdf, csc-ccn_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC2259",
+  "subject": "CSC",
+  "number": "2259",
+  "title": "CSC2259",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-sd_flowchart_2026-2027.pdf, csc-cyb_flowchart_2026-2027.pdf, csc-dsa_flowchart_2026-2027.pdf, csc-seg_flowchart_2026-2027.pdf, csc-ccn_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC2262",
+  "subject": "CSC",
+  "number": "2262",
+  "title": "CSC2262",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-sd_flowchart_2026-2027.pdf, csc-cyb_flowchart_2026-2027.pdf, csc-dsa_flowchart_2026-2027.pdf, csc-seg_flowchart_2026-2027.pdf, csc-ccn_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC2362",
+  "subject": "CSC",
+  "number": "2362",
+  "title": "CSC2362",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-cyb_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC2610",
+  "subject": "CSC",
+  "number": "2610",
+  "title": "CSC2610",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-ccn_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC2730",
+  "subject": "CSC",
+  "number": "2730",
+  "title": "CSC2730",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-dsa_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC3102",
+  "subject": "CSC",
+  "number": "3102",
+  "title": "CSC3102",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-sd_flowchart_2026-2027.pdf, csc-cyb_flowchart_2026-2027.pdf, csc-dsa_flowchart_2026-2027.pdf, csc-seg_flowchart_2026-2027.pdf, csc-ccn_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC3200",
+  "subject": "CSC",
+  "number": "3200",
+  "title": "CSC3200",
+  "credits": {
+   "fixed": 1
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-sd_flowchart_2026-2027.pdf, csc-cyb_flowchart_2026-2027.pdf, csc-dsa_flowchart_2026-2027.pdf, csc-seg_flowchart_2026-2027.pdf, csc-ccn_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC3304",
+  "subject": "CSC",
+  "number": "3304",
+  "title": "CSC3304",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-cyb_flowchart_2026-2027.pdf, csc-seg_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC3380",
+  "subject": "CSC",
+  "number": "3380",
+  "title": "CSC3380",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-sd_flowchart_2026-2027.pdf, csc-cyb_flowchart_2026-2027.pdf, csc-dsa_flowchart_2026-2027.pdf, csc-seg_flowchart_2026-2027.pdf, csc-ccn_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC3501",
+  "subject": "CSC",
+  "number": "3501",
+  "title": "CSC3501",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-sd_flowchart_2026-2027.pdf, csc-cyb_flowchart_2026-2027.pdf, csc-dsa_flowchart_2026-2027.pdf, csc-seg_flowchart_2026-2027.pdf, csc-ccn_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC3730",
+  "subject": "CSC",
+  "number": "3730",
+  "title": "CSC3730",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-dsa_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC4101",
+  "subject": "CSC",
+  "number": "4101",
+  "title": "CSC4101",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-sd_flowchart_2026-2027.pdf, csc-cyb_flowchart_2026-2027.pdf, csc-dsa_flowchart_2026-2027.pdf, csc-seg_flowchart_2026-2027.pdf, csc-ccn_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC4103",
+  "subject": "CSC",
+  "number": "4103",
+  "title": "CSC4103",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-sd_flowchart_2026-2027.pdf, csc-cyb_flowchart_2026-2027.pdf, csc-dsa_flowchart_2026-2027.pdf, csc-seg_flowchart_2026-2027.pdf, csc-ccn_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC4330",
+  "subject": "CSC",
+  "number": "4330",
+  "title": "CSC4330",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-sd_flowchart_2026-2027.pdf, csc-cyb_flowchart_2026-2027.pdf, csc-dsa_flowchart_2026-2027.pdf, csc-seg_flowchart_2026-2027.pdf, csc-ccn_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC4332",
+  "subject": "CSC",
+  "number": "4332",
+  "title": "CSC4332",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-seg_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC4343",
+  "subject": "CSC",
+  "number": "4343",
+  "title": "CSC4343",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-dsa_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC4351",
+  "subject": "CSC",
+  "number": "4351",
+  "title": "CSC4351",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-seg_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC4360",
+  "subject": "CSC",
+  "number": "4360",
+  "title": "CSC4360",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-cyb_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC4362",
+  "subject": "CSC",
+  "number": "4362",
+  "title": "CSC4362",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-cyb_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC4402",
+  "subject": "CSC",
+  "number": "4402",
+  "title": "CSC4402",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-sd_flowchart_2026-2027.pdf, csc-cyb_flowchart_2026-2027.pdf, csc-dsa_flowchart_2026-2027.pdf, csc-seg_flowchart_2026-2027.pdf, csc-ccn_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC4501",
+  "subject": "CSC",
+  "number": "4501",
+  "title": "CSC4501",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-cyb_flowchart_2026-2027.pdf, csc-ccn_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC4562",
+  "subject": "CSC",
+  "number": "4562",
+  "title": "CSC4562",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-cyb_flowchart_2026-2027.pdf, csc-ccn_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC4610",
+  "subject": "CSC",
+  "number": "4610",
+  "title": "CSC4610",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-ccn_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "CSC4740",
+  "subject": "CSC",
+  "number": "4740",
+  "title": "CSC4740",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-dsa_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "ECON2000",
+  "subject": "ECON",
+  "number": "2000",
+  "title": "ECON2000",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the be_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "ECON2010",
+  "subject": "ECON",
+  "number": "2010",
+  "title": "ECON2010",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the be_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "ECON2030",
+  "subject": "ECON",
+  "number": "2030",
+  "title": "ECON2030",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the be_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "EE1820",
+  "subject": "EE",
+  "number": "1820",
+  "title": "Intro to ECE",
+  "credits": {
+   "fixed": 2
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:1000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the ee_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "EE2120",
+  "subject": "EE",
+  "number": "2120",
+  "title": "Circuits I",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "auto",
+  "prereq": {
+   "all": [
+    {
+     "course": "EE1820",
+     "concurrent": "ok"
+    },
+    {
+     "course": "MATH2070",
+     "concurrent": "ok"
+    },
+    {
+     "course": "PHYS2113",
+     "concurrent": "ok"
+    }
+   ],
+   "waiver": "consent of division"
+  },
+  "prereqText": "Prereq.: Credit or registration in EE 1820, MATH 2070, and PHYS 2113 or consent of division.",
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "workday",
+   "verified": true,
+   "evidence": "Workday \"Find Courses - LSUAM\" report, View Course > Overview (Credit Hours, Eligibility), viewed 2026-09-28 in the owner's signed-in session"
+  }
+ },
+ {
+  "id": "EE2130",
+  "subject": "EE",
+  "number": "2130",
+  "title": "Circuits II",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "all": [
+    {
+     "course": "EE2120"
+    },
+    {
+     "any": [
+      {
+       "course": "MATH2070"
+      },
+      {
+       "course": "MATH2090"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "EE2230",
+  "subject": "EE",
+  "number": "2230",
+  "title": "Electronics I",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "EE2120"
+  },
+  "coreq": {
+   "course": "EE2231"
+  }
+ },
+ {
+  "id": "EE2231",
+  "subject": "EE",
+  "number": "2231",
+  "title": "Electronics I Laboratory",
+  "credits": {
+   "fixed": 2
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "coreq": {
+   "course": "EE2230"
+  }
+ },
+ {
+  "id": "EE2741",
+  "subject": "EE",
+  "number": "2741",
+  "title": "Digital Logic I",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "MATH1550"
+  }
+ },
+ {
+  "id": "EE2742",
+  "subject": "EE",
+  "number": "2742",
+  "title": "Digital Logic II",
+  "credits": {
+   "fixed": 2
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "EE2741"
+  }
+ },
+ {
+  "id": "EE2820",
+  "subject": "EE",
+  "number": "2820",
+  "title": "Intro Design",
+  "credits": {
+   "fixed": 2
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the ee_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "EE2950",
+  "subject": "EE",
+  "number": "2950",
+  "title": "Comprehensive Electrical Engineering",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "MATH1552"
+  }
+ },
+ {
+  "id": "EE3150",
+  "subject": "EE",
+  "number": "3150",
+  "title": "Probability for Electrical and Computer Engineering",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "MATH2057"
+  }
+ },
+ {
+  "id": "EE3160",
+  "subject": "EE",
+  "number": "3160",
+  "title": "Introduction to Digital Signal Processing",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "EE3610"
+  }
+ },
+ {
+  "id": "EE3220",
+  "subject": "EE",
+  "number": "3220",
+  "title": "Semiconductor Devices",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "EE2230"
+  }
+ },
+ {
+  "id": "EE3223",
+  "subject": "EE",
+  "number": "3223",
+  "title": "Microelectronic Devices & Circuits",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "EE2230"
+  }
+ },
+ {
+  "id": "EE3232",
+  "subject": "EE",
+  "number": "3232",
+  "title": "Solid State Electronics",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "EE2230"
+  }
+ },
+ {
+  "id": "EE3320",
+  "subject": "EE",
+  "number": "3320",
+  "title": "Electromagnetic Fields",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "all": [
+    {
+     "course": "EE2130"
+    },
+    {
+     "course": "MATH2057"
+    },
+    {
+     "course": "PHYS2113"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EE3410",
+  "subject": "EE",
+  "number": "3410",
+  "title": "Electric Power",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "EE2120"
+  }
+ },
+ {
+  "id": "EE3530",
+  "subject": "EE",
+  "number": "3530",
+  "title": "Introduction to Control Systems",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "EE3610"
+  }
+ },
+ {
+  "id": "EE3610",
+  "subject": "EE",
+  "number": "3610",
+  "title": "Signals and Systems",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "EE2130"
+  }
+ },
+ {
+  "id": "EE3710",
+  "subject": "EE",
+  "number": "3710",
+  "title": "Microprocessor Systems",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "EE2741"
+  }
+ },
+ {
+  "id": "EE3740",
+  "subject": "EE",
+  "number": "3740",
+  "title": "Computer Systems Architecture",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "EE2741"
+  }
+ },
+ {
+  "id": "EE3752",
+  "subject": "EE",
+  "number": "3752",
+  "title": "Microprocessor Interfacing",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "EE2741"
+  }
+ },
+ {
+  "id": "EE3755",
+  "subject": "EE",
+  "number": "3755",
+  "title": "Computer Organization",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "EE2741"
+  }
+ },
+ {
+  "id": "EE4160",
+  "subject": "EE",
+  "number": "4160",
+  "title": "Algorithms for Signal Processing",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "EE3160"
+  }
+ },
+ {
+  "id": "EE4242",
+  "subject": "EE",
+  "number": "4242",
+  "title": "VLSI Design",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "all": [
+    {
+     "course": "EE2230"
+    },
+    {
+     "course": "EE2741"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EE4420",
+  "subject": "EE",
+  "number": "4420",
+  "title": "Power Systems Analysis",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "EE3410"
+  }
+ },
+ {
+  "id": "EE4530",
+  "subject": "EE",
+  "number": "4530",
+  "title": "Digital Control Systems",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "EE3530"
+  }
+ },
+ {
+  "id": "EE4710",
+  "subject": "EE",
+  "number": "4710",
+  "title": "Embedded Computer Systems",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "EE3755"
+  }
+ },
+ {
+  "id": "EE4720",
+  "subject": "EE",
+  "number": "4720",
+  "title": "High Performance Computer Architecture",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "EE3755"
+  }
+ },
+ {
+  "id": "EE4810",
+  "subject": "EE",
+  "number": "4810",
+  "title": "Senior Design I",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "all": [
+    {
+     "course": "EE3320"
+    },
+    {
+     "course": "EE3610"
+    }
+   ]
+  }
+ },
+ {
+  "id": "EE4820",
+  "subject": "EE",
+  "number": "4820",
+  "title": "Senior Design II",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "EE4810"
+  }
+ },
+ {
+  "id": "ENGL1001",
+  "subject": "ENGL",
+  "number": "1001",
+  "title": "English Composition I",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:1000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  }
+ },
+ {
+  "id": "ENGL2000",
+  "subject": "ENGL",
+  "number": "2000",
+  "title": "English Composition II",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "ENGL1001"
+  }
+ },
+ {
+  "id": "ENGR3100",
+  "subject": "ENGR",
+  "number": "3100",
+  "title": "Introduction to Robotics",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "all": [
+    {
+     "any": [
+      {
+       "course": "MATH2070"
+      },
+      {
+       "course": "MATH2090"
+      },
+      {
+       "course": "MATH2065"
+      }
+     ]
+    },
+    {
+     "any": [
+      {
+       "course": "CSC1253"
+      },
+      {
+       "course": "ME2543"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "ENGR4100",
+  "subject": "ENGR",
+  "number": "4100",
+  "title": "Industrial Robotics",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "ENGR3100"
+  }
+ },
+ {
+  "id": "ENGR4103",
+  "subject": "ENGR",
+  "number": "4103",
+  "title": "Assistive Robotics",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "ENGR3100"
+  }
+ },
+ {
+  "id": "ENGR4200",
+  "subject": "ENGR",
+  "number": "4200",
+  "title": "Autonomous Robotic Vehicles",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:4000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "ENGR3100"
+  }
+ },
+ {
+  "id": "IE3302",
+  "subject": "IE",
+  "number": "3302",
+  "title": "IE3302",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "unknown",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2026-2027",
+   "origin": "flowchart",
+   "verified": false,
+   "evidence": "appears on the csc-sd_flowchart_2026-2027.pdf, csc-cyb_flowchart_2026-2027.pdf, csc-dsa_flowchart_2026-2027.pdf, csc-seg_flowchart_2026-2027.pdf, csc-ccn_flowchart_2026-2027.pdf flowchart(s); requisites not obtained yet"
+  }
+ },
+ {
+  "id": "MATH1550",
+  "subject": "MATH",
+  "number": "1550",
+  "title": "Differential & Integral Calculus (Calculus I)",
+  "credits": {
+   "fixed": 5
+  },
+  "parse": "none",
+  "attrs": [
+   "level:1000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  }
+ },
+ {
+  "id": "MATH1552",
+  "subject": "MATH",
+  "number": "1552",
+  "title": "Analytic Geometry & Calculus II",
+  "credits": {
+   "fixed": 4
+  },
+  "parse": "none",
+  "attrs": [
+   "level:1000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "MATH1550"
+  }
+ },
+ {
+  "id": "MATH2057",
+  "subject": "MATH",
+  "number": "2057",
+  "title": "Multidimensional Calculus (Calculus III)",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "MATH1552"
+  }
+ },
+ {
+  "id": "MATH2065",
+  "subject": "MATH",
+  "number": "2065",
+  "title": "Elementary Differential Equations",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "MATH1552"
+  }
+ },
+ {
+  "id": "MATH2070",
+  "subject": "MATH",
+  "number": "2070",
+  "title": "Mathematical Methods in Engineering",
+  "credits": {
+   "fixed": 4
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "MATH1552"
+  }
+ },
+ {
+  "id": "MATH2090",
+  "subject": "MATH",
+  "number": "2090",
+  "title": "Elementary Differential Equations and Linear Algebra",
+  "credits": {
+   "fixed": 4
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "MATH1552"
+  }
+ },
+ {
+  "id": "ME2543",
+  "subject": "ME",
+  "number": "2543",
+  "title": "Simulation Methods for Mechanical Engineers",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "MATH1552"
+  }
+ },
+ {
+  "id": "ME3333",
+  "subject": "ME",
+  "number": "3333",
+  "title": "Thermodynamics",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:3000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "all": [
+    {
+     "course": "MATH1552"
+    },
+    {
+     "course": "PHYS2110"
+    }
+   ]
+  }
+ },
+ {
+  "id": "PHIL2020",
+  "subject": "PHIL",
+  "number": "2020",
+  "title": "Ethics",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  }
+ },
+ {
+  "id": "PHYS2108",
+  "subject": "PHYS",
+  "number": "2108",
+  "title": "Introductory Physics Laboratory",
+  "credits": {
+   "fixed": 1
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "coreq": {
+   "course": "PHYS2110"
+  }
+ },
+ {
+  "id": "PHYS2109",
+  "subject": "PHYS",
+  "number": "2109",
+  "title": "General Physics Laboratory",
+  "credits": {
+   "fixed": 1
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "PHYS2108"
+  },
+  "coreq": {
+   "course": "PHYS2113"
+  }
+ },
+ {
+  "id": "PHYS2110",
+  "subject": "PHYS",
+  "number": "2110",
+  "title": "Particle Mechanics (General Physics I)",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "coreq": {
+   "course": "MATH1552"
+  }
+ },
+ {
+  "id": "PHYS2113",
+  "subject": "PHYS",
+  "number": "2113",
+  "title": "Fields: Gravity, Electricity & Magnetism",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "none",
+  "attrs": [
+   "level:2000"
+  ],
+  "source": {
+   "catalogYear": "2025-2026",
+   "origin": "legacy",
+   "verified": false,
+   "evidence": "2025-26 hand-typed record used as a stand-in; not checked against 2026-27"
+  },
+  "prereq": {
+   "course": "PHYS2110"
+  }
+ }
+]

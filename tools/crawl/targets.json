@@ -1,0 +1,18 @@
+{
+  "userAgent": "general-engineering-course-planner-verifier/0.1 (+https://github.com/casey-leblanc/general-engineering-course-planner)",
+  "origin": "https://catalog.lsu.edu",
+  "years": {
+    "2026-2027": {
+      "catoid": 35,
+      "programListNavoid": 3400,
+      "programs": [
+        { "key": "EE-BSEE", "match": "Electrical Engineering, B.S.E.E." },
+        { "key": "BE-BSBE", "poid": 14172 },
+        { "key": "ROBOTICS-MINOR", "match": "Robotics" },
+        { "key": "CS-BS", "poid": 14278 },
+        { "key": "PSYC-BS", "poid": 14217 },
+        { "key": "PSYC-BA", "match": "Psychology, B.A." }
+      ]
+    }
+  }
+}

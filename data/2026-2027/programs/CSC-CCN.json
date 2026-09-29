@@ -1,0 +1,477 @@
+{
+ "id": "CSC-CCN",
+ "kind": "major",
+ "name": "Computer Science (Cloud Computing & Networking)",
+ "degree": "B.S.",
+ "catalogYear": "2026-2027",
+ "totalCredits": 120,
+ "college": "Engineering",
+ "requirements": {
+  "id": "CSC-CCN/root",
+  "type": "all",
+  "label": "Computer Science (Cloud Computing & Networking)",
+  "items": [
+   {
+    "id": "CSC-CCN/core",
+    "type": "all",
+    "label": "Core courses",
+    "items": [
+     {
+      "id": "CSC-CCN/core/CSC1350",
+      "type": "course",
+      "course": "CSC1350",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-CCN/core/MATH1550",
+      "type": "course",
+      "course": "MATH1550",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-CCN/core/ENGL1001",
+      "type": "course",
+      "course": "ENGL1001",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-CCN/core/CSC1351",
+      "type": "course",
+      "course": "CSC1351",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-CCN/core/MATH1552",
+      "type": "course",
+      "course": "MATH1552",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-CCN/core/CSC3102",
+      "type": "course",
+      "course": "CSC3102",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-CCN/core/CSC2259",
+      "type": "course",
+      "course": "CSC2259",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-CCN/core/MATH2090",
+      "type": "course",
+      "course": "MATH2090"
+     },
+     {
+      "id": "CSC-CCN/core/CSC3380",
+      "type": "course",
+      "course": "CSC3380",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-CCN/core/CSC2262",
+      "type": "course",
+      "course": "CSC2262"
+     },
+     {
+      "id": "CSC-CCN/core/ENGL2000",
+      "type": "course",
+      "course": "ENGL2000",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-CCN/core/CSC4402",
+      "type": "course",
+      "course": "CSC4402"
+     },
+     {
+      "id": "CSC-CCN/core/IE3302",
+      "type": "course",
+      "course": "IE3302"
+     },
+     {
+      "id": "CSC-CCN/core/CSC4330",
+      "type": "course",
+      "course": "CSC4330",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-CCN/core/CSC4103",
+      "type": "course",
+      "course": "CSC4103",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-CCN/core/CSC3501",
+      "type": "course",
+      "course": "CSC3501"
+     },
+     {
+      "id": "CSC-CCN/core/CSC3200",
+      "type": "course",
+      "course": "CSC3200",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-CCN/core/CSC4101",
+      "type": "course",
+      "course": "CSC4101",
+      "minGrade": "C"
+     }
+    ]
+   },
+   {
+    "id": "CSC-CCN/concentration",
+    "type": "all",
+    "label": "Concentration courses",
+    "items": [
+     {
+      "id": "CSC-CCN/concentration/CSC2610",
+      "type": "course",
+      "course": "CSC2610",
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-CCN/concentration/CSC4501",
+      "type": "course",
+      "course": "CSC4501"
+     },
+     {
+      "id": "CSC-CCN/concentration/CSC4610",
+      "type": "course",
+      "course": "CSC4610"
+     },
+     {
+      "id": "CSC-CCN/concentration/CSC4562",
+      "type": "course",
+      "course": "CSC4562"
+     }
+    ]
+   },
+   {
+    "id": "CSC-CCN/bio-seq-1",
+    "type": "slot",
+    "label": "BIOL Sequence I Requirement",
+    "credits": 3
+   },
+   {
+    "id": "CSC-CCN/physical-sci",
+    "type": "slot",
+    "label": "Physical Science",
+    "credits": 3
+   },
+   {
+    "id": "CSC-CCN/sci-lab",
+    "type": "all",
+    "label": "Science Sequence I or II Lab",
+    "items": [
+     {
+      "id": "CSC-CCN/sci-lab/1",
+      "type": "slot",
+      "label": "Science Sequence I or II Lab",
+      "credits": 1,
+      "minGrade": "C"
+     },
+     {
+      "id": "CSC-CCN/sci-lab/2",
+      "type": "slot",
+      "label": "Science Sequence I or II Lab",
+      "credits": 1
+     }
+    ]
+   },
+   {
+    "id": "CSC-CCN/sci-seq-2",
+    "type": "slot",
+    "label": "Science Sequence II Requirement",
+    "credits": 3
+   },
+   {
+    "id": "CSC-CCN/area-elective",
+    "type": "all",
+    "label": "Area Elective (CCN)",
+    "items": [
+     {
+      "id": "CSC-CCN/area-elective/1",
+      "type": "slot",
+      "label": "Area Elective (CCN)",
+      "credits": 3
+     },
+     {
+      "id": "CSC-CCN/area-elective/2",
+      "type": "slot",
+      "label": "Area Elective (CCN)",
+      "credits": 3
+     }
+    ]
+   },
+   {
+    "id": "CSC-CCN/tech-elective-a",
+    "type": "slot",
+    "label": "Tech Elective A",
+    "credits": 3,
+    "from": {
+     "attrs": [
+      "stem"
+     ],
+     "level": {
+      "min": 2000
+     }
+    },
+    "hints": [
+     "elective",
+     "upper"
+    ]
+   },
+   {
+    "id": "CSC-CCN/tech-elective-a-or-b",
+    "type": "slot",
+    "label": "Tech Elective A or B",
+    "credits": 3,
+    "from": [
+     {
+      "attrs": [
+       "stem"
+      ],
+      "level": {
+       "min": 2000
+      }
+     },
+     {
+      "attrs": [
+       "avatar-dm"
+      ]
+     }
+    ],
+    "hints": [
+     "elective",
+     "upper"
+    ]
+   },
+   {
+    "id": "CSC-CCN/approved-elective",
+    "type": "all",
+    "label": "Approved Elective",
+    "items": [
+     {
+      "id": "CSC-CCN/approved-elective/1",
+      "type": "slot",
+      "label": "Approved Elective",
+      "credits": 3
+     },
+     {
+      "id": "CSC-CCN/approved-elective/2",
+      "type": "slot",
+      "label": "Approved Elective",
+      "credits": 3
+     }
+    ]
+   },
+   {
+    "id": "CSC-CCN/csc-2000",
+    "type": "slot",
+    "label": "CSC 2+++",
+    "credits": 3,
+    "from": {
+     "subject": "CSC",
+     "level": {
+      "min": 2000,
+      "max": 2999
+     }
+    }
+   },
+   {
+    "id": "CSC-CCN/gen-ed",
+    "type": "all",
+    "label": "General education",
+    "items": [
+     {
+      "id": "CSC-CCN/gen-ed/hum-eng",
+      "type": "slot",
+      "label": "Gen Ed Hum ENGL or HNRS 2000+",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "gen-ed:hum-eng"
+       ]
+      },
+      "hints": [
+       "gen-ed"
+      ]
+     },
+     {
+      "id": "CSC-CCN/gen-ed/humanity",
+      "type": "slot",
+      "label": "Gen Ed Humanity",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "gen-ed:humanities"
+       ]
+      },
+      "hints": [
+       "gen-ed"
+      ]
+     },
+     {
+      "id": "CSC-CCN/gen-ed/hum-cmst",
+      "type": "slot",
+      "label": "Gen Ed Hum CMST",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "gen-ed:hum-cmst"
+       ]
+      },
+      "hints": [
+       "gen-ed"
+      ]
+     },
+     {
+      "id": "CSC-CCN/gen-ed/socsci",
+      "type": "slot",
+      "label": "Gen Ed Socl Science",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "gen-ed:socsci"
+       ]
+      },
+      "hints": [
+       "gen-ed"
+      ]
+     },
+     {
+      "id": "CSC-CCN/gen-ed/socsci-2000",
+      "type": "slot",
+      "label": "Gen Ed Socl Science 2000+",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "gen-ed:socsci"
+       ],
+       "level": {
+        "min": 2000
+       }
+      },
+      "hints": [
+       "gen-ed"
+      ]
+     },
+     {
+      "id": "CSC-CCN/gen-ed/art",
+      "type": "slot",
+      "label": "Gen Ed Art",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "gen-ed:art"
+       ]
+      },
+      "hints": [
+       "gen-ed"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "recommendedPlan": [
+  [
+   "year1-fall",
+   [
+    "CSC1350",
+    "MATH1550",
+    "ENGL1001",
+    "CSC-CCN/bio-seq-1"
+   ]
+  ],
+  [
+   "year1-spring",
+   [
+    "CSC1351",
+    "MATH1552",
+    "CSC-CCN/gen-ed/hum-eng",
+    "CSC-CCN/physical-sci",
+    "CSC-CCN/sci-lab/1"
+   ]
+  ],
+  [
+   "year2-fall",
+   [
+    "CSC3102",
+    "CSC2259",
+    "MATH2090",
+    "CSC-CCN/gen-ed/humanity",
+    "CSC-CCN/sci-seq-2",
+    "CSC-CCN/sci-lab/2"
+   ]
+  ],
+  [
+   "year2-spring",
+   [
+    "CSC3380",
+    "CSC2610",
+    "CSC2262",
+    "ENGL2000",
+    "CSC-CCN/gen-ed/hum-cmst"
+   ]
+  ],
+  [
+   "year3-fall",
+   [
+    "CSC4402",
+    "CSC4501",
+    "CSC-CCN/area-elective/1",
+    "IE3302",
+    "CSC-CCN/tech-elective-a"
+   ]
+  ],
+  [
+   "year3-spring",
+   [
+    "CSC4330",
+    "CSC4103",
+    "CSC3501",
+    "CSC3200",
+    "CSC-CCN/tech-elective-a-or-b",
+    "CSC-CCN/gen-ed/socsci"
+   ]
+  ],
+  [
+   "year4-fall",
+   [
+    "CSC-CCN/area-elective/2",
+    "CSC4101",
+    "CSC4610",
+    "CSC-CCN/approved-elective/1",
+    "CSC-CCN/gen-ed/socsci-2000"
+   ]
+  ],
+  [
+   "year4-spring",
+   [
+    "CSC4562",
+    "CSC-CCN/csc-2000",
+    "CSC-CCN/approved-elective/2",
+    "CSC-CCN/gen-ed/art"
+   ]
+  ]
+ ],
+ "flowchartUrl": "https://www.lsu.edu/eng/docs/Flowcharts/2026-2027/csc-ccn_flowchart_2026-2027.pdf",
+ "source": {
+  "catalogYear": "2026-2027",
+  "origin": "flowchart",
+  "verified": false,
+  "evidence": "derived from csc-ccn_flowchart_2026-2027.pdf (read 2026-09-28); not checked against the General Catalog"
+ },
+ "group": "Computer Science",
+ "variant": "Cloud Computing & Networking",
+ "notes": [
+  "A grade of C or better is required BEFORE enrolling in the next course in the sequence.",
+  "Two hours of science lab are required and must be with the science sequence chosen.",
+  "Tech Elective Group A = STEM 2000 level and above; Group B = AVATAR DM art-track electives; see the CSC & E Division for the approved list and substitutions."
+ ],
+ "staleness": "The chart is labelled 2026-2027 but its footer says \"Rev. 1/25/2024\" and it points to the 2023-2024 General Catalog, so it may predate the 2026-27 catalog."
+}

@@ -1,0 +1,75 @@
+{
+ "id": "ROBO-MIN",
+ "kind": "minor",
+ "name": "Robotics Engineering Minor",
+ "group": "Minors",
+ "catalogYear": "2026-2027",
+ "totalCredits": 21,
+ "college": "Engineering",
+ "requirements": {
+  "id": "ROBO-MIN/root",
+  "type": "all",
+  "label": "Robotics Engineering Minor",
+  "items": [
+   {
+    "id": "ROBO-MIN/math",
+    "type": "course",
+    "course": "MATH2070",
+    "anyOf": [
+     "MATH2090",
+     "MATH2065"
+    ]
+   },
+   {
+    "id": "ROBO-MIN/programming",
+    "type": "course",
+    "course": "CSC1253",
+    "anyOf": [
+     "ME2543"
+    ]
+   },
+   {
+    "id": "ROBO-MIN/intro",
+    "type": "course",
+    "course": "ENGR3100"
+   },
+   {
+    "id": "ROBO-MIN/core-electives",
+    "type": "choose",
+    "n": 3,
+    "label": "Robotics core electives",
+    "from": {
+     "courses": [
+      "EE3530",
+      "EE3755",
+      "EE3710",
+      "EE4710",
+      "EE4530",
+      "BE3320",
+      "CE2460"
+     ]
+    }
+   },
+   {
+    "id": "ROBO-MIN/capstone",
+    "type": "course",
+    "course": "ENGR4100",
+    "anyOf": [
+     "ENGR4200",
+     "ENGR4103"
+    ]
+   }
+  ]
+ },
+ "notes": [
+  "Carried over from the old planner (2025-26 hand-typed data). Not checked against the 2026-27 catalog.",
+  "The old data required a 2.5 GPA and a C or better in every minor course, and at least one core elective from outside your major's department. Those two conditions are not evaluated here.",
+  "The old data also listed ME 3133 and CSC 4444 as core electives; neither has a known catalog record, so they are left out. Assign a course to a slot by hand if an advisor approves one."
+ ],
+ "source": {
+  "catalogYear": "2025-2026",
+  "origin": "legacy",
+  "verified": false,
+  "evidence": "converted from the old planner's Robotics minor definition (majors-data.js, 2025-26); not checked against the catalog"
+ }
+}

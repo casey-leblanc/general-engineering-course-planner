@@ -1,0 +1,505 @@
+{
+ "id": "EE-BSEE",
+ "kind": "major",
+ "name": "Electrical Engineering",
+ "degree": "B.S.E.E.",
+ "catalogYear": "2026-2027",
+ "totalCredits": 127,
+ "college": "Engineering",
+ "requirements": {
+  "id": "EE-BSEE/root",
+  "type": "all",
+  "label": "Electrical Engineering",
+  "items": [
+   {
+    "id": "EE-BSEE/core",
+    "type": "all",
+    "label": "Core courses",
+    "items": [
+     {
+      "id": "EE-BSEE/core/CHEM1201",
+      "type": "course",
+      "course": "CHEM1201"
+     },
+     {
+      "id": "EE-BSEE/core/MATH1550",
+      "type": "course",
+      "course": "MATH1550",
+      "minGrade": "C"
+     },
+     {
+      "id": "EE-BSEE/core/EE1820",
+      "type": "course",
+      "course": "EE1820"
+     },
+     {
+      "id": "EE-BSEE/core/ENGL1001",
+      "type": "course",
+      "course": "ENGL1001",
+      "minGrade": "C"
+     },
+     {
+      "id": "EE-BSEE/core/EE2741",
+      "type": "course",
+      "course": "EE2741",
+      "minGrade": "C"
+     },
+     {
+      "id": "EE-BSEE/core/CSC1253",
+      "type": "course",
+      "course": "CSC1253",
+      "minGrade": "C"
+     },
+     {
+      "id": "EE-BSEE/core/MATH1552",
+      "type": "course",
+      "course": "MATH1552",
+      "minGrade": "C"
+     },
+     {
+      "id": "EE-BSEE/core/PHYS2110",
+      "type": "course",
+      "course": "PHYS2110",
+      "minGrade": "C"
+     },
+     {
+      "id": "EE-BSEE/core/PHYS2108",
+      "type": "course",
+      "course": "PHYS2108"
+     },
+     {
+      "id": "EE-BSEE/core/EE2742",
+      "type": "course",
+      "course": "EE2742"
+     },
+     {
+      "id": "EE-BSEE/core/MATH2070",
+      "type": "course",
+      "course": "MATH2070",
+      "minGrade": "C"
+     },
+     {
+      "id": "EE-BSEE/core/EE2120",
+      "type": "course",
+      "course": "EE2120",
+      "minGrade": "C"
+     },
+     {
+      "id": "EE-BSEE/core/PHYS2113",
+      "type": "course",
+      "course": "PHYS2113",
+      "minGrade": "C"
+     },
+     {
+      "id": "EE-BSEE/core/MATH2057",
+      "type": "course",
+      "course": "MATH2057",
+      "minGrade": "C"
+     },
+     {
+      "id": "EE-BSEE/core/EE2130",
+      "type": "course",
+      "course": "EE2130",
+      "minGrade": "C"
+     },
+     {
+      "id": "EE-BSEE/core/EE2820",
+      "type": "course",
+      "course": "EE2820",
+      "minGrade": "C"
+     },
+     {
+      "id": "EE-BSEE/core/EE2230",
+      "type": "course",
+      "course": "EE2230"
+     },
+     {
+      "id": "EE-BSEE/core/EE2231",
+      "type": "course",
+      "course": "EE2231"
+     },
+     {
+      "id": "EE-BSEE/core/ENGL2000",
+      "type": "course",
+      "course": "ENGL2000",
+      "minGrade": "C"
+     },
+     {
+      "id": "EE-BSEE/core/EE3150",
+      "type": "course",
+      "course": "EE3150"
+     },
+     {
+      "id": "EE-BSEE/core/EE3610",
+      "type": "course",
+      "course": "EE3610",
+      "minGrade": "C"
+     },
+     {
+      "id": "EE-BSEE/core/EE3320",
+      "type": "course",
+      "course": "EE3320"
+     },
+     {
+      "id": "EE-BSEE/core/PHIL2020",
+      "type": "course",
+      "course": "PHIL2020"
+     }
+    ]
+   },
+   {
+    "id": "EE-BSEE/senior-design",
+    "type": "all",
+    "label": "Senior design",
+    "items": [
+     {
+      "id": "EE-BSEE/senior-design/EE4810",
+      "type": "course",
+      "course": "EE4810",
+      "minGrade": "C"
+     },
+     {
+      "id": "EE-BSEE/senior-design/EE4820",
+      "type": "course",
+      "course": "EE4820"
+     }
+    ]
+   },
+   {
+    "id": "EE-BSEE/breadth",
+    "type": "distinctGroups",
+    "label": "Breadth electives",
+    "minGroups": 4,
+    "minCourses": 6,
+    "groups": [
+     {
+      "name": "Group 1: DSP",
+      "courses": [
+       "EE3160"
+      ]
+     },
+     {
+      "name": "Group 2: Electronics",
+      "courses": [
+       "EE3220",
+       "EE3223",
+       "EE3232"
+      ]
+     },
+     {
+      "name": "Group 3: Power",
+      "courses": [
+       "EE3410"
+      ]
+     },
+     {
+      "name": "Group 4: Control",
+      "courses": [
+       "EE3530"
+      ]
+     },
+     {
+      "name": "Group 5: Computers",
+      "courses": [
+       "EE3710",
+       "EE3740",
+       "EE3752",
+       "EE3755"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "EE-BSEE/ee-design",
+    "type": "all",
+    "label": "EE Design",
+    "items": [
+     {
+      "id": "EE-BSEE/ee-design/1",
+      "type": "slot",
+      "label": "EE Design",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "design"
+       ]
+      },
+      "hints": [
+       "design"
+      ]
+     },
+     {
+      "id": "EE-BSEE/ee-design/2",
+      "type": "slot",
+      "label": "EE Design",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "design"
+       ]
+      },
+      "hints": [
+       "design"
+      ]
+     },
+     {
+      "id": "EE-BSEE/ee-design/3",
+      "type": "slot",
+      "label": "EE Design",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "design"
+       ]
+      },
+      "hints": [
+       "design"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "EE-BSEE/ee-tech",
+    "type": "all",
+    "label": "Tech Elect",
+    "items": [
+     {
+      "id": "EE-BSEE/ee-tech/1",
+      "type": "slot",
+      "label": "Tech Elect",
+      "credits": 3,
+      "hints": [
+       "elective",
+       "upper"
+      ]
+     },
+     {
+      "id": "EE-BSEE/ee-tech/2",
+      "type": "slot",
+      "label": "Tech Elect",
+      "credits": 3,
+      "hints": [
+       "elective",
+       "upper"
+      ]
+     },
+     {
+      "id": "EE-BSEE/ee-tech/3",
+      "type": "slot",
+      "label": "Tech Elect",
+      "credits": 3,
+      "hints": [
+       "elective",
+       "upper"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "EE-BSEE/gen-ed",
+    "type": "all",
+    "label": "General education",
+    "items": [
+     {
+      "id": "EE-BSEE/gen-ed/art",
+      "type": "slot",
+      "label": "ART Gen Ed",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "gen-ed:art"
+       ]
+      },
+      "hints": [
+       "gen-ed"
+      ]
+     },
+     {
+      "id": "EE-BSEE/gen-ed/life-science",
+      "type": "slot",
+      "label": "Life Science Gen Ed",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "gen-ed:life-science"
+       ]
+      },
+      "hints": [
+       "gen-ed"
+      ]
+     },
+     {
+      "id": "EE-BSEE/gen-ed/humanities",
+      "type": "all",
+      "label": "HUMN Gen Ed",
+      "items": [
+       {
+        "id": "EE-BSEE/gen-ed/humanities/1",
+        "type": "slot",
+        "label": "HUMN Gen Ed",
+        "credits": 3,
+        "from": {
+         "attrs": [
+          "gen-ed:humanities"
+         ]
+        },
+        "hints": [
+         "gen-ed"
+        ]
+       },
+       {
+        "id": "EE-BSEE/gen-ed/humanities/2",
+        "type": "slot",
+        "label": "HUMN Gen Ed",
+        "credits": 3,
+        "from": {
+         "attrs": [
+          "gen-ed:humanities"
+         ]
+        },
+        "hints": [
+         "gen-ed"
+        ]
+       }
+      ]
+     },
+     {
+      "id": "EE-BSEE/gen-ed/socsci-2000",
+      "type": "slot",
+      "label": "2000+ level Social Sci Elective",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "gen-ed:socsci"
+       ],
+       "level": {
+        "min": 2000
+       }
+      },
+      "hints": [
+       "gen-ed"
+      ]
+     },
+     {
+      "id": "EE-BSEE/gen-ed/socsci",
+      "type": "slot",
+      "label": "SOC SCI Gen Ed",
+      "credits": 3,
+      "from": {
+       "attrs": [
+        "gen-ed:socsci"
+       ]
+      },
+      "hints": [
+       "gen-ed"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "recommendedPlan": [
+  [
+   "year1-fall",
+   [
+    "CHEM1201",
+    "MATH1550",
+    "EE1820",
+    "EE-BSEE/gen-ed/art",
+    "ENGL1001"
+   ]
+  ],
+  [
+   "year1-spring",
+   [
+    "EE2741",
+    "CSC1253",
+    "MATH1552",
+    "PHYS2110",
+    "PHYS2108",
+    "EE-BSEE/gen-ed/life-science"
+   ]
+  ],
+  [
+   "year2-fall",
+   [
+    "EE2742",
+    "MATH2070",
+    "EE2120",
+    "PHYS2113",
+    "EE-BSEE/gen-ed/humanities/1"
+   ]
+  ],
+  [
+   "year2-spring",
+   [
+    "MATH2057",
+    "EE2130",
+    "EE2820",
+    "EE2230",
+    "EE2231",
+    "ENGL2000"
+   ]
+  ],
+  [
+   "year3-fall",
+   [
+    "EE3150",
+    "EE-BSEE/breadth/1",
+    "EE3610",
+    "EE-BSEE/breadth/2",
+    "EE-BSEE/breadth/3"
+   ]
+  ],
+  [
+   "year3-spring",
+   [
+    "EE3320",
+    "EE-BSEE/breadth/4",
+    "EE-BSEE/breadth/5",
+    "EE-BSEE/breadth/6",
+    "EE-BSEE/gen-ed/socsci-2000",
+    "PHIL2020"
+   ]
+  ],
+  [
+   "year4-fall",
+   [
+    "EE-BSEE/ee-design/1",
+    "EE-BSEE/ee-design/2",
+    "EE-BSEE/ee-tech/1",
+    "EE4810",
+    "EE-BSEE/gen-ed/socsci"
+   ]
+  ],
+  [
+   "year4-spring",
+   [
+    "EE-BSEE/ee-design/3",
+    "EE-BSEE/ee-tech/2",
+    "EE-BSEE/ee-tech/3",
+    "EE4820",
+    "EE-BSEE/gen-ed/humanities/2"
+   ]
+  ]
+ ],
+ "flowchartUrl": "https://www.lsu.edu/eng/docs/Flowcharts/2026-2027/ee_flowchart_2026-2027.pdf",
+ "source": {
+  "catalogYear": "2026-2027",
+  "origin": "flowchart",
+  "verified": false,
+  "evidence": "derived from ee_flowchart_2026-2027.pdf (read 2026-09-28); not checked against the General Catalog"
+ },
+ "sequences": [
+  {
+   "a": "EE4810",
+   "b": "EE4820",
+   "gap": 1
+  }
+ ],
+ "notes": [
+  "A pre-req to any EE course is met only by a grade in the C range or better in each course cited as a pre-requisite.",
+  "EE 4810 requires senior standing (at least 90 credit hours) and one of EE 3160, 3220, 3410, 3530 or 3755.",
+  "Advising tool only; the LSU catalog has the official degree requirements."
+ ]
+}

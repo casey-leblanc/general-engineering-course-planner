@@ -1,0 +1,72 @@
+[
+ {
+  "id": "EE2120",
+  "subject": "EE",
+  "number": "2120",
+  "title": "Circuits I",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "auto",
+  "prereq": {
+   "all": [
+    {
+     "course": "EE1810",
+     "concurrent": "ok"
+    },
+    {
+     "course": "MATH2070",
+     "concurrent": "ok"
+    },
+    {
+     "course": "PHYS2113",
+     "concurrent": "ok"
+    }
+   ],
+   "waiver": "consent of division"
+  },
+  "prereqText": "Prereq.: credit or registration in EE 1810, MATH 2070, and PHYS 2113 or consent of division.",
+  "source": {
+   "catalogYear": "2025-2026",
+   "catoid": 33,
+   "origin": "catalog",
+   "verified": true,
+   "coid": 223625,
+   "url": "https://catalog.lsu.edu/preview_course_nopop.php?catoid=33&coid=223625",
+   "evidence": "read from the course page in a browser on 2026-09-28"
+  }
+ },
+ {
+  "id": "EE3220",
+  "subject": "EE",
+  "number": "3220",
+  "title": "Electronics II",
+  "credits": {
+   "fixed": 3
+  },
+  "parse": "auto",
+  "prereq": {
+   "all": [
+    {
+     "course": "EE2130"
+    },
+    {
+     "course": "EE2230"
+    },
+    {
+     "course": "EE2231"
+    }
+   ]
+  },
+  "prereqText": "Prereq.: EE 2130, EE 2230 and EE 2231.",
+  "source": {
+   "catalogYear": "2025-2026",
+   "catoid": 33,
+   "origin": "catalog",
+   "verified": true,
+   "coid": 223618,
+   "url": "https://catalog.lsu.edu/preview_course_nopop.php?catoid=33&coid=223618",
+   "evidence": "title, credits and prerequisite list taken from a fetch-tool summary of the course page on 2026-09-28; exact requisite wording not seen"
+  }
+ }
+]

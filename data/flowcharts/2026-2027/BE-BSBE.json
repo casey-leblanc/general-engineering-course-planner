@@ -1,0 +1,297 @@
+{
+ "schema": "flowchart/1",
+ "program": "BE-BSBE",
+ "name": "Biological Engineering",
+ "degree": "B.S.B.E.",
+ "catalogYear": "2026-2027",
+ "totalHours": 128,
+ "source": {
+  "kind": "flowchart",
+  "file": "be_flowchart_2026-2027.pdf",
+  "url": "https://www.lsu.edu/eng/docs/Flowcharts/2026-2027/be_flowchart_2026-2027.pdf",
+  "revision": "Rev. 4/26",
+  "sha256": "0e91c280dd357db0b4abf2007df76e1cbaee77b2a335096091c0eb9422e171cf",
+  "bytes": 36592,
+  "readOn": "2026-09-28",
+  "method": "hand transcription of the rendered chart; hours cross-checked"
+ },
+ "semesters": [
+  {
+   "n": 1,
+   "season": "F",
+   "hours": 17,
+   "items": [
+    {
+     "course": "CHEM1201",
+     "credits": 3
+    },
+    {
+     "course": "BIOL1208",
+     "credits": 1
+    },
+    {
+     "course": "BIOL1201",
+     "credits": 3
+    },
+    {
+     "course": "BE1251",
+     "credits": 2,
+     "offered": "F"
+    },
+    {
+     "course": "MATH1550",
+     "credits": 5,
+     "minGrade": "C"
+    },
+    {
+     "course": "ENGL1001",
+     "credits": 3,
+     "minGrade": "C"
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "season": "S",
+   "hours": 16,
+   "items": [
+    {
+     "course": "CHEM1202",
+     "credits": 3
+    },
+    {
+     "course": "BIOL1209",
+     "credits": 1
+    },
+    {
+     "course": "BIOL1202",
+     "credits": 3
+    },
+    {
+     "course": "BE1252",
+     "credits": 2,
+     "offered": "S"
+    },
+    {
+     "course": "MATH1552",
+     "credits": 4,
+     "minGrade": "C"
+    },
+    {
+     "course": "PHYS2110",
+     "credits": 3,
+     "minGrade": "C"
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "season": "F",
+   "hours": 16,
+   "items": [
+    {
+     "course": "BIOL2051",
+     "credits": 4
+    },
+    {
+     "course": "BE2352",
+     "credits": 3,
+     "offered": "F"
+    },
+    {
+     "course": "EE2950",
+     "credits": 3
+    },
+    {
+     "course": "MATH2065",
+     "credits": 3,
+     "alternatives": [
+      "MATH2090"
+     ]
+    },
+    {
+     "course": "CE2450",
+     "credits": 3,
+     "minGrade": "C"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "season": "S",
+   "hours": 17,
+   "items": [
+    {
+     "course": "CHEM2261",
+     "credits": 3
+    },
+    {
+     "course": "CHEM1212",
+     "credits": 2
+    },
+    {
+     "course": "BE2350",
+     "credits": 3,
+     "offered": "S"
+    },
+    {
+     "course": "PHYS2113",
+     "credits": 3
+    },
+    {
+     "course": "CE3400",
+     "credits": 3
+    },
+    {
+     "course": "ENGL2000",
+     "credits": 3,
+     "minGrade": "C"
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "season": "F",
+   "hours": 15,
+   "items": [
+    {
+     "course": "BIOL2083",
+     "credits": 3
+    },
+    {
+     "course": "AGEC2003",
+     "credits": 3,
+     "alternatives": [
+      "ECON2000",
+      "ECON2010",
+      "ECON2030"
+     ]
+    },
+    {
+     "slot": "gened:humanity",
+     "credits": 3,
+     "label": "HUMANITY Gen Ed"
+    },
+    {
+     "course": "ME3333",
+     "credits": 3
+    },
+    {
+     "course": "BE4303",
+     "credits": 3,
+     "offered": "F"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "season": "S",
+   "hours": 15,
+   "items": [
+    {
+     "slot": "design-electives",
+     "credits": 3,
+     "label": "Design Elect"
+    },
+    {
+     "course": "BE4352",
+     "credits": 3,
+     "offered": "S"
+    },
+    {
+     "course": "BE3340",
+     "credits": 3,
+     "offered": "S"
+    },
+    {
+     "course": "CE2200",
+     "credits": 3
+    },
+    {
+     "slot": "gened:humanity",
+     "credits": 3,
+     "label": "HUMANITY Gen Ed"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "season": "F",
+   "hours": 17,
+   "items": [
+    {
+     "slot": "general-elective",
+     "credits": 2,
+     "label": "Elective or ROTC"
+    },
+    {
+     "slot": "design-electives",
+     "credits": 3,
+     "label": "Design Elect"
+    },
+    {
+     "slot": "gened:art",
+     "credits": 3,
+     "label": "ART Gen Ed"
+    },
+    {
+     "course": "CE2460",
+     "credits": 3
+    },
+    {
+     "course": "BE3320",
+     "credits": 3,
+     "offered": "F"
+    },
+    {
+     "course": "BE4390",
+     "credits": 3,
+     "offered": "F"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "season": "S",
+   "hours": 15,
+   "items": [
+    {
+     "slot": "tech-elective",
+     "credits": 3,
+     "label": "Tech Elective or ROTC"
+    },
+    {
+     "slot": "gened:socsci",
+     "credits": 3,
+     "label": "SOCL SCI Gen Ed"
+    },
+    {
+     "slot": "gened:humanity",
+     "credits": 3,
+     "label": "HUMANITY Gen Ed"
+    },
+    {
+     "slot": "design-electives",
+     "credits": 3,
+     "label": "Design Elect"
+    },
+    {
+     "course": "BE4392",
+     "credits": 3,
+     "offered": "S"
+    }
+   ]
+  }
+ ],
+ "groups": {
+  "seniorDesign": [
+   "BE4390",
+   "BE4392"
+  ]
+ },
+ "notes": [
+  "Eight-semester path; expect more than four years if working during the academic year.",
+  "Recommended to take courses in the listed semester to reduce time conflicts.",
+  "EE 2950 shows an (OR) link with PHYS 2113 as the corequisite path into BE 2350."
+ ]
+}

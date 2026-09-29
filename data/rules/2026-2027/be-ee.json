@@ -1,0 +1,407 @@
+{
+  "schema": "rules/1",
+  "catalogYear": "2026-2027",
+  "description": "Advisor guidance for a BE + EE double major. Sources are role-level on purpose (public repo). 'confirmed' = stated in writing by the owning department; 'reported' = verbal or second-hand; 'unverified' = not established. Requirement ids refer to nodes that the BE-BSBE and EE-BSEE program files must define; the integrity test checks that they resolve.",
+  "rules": [
+    {
+      "id": "be-senior-design-1-any-major",
+      "type": "substitute",
+      "scope": {
+        "programs": [
+          "BE-BSBE"
+        ],
+        "catalogYears": [
+          "2026-2027"
+        ]
+      },
+      "requirement": "BE-BSBE/senior-design/BE4390",
+      "accepts": {
+        "courses": [
+          "EE4810"
+        ],
+        "attrs": [
+          "senior-design"
+        ]
+      },
+      "confidence": "confirmed",
+      "source": {
+        "kind": "advisor",
+        "label": "BE undergraduate program director (email)",
+        "recordedOn": "2026-09-28"
+      },
+      "note": "The BE department accepts senior design from any major: EE senior design or BE senior design."
+    },
+    {
+      "id": "be-senior-design-2-any-major",
+      "type": "substitute",
+      "scope": {
+        "programs": [
+          "BE-BSBE"
+        ],
+        "catalogYears": [
+          "2026-2027"
+        ]
+      },
+      "requirement": "BE-BSBE/senior-design/BE4392",
+      "accepts": {
+        "courses": [
+          "EE4820"
+        ],
+        "attrs": [
+          "senior-design"
+        ]
+      },
+      "confidence": "confirmed",
+      "source": {
+        "kind": "advisor",
+        "label": "BE undergraduate program director (email)",
+        "recordedOn": "2026-09-28"
+      },
+      "note": "Second half of the senior design substitution above."
+    },
+    {
+      "id": "be-senior-design-matched-sequence",
+      "type": "advisory",
+      "scope": {
+        "programs": [
+          "BE-BSBE"
+        ],
+        "catalogYears": [
+          "2026-2027"
+        ]
+      },
+      "target": {
+        "requirement": "BE-BSBE/senior-design"
+      },
+      "message": "A senior design that replaces BE 4390 and BE 4392 has to be taken as a matched I/II sequence within one major (EE 4810 with EE 4820, for example), not mixed across majors.",
+      "effect": "info",
+      "confidence": "reported",
+      "source": {
+        "kind": "student",
+        "label": "Student report (not confirmed by an advisor)",
+        "recordedOn": "2026-09-28"
+      }
+    },
+    {
+      "id": "be-design-electives-ee-4000-design",
+      "type": "substitute",
+      "scope": {
+        "programs": [
+          "BE-BSBE"
+        ],
+        "catalogYears": [
+          "2026-2027"
+        ]
+      },
+      "requirement": "BE-BSBE/design-electives",
+      "accepts": {
+        "subject": "EE",
+        "level": {
+          "min": 4000,
+          "max": 4999
+        },
+        "attrs": [
+          "design"
+        ]
+      },
+      "confidence": "confirmed",
+      "source": {
+        "kind": "advisor",
+        "label": "BE undergraduate program director (email)",
+        "recordedOn": "2026-09-28"
+      },
+      "note": "Accepted: 4000-level EE courses with design aspects count as BE design electives. It was confirmed that this means the EE design elective list (course attribute \"design\" = membership in that list)."
+    },
+    {
+      "id": "be-technical-elective-any-stem",
+      "type": "substitute",
+      "scope": {
+        "programs": [
+          "BE-BSBE"
+        ],
+        "catalogYears": [
+          "2026-2027"
+        ]
+      },
+      "requirement": "BE-BSBE/tech-elective",
+      "accepts": {
+        "attrs": [
+          "stem"
+        ]
+      },
+      "confidence": "confirmed",
+      "source": {
+        "kind": "advisor",
+        "label": "BE undergraduate program director (email)",
+        "recordedOn": "2026-09-28"
+      },
+      "note": "Any STEM class is a technical elective for BE.",
+      "openQuestions": [
+        "The definition of STEM is in Workday (not public). The course attribute \"stem\" cannot be populated until that definition is obtained."
+      ]
+    },
+    {
+      "id": "be-general-elective-any-course",
+      "type": "substitute",
+      "scope": {
+        "programs": [
+          "BE-BSBE"
+        ],
+        "catalogYears": [
+          "2026-2027"
+        ]
+      },
+      "requirement": "BE-BSBE/general-elective",
+      "accepts": {
+        "any": true
+      },
+      "confidence": "confirmed",
+      "source": {
+        "kind": "advisor",
+        "label": "BE undergraduate program director (email)",
+        "recordedOn": "2026-09-28"
+      },
+      "note": "Any class is an elective for BE."
+    },
+    {
+      "id": "be-ee2950-via-ee2120",
+      "type": "equivalent",
+      "scope": {
+        "programs": [
+          "BE-BSBE"
+        ],
+        "catalogYears": [
+          "2026-2027"
+        ]
+      },
+      "course": "EE2120",
+      "satisfies": "EE2950",
+      "confidence": "unverified",
+      "source": {
+        "kind": "student",
+        "label": "Student report (not confirmed by an advisor)",
+        "recordedOn": "2026-09-28"
+      },
+      "note": "Per the email from the BE undergraduate program director, an \"EE 2120 level\" circuits class substitutes for EE 2950. Assumed here: EE 2120 alone is enough, so EE 2130 is not needed for this requirement (when both are in the plan, EE 2120 is the one counted).",
+      "openQuestions": [
+        "Does EE 2120 alone count for BE's EE 2950? The plan assumes it does."
+      ]
+    },
+    {
+      "id": "be-ee2950-via-ee2130",
+      "type": "equivalent",
+      "scope": {
+        "programs": [
+          "BE-BSBE"
+        ],
+        "catalogYears": [
+          "2026-2027"
+        ]
+      },
+      "course": "EE2130",
+      "satisfies": "EE2950",
+      "confidence": "confirmed",
+      "source": {
+        "kind": "advisor",
+        "label": "BE undergraduate program director (email)",
+        "recordedOn": "2026-09-28"
+      },
+      "note": "The BE department substitutes the EE circuits course for EE 2950 (requirements and prerequisite references). The email said \"EE 2120 level\"; it was confirmed that EE 2130 is the course that counts."
+    },
+    {
+      "id": "be-gened-ilc-from-other-major",
+      "type": "substitute",
+      "scope": {
+        "programs": [
+          "BE-BSBE"
+        ],
+        "catalogYears": [
+          "2026-2027"
+        ]
+      },
+      "requirement": "BE-BSBE/gen-ed",
+      "accepts": [
+        {
+          "attrs": [
+            "gen-ed"
+          ]
+        },
+        {
+          "attrs": [
+            "ilc"
+          ]
+        },
+        {
+          "courses": [
+            "PHIL2020"
+          ]
+        }
+      ],
+      "confidence": "confirmed",
+      "source": {
+        "kind": "advisor",
+        "label": "BE undergraduate program director (email)",
+        "recordedOn": "2026-09-28"
+      },
+      "note": "General education and integrated learning core (ILC) courses taken for another program (EE) are accepted for BE. PHIL 2020 (Ethics) was named because it is an EE requirement; the email said PHIL 2000 and it was confirmed that PHIL 2020 is the course meant.",
+      "openQuestions": [
+        "Does any general education or ILC course count, or only courses the student's other program requires?"
+      ]
+    },
+    {
+      "id": "ee-csc1253-via-csc1350-other-major",
+      "type": "equivalent",
+      "scope": {
+        "programs": [
+          "EE-BSEE"
+        ],
+        "catalogYears": [
+          "2026-2027"
+        ]
+      },
+      "course": "CSC1350",
+      "satisfies": "CSC1253",
+      "condition": {
+        "creditFromOtherProgram": true
+      },
+      "confidence": "reported",
+      "source": {
+        "kind": "advisor",
+        "label": "EE program advisor (in-person meeting)",
+        "recordedOn": "2026-09-28"
+      },
+      "note": "CSC 1350 credit earned through another major counts for CSC 1253."
+    },
+    {
+      "id": "ee-csc1253-via-csc1350-ap",
+      "type": "equivalent",
+      "scope": {
+        "programs": [
+          "EE-BSEE"
+        ],
+        "catalogYears": [
+          "2026-2027"
+        ]
+      },
+      "course": "CSC1350",
+      "satisfies": "CSC1253",
+      "condition": {
+        "viaAP": true
+      },
+      "confidence": "reported",
+      "source": {
+        "kind": "advisor",
+        "label": "EE program advisor (in-person meeting)",
+        "recordedOn": "2026-09-28"
+      },
+      "note": "CSC 1350 credit from AP Computer Science A counts for CSC 1253."
+    },
+    {
+      "id": "ee-math2070-via-math2090-other-major",
+      "type": "equivalent",
+      "scope": {
+        "programs": [
+          "EE-BSEE"
+        ],
+        "catalogYears": [
+          "2026-2027"
+        ]
+      },
+      "course": "MATH2090",
+      "satisfies": "MATH2070",
+      "condition": {
+        "creditFromOtherProgram": true
+      },
+      "confidence": "reported",
+      "source": {
+        "kind": "advisor",
+        "label": "EE program advisor (in-person meeting)",
+        "recordedOn": "2026-09-28"
+      },
+      "note": "MATH 2090 counts for MATH 2070 as long as it is credited from a different major."
+    },
+    {
+      "id": "math2090-not-open-to-ee-only-students",
+      "type": "enrollment",
+      "scope": {
+        "programs": [
+          "EE-BSEE"
+        ],
+        "catalogYears": [
+          "2026-2027"
+        ]
+      },
+      "course": "MATH2090",
+      "deniedIf": {
+        "majors": {
+          "hasOnly": [
+            "EE-BSEE"
+          ]
+        }
+      },
+      "effect": "warn",
+      "confidence": "reported",
+      "source": {
+        "kind": "student",
+        "label": "Student report (not confirmed by an advisor)",
+        "recordedOn": "2026-09-28"
+      },
+      "note": "EE students cannot enroll in MATH 2090; it only counts for EE through credit from another major (see the equivalence rule).",
+      "openQuestions": [
+        "Registration restriction taken from a student's description; confirm the exact rule (majors-only? section restrictions?) before using effect 'block'."
+      ]
+    },
+    {
+      "id": "ee-senior-design-not-cs",
+      "type": "noSubstitute",
+      "scope": {
+        "programs": [
+          "EE-BSEE"
+        ],
+        "catalogYears": [
+          "2026-2027"
+        ]
+      },
+      "requirement": "EE-BSEE/senior-design",
+      "rejects": {
+        "subject": "CSC",
+        "attrs": [
+          "senior-design"
+        ]
+      },
+      "confidence": "reported",
+      "source": {
+        "kind": "advisor",
+        "label": "EE program advisor (in-person meeting)",
+        "recordedOn": "2026-09-28"
+      },
+      "note": "The EE department does not accept CS senior design courses as a substitute."
+    },
+    {
+      "id": "ee-senior-design-advisory",
+      "type": "advisory",
+      "scope": {
+        "programs": [
+          "EE-BSEE"
+        ],
+        "catalogYears": [
+          "2026-2027"
+        ]
+      },
+      "target": {
+        "requirement": "EE-BSEE/senior-design"
+      },
+      "message": "EE senior design (EE 4810/4820) is demanding and the EE department often does not accept other departments' senior design courses as substitutes. It is not known whether BE senior design is accepted, so plan on EE 4810/4820 unless the EE department confirms otherwise.",
+      "effect": "warn",
+      "confidence": "reported",
+      "source": {
+        "kind": "advisor",
+        "label": "EE program advisor (in-person meeting)",
+        "recordedOn": "2026-09-28"
+      },
+      "openQuestions": [
+        "Does the EE department accept BE 4390/4392 as a substitute for EE 4810/4820?"
+      ]
+    }
+  ]
+}
